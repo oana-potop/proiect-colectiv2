@@ -1,0 +1,100 @@
+{
+    "armors": [
+        {
+          "id": 1,
+          "name": "Padded Armor",
+          "type": "Light",
+          "ac": 11,
+          "stealthDisadvantage": true,
+          "strengthRequirement": 0
+        },
+        {
+          "id": 2,
+          "name": "Leather Armor",
+          "type": "Light",
+          "ac": 11,
+          "stealthDisadvantage": false,
+          "strengthRequirement": 0
+        },
+        {
+          "id": 3,
+          "name": "Studded Leather Armor",
+          "type": "Light",
+          "ac": 12,
+          "stealthDisadvantage": false,
+          "strengthRequirement": 0
+        },
+        {
+          "id": 4,
+          "name": "Hide Armor",
+          "type": "Medium",
+          "ac": 12,
+          "stealthDisadvantage": false,
+          "strengthRequirement": 0
+        },
+        {
+          "id": 5,
+          "name": "Chain Shirt",
+          "type": "Medium",
+          "ac": 13,
+          "stealthDisadvantage": false,
+          "strengthRequirement": 0
+        },
+        {
+          "id": 6,
+          "name": "Scale Mail",
+          "type": "Medium",
+          "ac": 14,
+          "stealthDisadvantage": true,
+          "strengthRequirement": 0
+        },
+        {
+          "id": 7,
+          "name": "Breastplate",
+          "type": "Medium",
+          "ac": 14,
+          "stealthDisadvantage": false,
+          "strengthRequirement": 0
+        },
+        {
+          "id": 8,
+          "name": "Half Plate",
+          "type": "Medium",
+          "ac": 15,
+          "stealthDisadvantage": true,
+          "strengthRequirement": 0
+        },
+        {
+          "id": 9,
+          "name": "Ring Mail",
+          "type": "Heavy",
+          "ac": 15,
+          "stealthDisadvantage": true,
+          "strengthRequirement": 0
+        },
+        {
+          "id": 10,
+          "name": "Chain Mail",
+          "type": "Heavy",
+          "ac": 16,
+          "stealthDisadvantage": true,
+          "strengthRequirement": 13
+        },
+        {
+          "id": 11,
+          "name": "Splint Armor",
+          "type": "Heavy",
+          "ac": 17,
+          "stealthDisadvantage": true,
+          "strengthRequirement": 15
+        },
+        {
+          "id": 12,
+          "name": "Plate Armor",
+          "type": "Heavy",
+          "ac": 18,
+          "stealthDisadvantage": true,
+          "strengthRequirement": 0
+        }
+      ]
+}

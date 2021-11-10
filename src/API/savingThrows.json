@@ -1,0 +1,10 @@
+{
+    "savingThrows": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ]
+}

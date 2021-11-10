@@ -1,0 +1,139 @@
+{
+    "characters":[
+    {
+      "userID":  2,
+      "characterID": 2,
+      "name": "Georgel",
+      "level": 5,
+      "proficiencyBonus": 3,
+      "baseStats": [
+        {
+          "type": "Strength",
+          "value": 14,
+          "modifier": 2
+        },
+        {
+          "type": "Dexterity",
+          "value": 12,
+          "modifier": 1
+        },
+        {
+          "type": "Constitution",
+          "value": 14,
+          "modifier": 2
+        },
+        {
+          "type": "Intelligence",
+          "value": 8,
+          "modifier": -1
+        },
+        {
+          "type": "Wisdom",
+          "value": 8,
+          "modifier": -1
+        },
+        {
+          "type": "Charisma",
+          "value": 15,
+          "modifier": 2
+        }  
+      ],
+      "characterClass": {
+        "id": 7,
+        "name": "Paladin",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 10
+        },
+        "primaryAbility": ["Strength", "Charisma"],
+        "skillProficiencies": [
+          "Athletics",
+          "Insight",
+          "Intimidation",
+          "Medicine",
+          "Persuasion",
+          "Religion"
+        ],
+        "skillNumber": 2,
+        "savingThrows": ["Wisdom", "Charisma"],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+        "castingPotential": "Half Caster"
+      },
+      "race":{
+        "id": 1,
+        "name": "Hill Dwarf",
+        "increasedStats": [
+          {
+            "stat": "Wisdom",
+            "value": 1
+          }
+        ],
+        "extraFeats": [
+          {
+            "name": "Dwarven Toughness",
+            "description": "Vdvdfvdfvdf"
+          }
+        ],
+        "hpBonus": 1
+      },
+      "background":{
+        "name": "Charlatan",
+        "skillProficiencies": ["Deception", "Sleight of Hand"],
+        "toolProficiencies": ["Disguise Kit", "Forgery Kit"],
+        "items": [
+          {
+            "name": "Set of fine clothes"
+          },
+          {
+            "name": "Disguise kit"
+          },
+          {
+            "name": "A set of weighted dice"
+          }
+        ],
+        "money": { "gold": 15 },
+        "feat": {
+          "name": "False identity",
+          "description": "Lorem ipsum"
+        }
+      },
+      "savingThrows":[
+        {
+          "type":"Strength",
+          "value": 2
+        },
+        {
+          "type":"Dexterity",
+          "value": 1
+        },
+        {
+          "type":"Constitution",
+          "value": 2
+        },
+        {
+          "type":"Intelligence",
+          "value": -1
+        },
+        {
+          "type":"Wisdom",
+          "value": 2
+        },
+        {
+          "type":"Charisma",
+          "value": 5
+        }
+      ],
+      "skills": ["Athletics","Deception","Religion","Sleight of Hand"],
+      "ac": 18,
+      "initiative": 1,
+      "speed": 30,
+      "hp": 69,
+      "hitDie": {"minValue": 1, "maxValue": 10},
+      "passiveWisdom": 9,
+      "jackOfAllTrades": false
+    }
+  ]
+}

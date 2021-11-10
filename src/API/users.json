@@ -1,0 +1,53 @@
+{
+    "users": [
+        {
+          "id": 1,
+          "email": "",
+          "password": "",
+          "firstName": "Admin",
+          "lastName": "Adminovici"
+        },
+        {
+          "id": 2,
+          "email": "oana.potop@stud.ubbcluj.ro",
+          "password": "admin1",
+          "firstName": "Oana",
+          "lastName": "Potop"
+        },
+        {
+          "id": 3,
+          "email": "dominic.rodeanu.@stud.ubbcluj.ro",
+          "password": "admin2",
+          "firstName": "Dominic",
+          "lastName": "Rodeanu"
+        },
+        {
+          "id": 4,
+          "email": "maria.pohoata.@stud.ubbcluj.ro",
+          "password": "admin3",
+          "firstName": "Magda",
+          "lastName": "Pohoata"
+        },
+        {
+          "id": 5,
+          "email": "alexandra.tand.@stud.ubbcluj.ro",
+          "password": "admin4",
+          "firstName": "Alexandra",
+          "lastName": "Tand"
+        },
+        {
+          "id": 6,
+          "email": "alina.timerman.@stud.ubbcluj.ro",
+          "password": "admin5",
+          "firstName": "Alina",
+          "lastName": "Timerman"
+        },
+        {
+          "id": 7,
+          "email": "alina.sastras.@stud.ubbcluj.ro",
+          "password": "admin6",
+          "firstName": "Alina",
+          "lastName": "Sastras"
+        }
+      ]
+}

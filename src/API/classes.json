@@ -1,0 +1,315 @@
+{
+    "classes": [
+        {
+          "id": 1,
+          "name": "Barbarian",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 12
+          },
+          "primaryAbility": ["Strength"],
+          "skillProficiencies": [
+            "Animal Handling",
+            "Athletics",
+            "Intimidation",
+            "Nature",
+            "Perception",
+            "Survival"
+          ],
+          "skillNumber": 2,
+          "savingThrows": ["Strength", "Constitution"],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://listimg.pinclipart.com/picdir/s/574-5741600_static-media-barbarian-logo-30637d21-dnd-class-symbols.png",
+          "castingPotential": "No"
+        },
+        {
+          "id": 2,
+          "name": "Bard",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 8
+          },
+          "primaryAbility": ["Charisma"],
+          "skillProficiencies": [
+            "Acrobatics",
+            "Animal Handling",
+            "Arcana",
+            "Athletics",
+            "Deception",
+            "History",
+            "Insight",
+            "Intimidation",
+            "Investigation",
+            "Medicine",
+            "Nature",
+            "Perception",
+            "Performance",
+            "Persuasion",
+            "Religion",
+            "Sleight of Hand",
+            "Stealth",
+            "Survival"
+          ],
+          "skillNumber": 3,
+          "savingThrows": ["Dexterity", "Charisma"],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/bard-png.80073/",
+          "castingPotential": "Full Caster"
+        },
+        {
+          "id": 3,
+          "name": "Cleric",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 8
+          },
+          "primaryAbility": ["Wisdom"],
+          "skillProficiencies": [
+            "History",
+            "Insight",
+            "Medicine",
+            "Persuasion",
+            "Religion"
+          ],
+          "skillNumber": 2,
+          "savingThrows": ["Wisdom", "Charisma"],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+          "castingPotential": "Full Caster"
+        },
+        {
+          "id": 4,
+          "name": "Druid",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 8
+          },
+          "primaryAbility": ["Wisdom"],
+          "skillProficiencies": [
+            "Arcana",
+            "Animal Handling",
+            "Insight",
+            "Medicine",
+            "Nature",
+            "Perception",
+            "Religion",
+            "Survival"
+          ],
+          "skillNumber": 2,
+          "savingThrows": ["Intelligence", "Wisdom"],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+          "castingPotential": "Full Caster"
+        },
+        {
+          "id": 5,
+          "name": "Fighter",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 10
+          },
+          "primaryAbility": ["Strength/ Dexterity"],
+          "skillProficiencies": [
+            "Acrobatics",
+            "Animal Handling",
+            "Athletics",
+            "History",
+            "Insight",
+            "Intimidation",
+            "Perception",
+            "Survival"
+          ],
+          "skillNumber": 2,
+          "savingThrows": ["Strength", "Constitution"],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+          "castingPotential": "Subclass Only"
+        },
+        {
+          "id": 6,
+          "name": "Monk",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 8
+          },
+          "primaryAbility": ["Dexterity", "Wisdom"],
+          "skillProficiencies": [
+            "Acrobatics",
+            "Athletics",
+            "History",
+            "Insight",
+            "Religion",
+            "Stealth"
+          ],
+          "skillNumber": 2,
+          "savingThrows": ["Strength", "Dexterity"],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+          "castingPotential": "Subclass Only"
+        },
+        {
+          "id": 7,
+          "name": "Paladin",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 10
+          },
+          "primaryAbility": ["Strength", "Charisma"],
+          "skillProficiencies": [
+            "Athletics",
+            "Insight",
+            "Intimidation",
+            "Medicine",
+            "Persuasion",
+            "Religion"
+          ],
+          "skillNumber": 2,
+          "savingThrows": ["Wisdom", "Charisma"],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+          "castingPotential": "Half Caster"
+        },
+        {
+          "id": 8,
+          "name": "Ranger",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 8
+          },
+          "primaryAbility": ["Dexterity", "Wisdom"],
+          "skillProficiencies": [
+            "Animal Handling",
+            "Athletics",
+            "Insight",
+            "Investigation",
+            "Nature",
+            "Perception",
+            "Stealth",
+            "Survival"
+          ],
+          "skillNumber": 3,
+          "savingThrows": ["Strength", "Dexterity"],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+          "castingPotential": "Half Caster"
+        },
+        {
+          "id": 9,
+          "name": "Rogue",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 8
+          },
+          "primaryAbility": ["Dexterity"],
+          "skillProficiencies": [
+            "Acrobatics",
+            "Athletics",
+            "Deception",
+            "Insight",
+            "Intimidation",
+            "Investigation",
+            "Perception",
+            "Performance",
+            "Persuasion",
+            "Sleight of Hand",
+            "Stealth"
+          ],
+          "skillNumber": 4,
+          "savingThrows": ["Dexterity", "Intelligence"],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+          "castingPotential": "Subclass Only"
+        },
+        {
+          "id": 10,
+          "name": "Sorcerer",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 6
+          },
+          "primaryAbility": ["Charisma"],
+          "skillProficiencies": [
+            "Arcana",
+            "Deception",
+            "Insight",
+            "Intimidation",
+            "Persuasion",
+            "Religion"
+          ],
+          "skillNumber": 2,
+          "savingThrows": ["Constitution", "Charisma"],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+          "castingPotential": "Full Caster"
+        },
+        {
+          "id": 11,
+          "name": "Warlock",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 8
+          },
+          "primaryAbility": ["Charisma"],
+          "skillProficiencies": [
+            "Arcana",
+            "Deception",
+            "History",
+            "Intimidation",
+            "Investigation",
+            "Nature",
+            "Religion"
+          ],
+          "skillNumber": 2,
+          "savingThrows": ["Wisdom", "Charisma"],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+          "castingPotential": "Full Caster"
+        },
+        {
+          "id": 12,
+          "name": "Wizard",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 6
+          },
+          "primaryAbility": ["Intelligence"],
+          "skillProficiencies": [
+            "Arcana",
+            "History",
+            "Insight",
+            "Investigation",
+            "Medicine",
+            "Religion"
+          ],
+          "skillNumber": 2,
+          "savingThrows": ["Intelligence", "Wisdom"],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+          "castingPotential": "Full Caster"
+        }
+      ]
+}

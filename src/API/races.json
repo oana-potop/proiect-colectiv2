@@ -1,0 +1,114 @@
+{
+    "races": [
+        {
+          "id": 1,
+          "name": "Dwarf",
+          "subraces": [
+            {
+              "id": 1,
+              "name": "Hill Dwarf",
+              "increasedStats": [
+                {
+                  "stat": "Wisdom",
+                  "value": 1
+                }
+              ],
+              "extraFeats": [
+                {
+                  "name": "Dwarven Toughness",
+                  "description": "Vdvdfvdfvdf"
+                }
+              ],
+              "hpBonus": 1
+            },
+            {
+              "id": 2,
+              "name": "Mountain Dwarf",
+              "increasedStats": [{ "stat": "Strength", "value": 2 }],
+              "extraFeats": [
+                {
+                  "name": "Dwarven Armor Training",
+                  "description": "dfvkdfjnvdflkjnvd"
+                }
+              ],
+              "armorProficienies": [1, 2, 3, 4, 5, 6, 7, 8]
+            }
+          ],
+          "increasedStats": [
+            {
+              "stat": "Constitution",
+              "value": 2
+            }
+          ],
+          "size": "Medium",
+          "speed": 25,
+          "darkvision": 60,
+          "extraFeats": [
+            {
+              "name": "Dwarven Resillience",
+              "description": "skdjnvdkfjvndf"
+            },
+            {
+              "name": "Dwarven Combat Training",
+              "description": "vdfvdfvdfvndfknvdf"
+            },
+            {
+              "name": "Stonecunning",
+              "description": "vdfvdfvfdvdfvscsd"
+            },
+            {
+              "name": "Dwarven Stronkness",
+              "description": "Your speed is not reduced by wearing heavy armor"
+            }
+          ],
+          "weaponProficiencies": [4, 6, 15, 31],
+          "toolProficiencies": [
+            "Smith's Tools",
+            "Brewer's Supplies",
+            "Mason's Tools"
+          ],
+          "languages": ["Common", "Dwarvish"],
+          "damageReistance": ["Poison"]
+        },
+        {
+          "id": 2,
+          "name": "Human",
+          "increasedStats": [
+            { "stat": "Strength", "value": 1 },
+            { "stat": "Dexterity", "value": 1 },
+            { "stat": "Constitution", "value": 1 },
+            { "stat": "Intelligence", "value": 1 },
+            { "stat": "Wisdom", "value": 1 },
+            { "stat": "Charisma", "value": 1 }
+          ],
+          "size": "Medium",
+          "speed": 30,
+          "darkvision": 0,
+          "languages": ["Common"]
+        },
+        {
+          "id": 3,
+          "name": "Tiefling",
+          "increasedStats": [
+            { "stat": "Intelligence", "value": 1 },
+            { "stat": "Charisma", "value": 2 }
+          ],
+          "size": "Medium",
+          "speed": 30,
+          "darkvision": 60,
+          "extraFeats": [
+            {
+              "name": "Hellish Resistance",
+              "description": "svdfvdf"
+            },
+            {
+              "name": "Infernal Legacy",
+              "description": "vdfbvfdlansckdff"
+            }
+          ],
+          "damageReistance": ["Fire"],
+          "spells": ["Thaumaturgy", "Hellish Rebuke", "Darkness"],
+          "languages": ["Common", "Infernal"]
+        }
+      ]
+}

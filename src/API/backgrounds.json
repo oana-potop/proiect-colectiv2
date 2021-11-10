@@ -1,0 +1,50 @@
+{
+    "backgrounds": [
+        {
+          "name": "Charlatan",
+          "skillProficiencies": ["Deception", "Sleight of Hand"],
+          "toolProficiencies": ["Disguise Kit", "Forgery Kit"],
+          "items": [
+            {
+              "name": "Set of fine clothes"
+            },
+            {
+              "name": "Disguise kit"
+            },
+            {
+              "name": "A set of weighted dice"
+            }
+          ],
+          "money": { "gold": 15 },
+          "feat": {
+            "name": "False identity",
+            "description": "Lorem ipsum"
+          }
+        },
+        {
+          "name": "Soldier",
+          "skillProficiencies": ["Athletics", "Intimidation"],
+          "toolProficiencies": ["Land Vehicles"],
+          "items": [
+            {
+              "name": "Insignia of rank"
+            },
+            {
+              "name": "Trophy taken from a fallen enemy"
+            },
+            {
+              "name": "A set of bone dice"
+            },
+            {
+              "name": "A set of common clothes"
+            }
+          ],
+          "money": { "gold": 10 },
+          "feat": {
+            "name": "Military rank",
+            "description": "Lorem ipsumm"
+          },
+          "gamingProficiencies": 1
+        }
+      ]
+}
