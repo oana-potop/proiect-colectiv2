@@ -5,13 +5,17 @@ import { useHistory } from "react-router-dom";
 import CharacterPreviewCard from "../../Components/CharacterPreviewCard/CharacterPreviewCard";
 import { Button, Typography } from "@material-ui/core";
 import CircularProgress from "@mui/material/CircularProgress";
+import { auth } from "../../firebasestuff/firebase-config";
+import { onAuthStateChanged } from "@firebase/auth";
 
 const MyCharacters = () => {
   const history = useHistory();
   const [characters, setCharacters] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const user = auth.currentUser;
+
   useEffect(() => {
-    fetch(`http://localhost:8000/characters`, {
+    fetch(`http://localhost:8000/characters?userID=${user.uid}`, {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -52,40 +56,39 @@ const MyCharacters = () => {
     );
   };
 
-  return (
-    <Container style={{ marginTop: 20 }}>
-      
-      <Typography gutterBottom variant="h4" component="h4">
-        My Characters
-      </Typography>
-      {isLoading && <CircularProgress />}
-      {renderCharacters()}
-      <br />
-      <Container style={{ display: "space-between" }}>
-        <Button
-          onClick={() => {
-            history.push("/creation");
-          }}
-        >
-          Create a new character
-        </Button>
-        <Button
-          onClick={() => {
-            history.push("/");
-          }}
-        >
-          Sign out
-        </Button>
-        <Button
-          onClick={() => {
-            history.push("/classSelection");
-          }}
-        >
-          Go to classes
-        </Button>
-      </Container>
-    </Container>
-  );
+      return (
+        <Container style={{ marginTop: 20 }}>
+          <Typography gutterBottom variant="h4" component="h4">
+            My Characters
+          </Typography>
+          {isLoading && <CircularProgress />}
+          {renderCharacters()}
+          <br />
+          <Container style={{ display: "space-between" }}>
+            <Button
+              onClick={() => {
+                history.push("/creation");
+              }}
+            >
+              Create a new character
+            </Button>
+            <Button
+              onClick={() => {
+                history.push("/");
+              }}
+            >
+              Sign out
+            </Button>
+            <Button
+              onClick={() => {
+                history.push("/classSelection");
+              }}
+            >
+              Go to classes
+            </Button>
+          </Container>
+        </Container>
+      );
 };
 
 export default MyCharacters;

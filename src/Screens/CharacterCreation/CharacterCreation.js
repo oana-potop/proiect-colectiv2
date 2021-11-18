@@ -14,6 +14,7 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
+import { auth } from "../../firebasestuff/firebase-config";
 
 const CharacterCreation = () => {
   const history = useHistory();
@@ -26,6 +27,9 @@ const CharacterCreation = () => {
   const [race, setRace] = useState();
   const [background, setBackground] = useState();
   const [isPending, setIsPending] = useState(false);
+  
+  const user = auth.currentUser;
+
   useEffect(() => {
     fetch("http://localhost:8000/classes", {
       headers: {
@@ -97,7 +101,7 @@ const CharacterCreation = () => {
     const hp = hitDie.maxValue;
     const passiveWisdom = 10;
     const jackOfAllTrades = false;
-    const userID = 1;
+    const userID = user.uid;
 
     const character = {
       userID,
