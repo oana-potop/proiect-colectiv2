@@ -1624,6 +1624,351 @@
         "Common",
         "Infernal"
       ]
+    },
+    {
+      "id": 4,
+      "name": "Elf",
+      "subraces": [
+        {
+          "id": 1,
+          "name": "High Elf",
+          "increasedStats": [
+            {
+              "stat": "Intelligence",
+              "value": 1
+            }
+          ],
+          "extraFeats": [
+            {
+              "name": "Elf Weapon Training",
+              "description": "Vdvdfvdfvdf"
+            },
+            {
+              "name": "Cantrip",
+              "description": "dkufhvhfkbfgkbfg"
+            },
+            {
+              "name": "Extra language",
+              "description": "kdfvhkfdhvhfd"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Wood Elf",
+          "increasedStats": [
+            {
+              "stat": "Wisdom",
+              "value": 1
+            }
+          ],
+          "extraFeats": [
+            {
+              "name": "Elf Weapon Training",
+              "description": "dfvkdfjnvdflkjnvd"
+            },
+            {
+              "name": "Fleet of Foot",
+              "description": "dkfvkfdbnkgbng"
+            },
+            {
+              "name": "Mask of the wild",
+              "description": "dkvnfkvnfkdvnfd"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Dark Elf (Drow)",
+          "increasedStats": [
+            {
+              "stat": "Charisma",
+              "value": 1
+            }
+          ],
+          "extraFeats": [
+            {
+              "name": "Superior Darkvision",
+              "description": "dkfnbfkbnfgkbngfbf"
+            },
+            {
+              "name": "Sunlight Sensitivity",
+              "description": "dfbfgbngfng"
+            },
+            {
+              "name": "Drow Weapon Training",
+              "description": "fgbfgbgf"
+            }
+          ],
+          "spells": [
+            "Darkness",
+            "Dancing Lights",
+            "Faerie Fire"
+          ]
+        }
+      ],
+      "increasedStats": [
+        {
+          "stat": "Dexterity",
+          "value": 2
+        }
+      ],
+      "size": "Medium",
+      "speed": 30,
+      "darkvision": 60,
+      "extraFeats": [
+        {
+          "name": "Fey Ancestry",
+          "description": "vdfvdfvdfvndfknvdf"
+        },
+        {
+          "name": "Trance",
+          "description": "vdfvdfvfdvdfvscsd"
+        }
+      ],
+      "skillProficiencies": [
+        "Perception"
+      ],
+      "languages": [
+        "Common",
+        "Elvish"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Halfling",
+      "subraces": [
+        {
+          "id": 1,
+          "name": "Lightfoot",
+          "increasedStats": [
+            {
+              "stat": "Charisma",
+              "value": 1
+            }
+          ],
+          "extraFeats": [
+            {
+              "name": "Naturally Stealthy",
+              "description": "Vdvdfvdfvdf"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Stout",
+          "increasedStats": [
+            {
+              "stat": "Constitution",
+              "value": 1
+            }
+          ],
+          "extraFeats": [
+            {
+              "name": "Sout Resilience",
+              "description": "dfvkdfjnvdflkjnvd"
+            }
+          ]
+        }
+      ],
+      "increasedStats": [
+        {
+          "stat": "Dexterity",
+          "value": 2
+        }
+      ],
+      "size": "Small",
+      "speed": 25,
+      "darkvision": 0,
+      "extraFeats": [
+        {
+          "name": "Lucky",
+          "description": "vdfvdfvdfvndfknvdf"
+        },
+        {
+          "name": "Brave",
+          "description": "vdfvdfvfdvdfvscsd"
+        },
+        {
+          "name": "Halfling Nimbleless",
+          "description": "vdfvdfvfdvdfvscsd"
+        }
+      ],
+      "languages": [
+        "Common",
+        "Halfling"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Dragonborn",
+      "increasedStats": [
+        {
+          "stat": "Strength",
+          "value": 2
+        },
+        {
+          "stat": "Charisma",
+          "value": 1
+        }
+      ],
+      "size": "Medium",
+      "speed": 30,
+      "darkvision": 0,
+      "extraFeats": [
+        {
+          "name": "Draconic Ancestry",
+          "description": "vdfvdfvdfvndfknvdf"
+        },
+        {
+          "name": "Breath Weapon",
+          "description": "vdfvdfvfdvdfvscsd"
+        },
+        {
+          "name": "Damage Resistance",
+          "description": "vdfvdfvfdvdfvscsd"
+        }
+      ],
+      "languages": [
+        "Common",
+        "Draconic"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Gnome",
+      "subraces": [
+        {
+          "id": 1,
+          "name": "Forest Gnome",
+          "increasedStats": [
+            {
+              "stat": "Dexterity",
+              "value": 1
+            }
+          ],
+          "extraFeats": [
+            {
+              "name": "Speak with Small Beasts",
+              "description": "Vdvdfvdfvdf"
+            }
+          ],
+          "spells": [
+            "Minor Illusion"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Rock Gnome",
+          "increasedStats": [
+            {
+              "stat": "Constitution",
+              "value": 1
+            }
+          ],
+          "extraFeats": [
+            {
+              "name": "Artificer's Lore",
+              "description": "dfvkdfjnvdflkjnvd"
+            },
+            {
+              "name": "Tinker",
+              "description": "dfvkdfjnvdflkjnvd"
+            }
+          ],
+          "toolProficienies": [
+            "Artisan's Tools"
+          ]
+        }
+      ],
+      "increasedStats": [
+        {
+          "stat": "Intelligence",
+          "value": 2
+        }
+      ],
+      "size": "Small",
+      "speed": 25,
+      "darkvision": 60,
+      "extraFeats": [
+        {
+          "name": "Gnome Cunning",
+          "description": "vdfvdfvdfvndfknvdf"
+        }
+      ],
+      "languages": [
+        "Common",
+        "Gnomish"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Half-Elf",
+      "increasedStats": [
+        {
+          "stat": "Charisma",
+          "value": 2
+        }
+      ],
+      "size": "Medium",
+      "speed": 30,
+      "darkvision": 60,
+      "extraFeats": [
+        {
+          "name": "Ability Score Increase",
+          "description": "vdfvdfvdfvndfknvdf"
+        },
+        {
+          "name": "Skill Versatility",
+          "description": "vdfvdfvdfvndfknvdf"
+        },
+        {
+          "name": "Fey Ancestry",
+          "description": "vdfvdfvdfvndfknvdf"
+        },
+        {
+          "name": "Extra Language",
+          "description": "vdfvdfvdfvndfknvdf"
+        }
+      ],
+      "languages": [
+        "Common",
+        "Elvish"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Half-Orc",
+      "increasedStats": [
+        {
+          "stat": "Strength",
+          "value": 2
+        },
+        {
+          "stat": "Constitution",
+          "value": 1
+        }
+      ],
+      "size": "Medium",
+      "speed": 30,
+      "darkvision": 60,
+      "extraFeats": [
+        {
+          "name": "Relentless Endurance",
+          "description": "vdfvdfvdfvndfknvdf"
+        },
+        {
+          "name": "Savage Attacks",
+          "description": "vdfvdfvdfvndfknvdf"
+        }
+      ],
+      "skillProficiencies": [
+        "Intimidation"
+      ],
+      "languages": [
+        "Common",
+        "Orcish"
+      ]
     }
   ],
   "backgrounds": [
@@ -1637,6 +1982,7 @@
         "Disguise Kit",
         "Forgery Kit"
       ],
+      "languages": 0,
       "items": [
         {
           "name": "Set of fine clothes"
@@ -1665,6 +2011,7 @@
       "toolProficiencies": [
         "Land Vehicles"
       ],
+      "languages": 0,
       "items": [
         {
           "name": "Insignia of rank"
@@ -1687,6 +2034,348 @@
         "description": "Lorem ipsumm"
       },
       "gamingProficiencies": 1
+    },
+    {
+      "name": "Acolyte",
+      "skillProficiencies": [
+        "Insight",
+        "Religion"
+      ],
+      "languages": 2,
+      "toolProficiencies": [],
+      "items": [
+        {
+          "name": "Holy Symbol"
+        },
+        {
+          "name": "Prayer Book"
+        },
+        {
+          "name": "Five sticks of incense"
+        },
+        {
+          "name": "Vestments"
+        },
+        {
+          "name": "A set of common clothes"
+        }
+      ],
+      "money": {
+        "gold": 15
+      },
+      "feat": {
+        "name": "Shelter of the Faithful",
+        "description": "Lorem ipsum"
+      }
+    },
+    {
+      "name": "Criminal",
+      "skillProficiencies": [
+        "Deception",
+        "Stealth"
+      ],
+      "languages": 0,
+      "toolProficiencies": [
+        "Thieves' Tools"
+      ],
+      "items": [
+        {
+          "name": "Crowbar"
+        },
+        {
+          "name": "A set of dark common clothes, including a hood"
+        }
+      ],
+      "gamingProficiencies": 1,
+      "money": {
+        "gold": 15
+      },
+      "feat": {
+        "name": "Criminal Contact",
+        "description": "Lorem ipsum"
+      }
+    },
+    {
+      "name": "Entertainer",
+      "skillProficiencies": [
+        "Acrobatics",
+        "Performance"
+      ],
+      "languages": 0,
+      "toolProficiencies": [
+        "Disguise Kit"
+      ],
+      "items": [
+        {
+          "name": "A musical instrument"
+        },
+        {
+          "name": "The favour of an admirer"
+        },
+        {
+          "name": "A costumes"
+        }
+      ],
+      "musicalInstruments": 1,
+      "money": {
+        "gold": 15
+      },
+      "feat": {
+        "name": "By popular demand",
+        "description": "Lorem ipsum"
+      }
+    },
+    {
+      "name": "Folk Hero",
+      "skillProficiencies": [
+        "Animal Handling",
+        "Survival"
+      ],
+      "languages": 0,
+      "toolProficiencies": [
+        "Land Vehicles",
+        "Artisan's Tools"
+      ],
+      "items": [
+        {
+          "name": "A set of Artisan's Tools"
+        },
+        {
+          "name": "A shovel"
+        },
+        {
+          "name": "An iron pot"
+        },
+        {
+          "name": "A set of common clothes"
+        }
+      ],
+      "money": {
+        "gold": 10
+      },
+      "feat": {
+        "name": "Rustic Hospitality",
+        "description": "Lorem ipsum"
+      }
+    },
+    {
+      "name": "Guild Artisan",
+      "skillProficiencies": [
+        "Insight",
+        "Persuasion"
+      ],
+      "languages": 1,
+      "toolProficiencies": [
+        "Artisan's Tools"
+      ],
+      "items": [
+        {
+          "name": "A set of Artisan's Tools"
+        },
+        {
+          "name": "A letter of introduction from your guild"
+        },
+        {
+          "name": "A set of traveler's clothes"
+        }
+      ],
+      "money": {
+        "gold": 15
+      },
+      "feat": {
+        "name": "Guild Membership",
+        "description": "Lorem ipsum"
+      }
+    },
+    {
+      "name": "Hermit",
+      "skillProficiencies": [
+        "Medicine",
+        "Religion"
+      ],
+      "languages": 1,
+      "toolProficiencies": [
+        "Herbalism Kit"
+      ],
+      "items": [
+        {
+          "name": "A scorll case stuffed, full of notes from your studies and prayers"
+        },
+        {
+          "name": "A winter blanket"
+        },
+        {
+          "name": "A set of common clothes"
+        },
+        {
+          "name": "An herbalism kit"
+        }
+      ],
+      "money": {
+        "gold": 5
+      },
+      "feat": {
+        "name": "Discovery",
+        "description": "Lorem ipsum"
+      }
+    },
+    {
+      "name": "Noble",
+      "skillProficiencies": [
+        "History",
+        "Persuasion"
+      ],
+      "languages": 1,
+      "items": [
+        {
+          "name": "A secret ring"
+        },
+        {
+          "name": "A scroll of pedigree"
+        },
+        {
+          "name": "A set of fine clothes"
+        }
+      ],
+      "gamingProficiencies": 1,
+      "money": {
+        "gold": 25
+      },
+      "feat": {
+        "name": "Position of privilege",
+        "description": "Lorem ipsum"
+      }
+    },
+    {
+      "name": "Outlander",
+      "skillProficiencies": [
+        "Athletics",
+        "Survival"
+      ],
+      "languages": 1,
+      "items": [
+        {
+          "name": "Staff"
+        },
+        {
+          "name": "Hunting trap"
+        },
+        {
+          "name": "A set of traveler's clothes"
+        },
+        {
+          "name": "A trophy from an animal you killed"
+        }
+      ],
+      "musicalInstruments": 1,
+      "money": {
+        "gold": 10
+      },
+      "feat": {
+        "name": "Wanderer",
+        "description": "Lorem ipsum"
+      }
+    },
+    {
+      "name": "Sage",
+      "skillProficiencies": [
+        "Arcana",
+        "History"
+      ],
+      "languages": 2,
+      "items": [
+        {
+          "name": "A bottle of black ink"
+        },
+        {
+          "name": "A quill"
+        },
+        {
+          "name": "A set of common clothes"
+        },
+        {
+          "name": "A small knife"
+        },
+        {
+          "name": "A letter from a dead colleague, posing a question you have not yet been able to answer"
+        }
+      ],
+      "money": {
+        "gold": 10
+      },
+      "feat": {
+        "name": "Researcher",
+        "description": "Lorem ipsum"
+      }
+    },
+    {
+      "name": "Sailor",
+      "skillProficiencies": [
+        "Atheltics",
+        "Perception"
+      ],
+      "languages": 0,
+      "toolProficiencies": [
+        "Navigator's Tools",
+        "Water Vehicles"
+      ],
+      "items": [
+        {
+          "name": "A belaing pin (club)"
+        },
+        {
+          "name": "Fifty feet of silk rope"
+        },
+        {
+          "name": "A set of common clothes"
+        },
+        {
+          "name": "A lucky charm"
+        }
+      ],
+      "money": {
+        "gold": 10
+      },
+      "feat": {
+        "name": "Ship's Pasage",
+        "description": "Lorem ipsum"
+      }
+    },
+    {
+      "name": "Urchin",
+      "skillProficiencies": [
+        "Sleight of Hand",
+        "Stealth"
+      ],
+      "languages": 0,
+      "toolProficiencies": [
+        "Disguise Kit",
+        "Thieves' Tools"
+      ],
+      "items": [
+        {
+          "name": "Small knife"
+        },
+        {
+          "name": "A map of the city you grew up in"
+        },
+        {
+          "name": "A set of common clothes"
+        },
+        {
+          "name": "A pet mouse"
+        },
+        {
+          "name": "A token to remember your parents by"
+        }
+      ],
+      "money": {
+        "gold": 10
+      },
+      "feat": {
+        "name": "City Secrets",
+        "description": "Lorem ipsum"
+      }
     }
   ],
   "characters": [
@@ -2156,6 +2845,494 @@
       "passiveWisdom": 10,
       "jackOfAllTrades": false,
       "id": 4
+    },
+    {
+      "userID": 1,
+      "name": "Petrica",
+      "level": "1",
+      "proficiencyBonus": 3,
+      "baseStats": [
+        {
+          "type": "Strength",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Dexterity",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Constitution",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Intelligence",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Wisdom",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Charisma",
+          "value": 1,
+          "modifier": 1
+        }
+      ],
+      "characterClass": {
+        "id": 1,
+        "name": "Barbarian",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 12
+        },
+        "primaryAbility": [
+          "Strength"
+        ],
+        "skillProficiencies": [
+          "Animal Handling",
+          "Athletics",
+          "Intimidation",
+          "Nature",
+          "Perception",
+          "Survival"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Strength",
+          "Constitution"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://listimg.pinclipart.com/picdir/s/574-5741600_static-media-barbarian-logo-30637d21-dnd-class-symbols.png",
+        "castingPotential": "No"
+      },
+      "race": {
+        "id": 2,
+        "name": "Human",
+        "increasedStats": [
+          {
+            "stat": "Strength",
+            "value": 1
+          },
+          {
+            "stat": "Dexterity",
+            "value": 1
+          },
+          {
+            "stat": "Constitution",
+            "value": 1
+          },
+          {
+            "stat": "Intelligence",
+            "value": 1
+          },
+          {
+            "stat": "Wisdom",
+            "value": 1
+          },
+          {
+            "stat": "Charisma",
+            "value": 1
+          }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "darkvision": 0,
+        "languages": [
+          "Common"
+        ]
+      },
+      "background": {
+        "name": "Soldier",
+        "skillProficiencies": [
+          "Athletics",
+          "Intimidation"
+        ],
+        "toolProficiencies": [
+          "Land Vehicles"
+        ],
+        "items": [
+          {
+            "name": "Insignia of rank"
+          },
+          {
+            "name": "Trophy taken from a fallen enemy"
+          },
+          {
+            "name": "A set of bone dice"
+          },
+          {
+            "name": "A set of common clothes"
+          }
+        ],
+        "money": {
+          "gold": 10
+        },
+        "feat": {
+          "name": "Military rank",
+          "description": "Lorem ipsumm"
+        },
+        "gamingProficiencies": 1
+      },
+      "savingThrows": [
+        {
+          "type": "Charisma",
+          "value": 1
+        }
+      ],
+      "skills": [],
+      "ac": 10,
+      "initiative": 1,
+      "speed": 30,
+      "hp": 12,
+      "hitDie": {
+        "minValue": 1,
+        "maxValue": 12
+      },
+      "passiveWisdom": 10,
+      "jackOfAllTrades": false,
+      "id": 5
+    },
+    {
+      "userID": 1,
+      "name": "bbf",
+      "level": "1",
+      "proficiencyBonus": 3,
+      "baseStats": [
+        {
+          "type": "Strength",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Dexterity",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Constitution",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Intelligence",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Wisdom",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Charisma",
+          "value": 1,
+          "modifier": 1
+        }
+      ],
+      "characterClass": {
+        "id": 3,
+        "name": "Cleric",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "primaryAbility": [
+          "Wisdom"
+        ],
+        "skillProficiencies": [
+          "History",
+          "Insight",
+          "Medicine",
+          "Persuasion",
+          "Religion"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Wisdom",
+          "Charisma"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+        "castingPotential": "Full Caster"
+      },
+      "race": {
+        "id": 7,
+        "name": "Gnome",
+        "subraces": [
+          {
+            "id": 1,
+            "name": "Forest Gnome",
+            "increasedStats": [
+              {
+                "stat": "Dexterity",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Speak with Small Beasts",
+                "description": "Vdvdfvdfvdf"
+              }
+            ],
+            "spells": [
+              "Minor Illusion"
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Rock Gnome",
+            "increasedStats": [
+              {
+                "stat": "Constitution",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Artificer's Lore",
+                "description": "dfvkdfjnvdflkjnvd"
+              },
+              {
+                "name": "Tinker",
+                "description": "dfvkdfjnvdflkjnvd"
+              }
+            ],
+            "toolProficienies": [
+              "Artisan's Tools"
+            ]
+          }
+        ],
+        "increasedStats": [
+          {
+            "stat": "Intelligence",
+            "value": 2
+          }
+        ],
+        "size": "Small",
+        "speed": 25,
+        "darkvision": 60,
+        "extraFeats": [
+          {
+            "name": "Gnome Cunning",
+            "description": "vdfvdfvdfvndfknvdf"
+          }
+        ],
+        "languages": [
+          "Common",
+          "Gnomish"
+        ]
+      },
+      "background": {
+        "name": "Charlatan",
+        "skillProficiencies": [
+          "Deception",
+          "Sleight of Hand"
+        ],
+        "toolProficiencies": [
+          "Disguise Kit",
+          "Forgery Kit"
+        ],
+        "items": [
+          {
+            "name": "Set of fine clothes"
+          },
+          {
+            "name": "Disguise kit"
+          },
+          {
+            "name": "A set of weighted dice"
+          }
+        ],
+        "money": {
+          "gold": 15
+        },
+        "feat": {
+          "name": "False identity",
+          "description": "Lorem ipsum"
+        }
+      },
+      "savingThrows": [
+        {
+          "type": "Charisma",
+          "value": 1
+        }
+      ],
+      "skills": [],
+      "ac": 10,
+      "initiative": 1,
+      "speed": 25,
+      "hp": 8,
+      "hitDie": {
+        "minValue": 1,
+        "maxValue": 8
+      },
+      "passiveWisdom": 10,
+      "jackOfAllTrades": false,
+      "id": 6
+    },
+    {
+      "userID": 1,
+      "name": "trhrhty",
+      "level": "1",
+      "proficiencyBonus": 3,
+      "baseStats": [
+        {
+          "type": "Strength",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Dexterity",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Constitution",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Intelligence",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Wisdom",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Charisma",
+          "value": 1,
+          "modifier": 1
+        }
+      ],
+      "characterClass": {
+        "id": 12,
+        "name": "Wizard",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 6
+        },
+        "primaryAbility": [
+          "Intelligence"
+        ],
+        "skillProficiencies": [
+          "Arcana",
+          "History",
+          "Insight",
+          "Investigation",
+          "Medicine",
+          "Religion"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Intelligence",
+          "Wisdom"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+        "castingPotential": "Full Caster"
+      },
+      "race": {
+        "id": 9,
+        "name": "Half-Orc",
+        "increasedStats": [
+          {
+            "stat": "Strength",
+            "value": 2
+          },
+          {
+            "stat": "Constitution",
+            "value": 1
+          }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "darkvision": 60,
+        "extraFeats": [
+          {
+            "name": "Relentless Endurance",
+            "description": "vdfvdfvdfvndfknvdf"
+          },
+          {
+            "name": "Savage Attacks",
+            "description": "vdfvdfvdfvndfknvdf"
+          }
+        ],
+        "skillProficiencies": [
+          "Intimidation"
+        ],
+        "languages": [
+          "Common",
+          "Orcish"
+        ]
+      },
+      "background": {
+        "name": "Urchin",
+        "skillProficiencies": [
+          "Sleight of Hand",
+          "Stealth"
+        ],
+        "languages": 0,
+        "toolProficiencies": [
+          "Disguise Kit",
+          "Thieves' Tools"
+        ],
+        "items": [
+          {
+            "name": "Small knife"
+          },
+          {
+            "name": "A map of the city you grew up in"
+          },
+          {
+            "name": "A set of common clothes"
+          },
+          {
+            "name": "A pet mouse"
+          },
+          {
+            "name": "A token to remember your parents by"
+          }
+        ],
+        "money": {
+          "gold": 10
+        },
+        "feat": {
+          "name": "City Secrets",
+          "description": "Lorem ipsum"
+        }
+      },
+      "savingThrows": [
+        {
+          "type": "Charisma",
+          "value": 1
+        }
+      ],
+      "skills": [],
+      "ac": 10,
+      "initiative": 1,
+      "speed": 30,
+      "hp": 6,
+      "hitDie": {
+        "minValue": 1,
+        "maxValue": 6
+      },
+      "passiveWisdom": 10,
+      "jackOfAllTrades": false,
+      "id": 7
     }
   ]
 }
