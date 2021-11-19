@@ -6,6 +6,7 @@ import { Provider } from "react-redux";
 import { CharacterStore } from "./Stores/CharacterStore";
 import ClassSelection from "./Screens/ClassSelection/ClassSelection";
 import CharacterCreation from "./Screens/CharacterCreation/CharacterCreation";
+import RegisterScreen from "./Screens/Register/Register";
 import LoginScreen from "./Screens/LoginScreen/LoginScreen";
 import ClassPreviewCard from "./Components/ClassPreviewCard/ClassPreviewCard";
 import Container from "@material-ui/core/Container";
@@ -30,6 +31,9 @@ const App = () => {
             <Switch>
               <Route exact path="/">
                 <LoginScreen />
+              </Route>
+              <Route exact path="/register">
+                <RegisterScreen />
               </Route>
               <Route exact path="/characters">
                 <MyCharacters />

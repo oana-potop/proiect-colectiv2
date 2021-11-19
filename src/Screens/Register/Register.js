@@ -9,17 +9,20 @@ import { Box, Button, TextField, Typography } from "@material-ui/core";
 import CssBaseline from "@mui/material/CssBaseline";
 import { DnDLogo } from "../../Assets/assets";
 import Header from "../../Components/Header/Header";
-import { signInWithEmailAndPassword } from "@firebase/auth";
+import { createUserWithEmailAndPassword } from "@firebase/auth";
 import { auth } from "../../firebasestuff/firebase-config";
 
-const LoginScreen = () => {
+const RegisterScreen = () => {
   const history = useHistory();
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
 
   return (
     <Container component="main" maxWidth="xs">
       <CssBaseline />
+      {/* <Header /> */}
       <Box
         sx={{
           marginTop: 8,
@@ -30,9 +33,31 @@ const LoginScreen = () => {
       >
         <img src={DnDLogo} width="500" />
         <Typography gutterBottom variant="h4" component="h4">
-          Welcome!
+          Create a new account
         </Typography>
         <Box component="form" sx={{ mt: 1 }}>
+        <TextField
+            id="outlines-basic"
+            label="First Name"
+            variant="outlined"
+            type="text"
+            fullWidth
+            margin="normal"
+            autoFocus
+            required
+            onChange={(e) => {setFirstName(e.target.value)}}
+          />
+          <TextField
+            id="outlines-basic"
+            label="Last Name"
+            variant="outlined"
+            type="text"
+            fullWidth
+            margin="normal"
+            autoFocus
+            required
+            onChange={(e) => {setLastName(e.target.value)}}
+          />
           <TextField
             id="outlines-basic"
             label="Email"
@@ -42,9 +67,7 @@ const LoginScreen = () => {
             margin="normal"
             autoFocus
             required
-            onChange={(e) => {
-              setEmail(e.target.value);
-            }}
+            onChange={(e) => {setEmail(e.target.value)}}
           />
           <TextField
             id="outlines-basic"
@@ -54,9 +77,7 @@ const LoginScreen = () => {
             fullWidth
             style={{ marginBottom: "20px", marginTop: "10px" }}
             required
-            onChange={(e) => {
-              setPassword(e.target.value);
-            }}
+            onChange={(e) => {setPassword(e.target.value)}}
           />
         </Box>
         <Button
@@ -65,23 +86,8 @@ const LoginScreen = () => {
           variant="contained"
           color="secondary"
           onClick={() => {
-            try {
-              signInWithEmailAndPassword(auth, email, password);
-              console.log("ii bine");
-              history.push("/characters");
-            } catch {
-              console.log("nu-i bine");
-            }
-          }}
-        >
-          Sign In
-        </Button>
-        <Button
-          fullWidth
-          variant="contained"
-          color="secondary"
-          onClick={() => {
-            history.push("/register");
+            history.push("/characters");
+            createUserWithEmailAndPassword(auth, email, password);
           }}
         >
           Sign Up
@@ -91,4 +97,4 @@ const LoginScreen = () => {
   );
 };
 
-export default LoginScreen;
+export default RegisterScreen;
