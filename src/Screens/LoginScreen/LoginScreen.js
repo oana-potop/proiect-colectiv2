@@ -66,7 +66,7 @@ const LoginScreen = () => {
           color="secondary"
           onClick={() => {
             try {
-              signInWithEmailAndPassword(auth, email, password);
+              signInWithEmailAndPassword(auth, email, password); //todo: handle error
               console.log("ii bine");
               history.push("/characters");
             } catch {
@@ -76,16 +76,20 @@ const LoginScreen = () => {
         >
           Sign In
         </Button>
-        <Button
-          fullWidth
-          variant="contained"
-          color="secondary"
-          onClick={() => {
-            history.push("/register");
-          }}
-        >
-          Sign Up
-        </Button>
+        
+          <Typography style = {{marginTop: "60px"}} variant = "overline" >
+            Don't have an account? Create a new one!
+          </Typography>
+          <Button
+            fullWidth
+            variant="contained"
+            style = {{backgroundColor: "#212121", color: "white" }}
+            onClick={() => {
+              history.push("/register");
+            }}
+          >
+            Register
+          </Button>
       </Box>
     </Container>
   );

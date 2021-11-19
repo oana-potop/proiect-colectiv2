@@ -7,6 +7,7 @@ import { Button, Typography } from "@material-ui/core";
 import CircularProgress from "@mui/material/CircularProgress";
 import { auth } from "../../firebasestuff/firebase-config";
 import { onAuthStateChanged } from "@firebase/auth";
+import { signOut } from "firebase/auth";
 
 const MyCharacters = () => {
   const history = useHistory();
@@ -74,17 +75,16 @@ const MyCharacters = () => {
             </Button>
             <Button
               onClick={() => {
-                history.push("/");
+                signOut(auth).then(() => {
+                  history.push("/");
+                }).catch((error) => {
+                  // An error happened.
+                  console.log("nu-i ok");
+                });
+                
               }}
             >
               Sign out
-            </Button>
-            <Button
-              onClick={() => {
-                history.push("/classSelection");
-              }}
-            >
-              Go to classes
             </Button>
           </Container>
         </Container>

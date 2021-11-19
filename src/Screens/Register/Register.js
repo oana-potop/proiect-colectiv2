@@ -86,11 +86,23 @@ const RegisterScreen = () => {
           variant="contained"
           color="secondary"
           onClick={() => {
-            history.push("/characters");
+            history.push("/");
             createUserWithEmailAndPassword(auth, email, password);
           }}
         >
           Sign Up
+        </Button>
+
+        <Button
+          type="submit"
+          fullWidth
+          variant="contained"
+          style = {{backgroundColor: "#212121", color: "white", marginTop: "40px" }}
+          onClick={() => {
+            history.push("/");
+          }}
+        >
+          Cancel
         </Button>
       </Box>
     </Container>
