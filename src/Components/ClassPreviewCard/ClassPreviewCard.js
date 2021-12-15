@@ -6,6 +6,7 @@ import {
   Avatar,
   CardMedia,
   Container,
+  Grid,
   SvgIcon,
   Typography,
 } from "@material-ui/core";
@@ -17,23 +18,34 @@ const ClassPreviewCard = ({ characterClass }) => {
     <div>
       <div>
         <Card>
-          <div>
-            <CardHeader title={characterClass.name} className={styles.name} />
-          </div>
-          <CardContent>
-            <Typography>
-              <b>Hit Die: </b> {characterClass.hitDie.minValue}d
-              {characterClass.hitDie.maxValue}
-            </Typography>
-            <Typography>
-              <b>Primary Ability: </b>{" "}
-              {characterClass.primaryAbility.map((element) => `${element} `)}
-            </Typography>
-            <Typography>
-              <b>Saving Throws: </b>
-              {characterClass.savingThrows.map((element) => `${element} `)}
-            </Typography>
-          </CardContent>
+            <div>
+                  <CardHeader title={characterClass.name} className={styles.name} />
+            </div>
+            <CardContent>
+              <Grid container spacing={2}>
+                <Grid item xs={5}>
+                  <Typography>
+                    <b>Hit Die: </b> {characterClass.hitDie.minValue}d
+                    {characterClass.hitDie.maxValue}
+                  </Typography>
+                  <Typography>
+                    <b>Primary Ability: </b>{" "}
+                    {characterClass.primaryAbility.map((element) => `${element} `)}
+                  </Typography>
+                  <Typography>
+                    <b>Saving Throws: </b>
+                    {characterClass.savingThrows.map((element) => `${element} `)}
+                  </Typography>
+                  <Typography>
+                    <b>Casting potential: </b>
+                    {characterClass.castingPotential}
+                  </Typography>
+                </Grid>
+                <Grid item xs={7}>
+                  <img src={characterClass.classImage} width="225"/>
+                </Grid>
+              </Grid>
+            </CardContent>
         </Card>
       </div>
     </div>

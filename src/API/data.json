@@ -77,7 +77,7 @@
       "armorProficiencies": [],
       "weaponProficiencies": [],
       "toolProficiencies": [],
-      "classImage": "https://listimg.pinclipart.com/picdir/s/574-5741600_static-media-barbarian-logo-30637d21-dnd-class-symbols.png",
+      "classImage": "https://www.enworld.org/attachments/barbarian-png.80072/",
       "castingPotential": "No"
     },
     {
@@ -177,7 +177,7 @@
       "armorProficiencies": [],
       "weaponProficiencies": [],
       "toolProficiencies": [],
-      "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+      "classImage": "https://www.enworld.org/attachments/druid-png.80075/",
       "castingPotential": "Full Caster"
     },
     {
@@ -208,7 +208,7 @@
       "armorProficiencies": [],
       "weaponProficiencies": [],
       "toolProficiencies": [],
-      "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+      "classImage": "https://www.enworld.org/attachments/fighter-png.80077/",
       "castingPotential": "Subclass Only"
     },
     {
@@ -238,7 +238,7 @@
       "armorProficiencies": [],
       "weaponProficiencies": [],
       "toolProficiencies": [],
-      "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+      "classImage": "https://www.enworld.org/attachments/monk-png.80078/",
       "castingPotential": "Subclass Only"
     },
     {
@@ -268,7 +268,7 @@
       "armorProficiencies": [],
       "weaponProficiencies": [],
       "toolProficiencies": [],
-      "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+      "classImage": "https://www.enworld.org/attachments/paladin-png.80079/",
       "castingPotential": "Half Caster"
     },
     {
@@ -300,7 +300,7 @@
       "armorProficiencies": [],
       "weaponProficiencies": [],
       "toolProficiencies": [],
-      "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+      "classImage": "https://www.enworld.org/attachments/ranger-png.80080/",
       "castingPotential": "Half Caster"
     },
     {
@@ -334,7 +334,7 @@
       "armorProficiencies": [],
       "weaponProficiencies": [],
       "toolProficiencies": [],
-      "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+      "classImage": "https://www.enworld.org/attachments/rogue-png.80081/",
       "castingPotential": "Subclass Only"
     },
     {
@@ -363,7 +363,7 @@
       "armorProficiencies": [],
       "weaponProficiencies": [],
       "toolProficiencies": [],
-      "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+      "classImage": "https://www.enworld.org/attachments/sorcerer-png.80082/",
       "castingPotential": "Full Caster"
     },
     {
@@ -393,7 +393,7 @@
       "armorProficiencies": [],
       "weaponProficiencies": [],
       "toolProficiencies": [],
-      "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+      "classImage": "https://www.enworld.org/attachments/warlock-png.80083/",
       "castingPotential": "Full Caster"
     },
     {
@@ -422,7 +422,7 @@
       "armorProficiencies": [],
       "weaponProficiencies": [],
       "toolProficiencies": [],
-      "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+      "classImage": "https://www.enworld.org/attachments/wizard-png.80084/",
       "castingPotential": "Full Caster"
     }
   ],
