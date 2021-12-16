@@ -9,7 +9,8 @@ import {
   Container,
   SvgIcon,
   Typography,
-  IconButton
+  IconButton,
+  CardActionArea,
 } from "@material-ui/core";
 import { DeleteOutlined } from "@mui/icons-material";
 import { useStyles } from "./styles";
@@ -19,24 +20,32 @@ const CharacterPreviewCard = ({ charchar, handleDelete }) => {
     <div>
       <div>
         <Card>
-          <div>
-            <CardHeader action={
-              <IconButton color="secondary" onClick={() => handleDelete(charchar.id)}>
-                <DeleteOutlined />
-              </IconButton>
-            } title={charchar.name} />
-          </div>
-          <CardContent>
-            <Typography>
-              <b>Level: </b> {charchar.level}
-            </Typography>
-            <Typography>
-              <b>Class: </b> {charchar.characterClass.name}
-            </Typography>
-            <Typography>
-              <b>Race: </b> {charchar.race.name}
-            </Typography>
-          </CardContent>
+          <CardActionArea>
+            <div>
+              <CardHeader
+                action={
+                  <IconButton
+                    color="secondary"
+                    onClick={() => handleDelete(charchar.id)}
+                  >
+                    <DeleteOutlined />
+                  </IconButton>
+                }
+                title={charchar.name}
+              />
+            </div>
+            <CardContent>
+              <Typography>
+                <b>Level: </b> {charchar.level}
+              </Typography>
+              <Typography>
+                <b>Class: </b> {charchar.characterClass.name}
+              </Typography>
+              <Typography>
+                <b>Race: </b> {charchar.race.name}
+              </Typography>
+            </CardContent>
+          </CardActionArea>
         </Card>
       </div>
     </div>

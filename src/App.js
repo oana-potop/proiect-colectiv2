@@ -44,6 +44,9 @@ const App = () => {
               <Route exact path="/classSelection">
                 <ClassSelection />
               </Route>
+              <Route exact path="/classSelection">
+                <ClassSelection />
+              </Route>
             </Switch>
           </div>
         </Router>

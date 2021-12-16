@@ -8,6 +8,8 @@ import CircularProgress from "@mui/material/CircularProgress";
 import { auth } from "../../firebasestuff/firebase-config";
 import { onAuthStateChanged } from "@firebase/auth";
 import { signOut } from "firebase/auth";
+import MultistepCreation from "../MultistepCreation/MultistepCreation";
+import DemoMultistep from "../DemoMultistep/DemoMultistep";
 
 const MyCharacters = () => {
   const history = useHistory();
@@ -57,38 +59,40 @@ const MyCharacters = () => {
     );
   };
 
-      return (
-        <Container style={{ marginTop: 20 }}>
-          <Typography gutterBottom variant="h4" component="h4">
-            My Characters
-          </Typography>
-          {isLoading && <CircularProgress />}
-          {renderCharacters()}
-          <br />
-          <Container style={{ display: "space-between" }}>
-            <Button
-              onClick={() => {
-                history.push("/creation");
-              }}
-            >
-              Create a new character
-            </Button>
-            <Button
-              onClick={() => {
-                signOut(auth).then(() => {
-                  history.push("/");
-                }).catch((error) => {
-                  // An error happened.
-                  console.log("nu-i ok");
-                });
-                
-              }}
-            >
-              Sign out
-            </Button>
-          </Container>
-        </Container>
-      );
+  return (
+    <Container style={{ marginTop: 20 }}>
+      <Typography gutterBottom variant="h4" component="h4">
+        My Characters
+      </Typography>
+      {isLoading && <CircularProgress />}
+      {renderCharacters()}
+      <br />
+      <Container style={{ display: "space-between" }}>
+        <Button
+          onClick={() => {
+            history.push("/creation");
+          }}
+        >
+          Create a new character
+        </Button>
+        <Button
+          onClick={() => {
+            signOut(auth)
+              .then(() => {
+                history.push("/");
+              })
+              .catch((error) => {
+                // An error happened.
+                console.log("nu-i ok");
+              });
+          }}
+        >
+          Sign out
+        </Button>
+        <DemoMultistep />
+      </Container>
+    </Container>
+  );
 };
 
 export default MyCharacters;
