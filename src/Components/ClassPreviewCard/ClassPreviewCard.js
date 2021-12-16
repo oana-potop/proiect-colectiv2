@@ -7,6 +7,7 @@ import {
   Avatar,
   CardMedia,
   Container,
+  Grid,
   SvgIcon,
   Typography,
   Button,
@@ -22,28 +23,34 @@ const ClassPreviewCard = ({ characterClass }, action) => {
     >
       <div>
         <Card>
-          <CardActionArea>
             <div>
-              <CardHeader title={characterClass.name} className={styles.name} />
+                  <CardHeader title={characterClass.name} className={styles.name} />
             </div>
             <CardContent>
-              <Typography>
-                <b>Hit Die: </b> {characterClass.hitDie.minValue}d
-                {characterClass.hitDie.maxValue}
-              </Typography>
-              <Typography>
-                <b>Primary Ability: </b>{" "}
-                {characterClass.primaryAbility.map((element) => `${element} `)}
-              </Typography>
-              <Typography>
-                <b>Saving Throws: </b>
-                {characterClass.savingThrows.map((element) => `${element} `)}
-              </Typography>
+              <Grid container spacing={2}>
+                <Grid item xs={5}>
+                  <Typography>
+                    <b>Hit Die: </b> {characterClass.hitDie.minValue}d
+                    {characterClass.hitDie.maxValue}
+                  </Typography>
+                  <Typography>
+                    <b>Primary Ability: </b>{" "}
+                    {characterClass.primaryAbility.map((element) => `${element} `)}
+                  </Typography>
+                  <Typography>
+                    <b>Saving Throws: </b>
+                    {characterClass.savingThrows.map((element) => `${element} `)}
+                  </Typography>
+                  <Typography>
+                    <b>Casting potential: </b>
+                    {characterClass.castingPotential}
+                  </Typography>
+                </Grid>
+                <Grid item xs={7}>
+                  <img src={characterClass.classImage} width="225"/>
+                </Grid>
+              </Grid>
             </CardContent>
-            <CardActions>
-              <Button size="small">Select class</Button>
-            </CardActions>
-          </CardActionArea>
         </Card>
       </div>
     </div>

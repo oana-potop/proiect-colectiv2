@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { BarbarianPNG } from "../../Assets/assets";
+import { BarbarianIcon } from "../../Assets/assets";
 const initialState = [
   {
     id: 1,
@@ -24,7 +24,7 @@ const initialState = [
       armorProficiencies: [],
       weaponProficiencies: [],
       savingThrows: [],
-      classImage: BarbarianPNG,
+      classImage: BarbarianIcon,
       castingPotential: "No",
     },
     race: {

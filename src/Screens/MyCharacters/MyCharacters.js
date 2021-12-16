@@ -3,7 +3,7 @@ import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import { useHistory } from "react-router-dom";
 import CharacterPreviewCard from "../../Components/CharacterPreviewCard/CharacterPreviewCard";
-import { Button, Typography } from "@material-ui/core";
+import { Button, SvgIcon, Typography } from "@material-ui/core";
 import CircularProgress from "@mui/material/CircularProgress";
 import { auth } from "../../firebasestuff/firebase-config";
 import { onAuthStateChanged } from "@firebase/auth";
@@ -35,6 +35,7 @@ const MyCharacters = () => {
       setIsLoading(false);
     }
   }, [characters]);
+
 
   const handleDelete = async (id) => {
     await fetch(`http://localhost:8000/characters/${id}`, {
