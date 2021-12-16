@@ -1,0 +1,3657 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "email": "",
+        "password": "",
+        "firstName": "Admin",
+        "lastName": "Adminovici"
+      },
+      {
+        "id": 2,
+        "email": "oana.potop@stud.ubbcluj.ro",
+        "password": "admin1",
+        "firstName": "Oana",
+        "lastName": "Potop"
+      },
+      {
+        "id": 3,
+        "email": "dominic.rodeanu.@stud.ubbcluj.ro",
+        "password": "admin2",
+        "firstName": "Dominic",
+        "lastName": "Rodeanu"
+      },
+      {
+        "id": 4,
+        "email": "maria.pohoata.@stud.ubbcluj.ro",
+        "password": "admin3",
+        "firstName": "Magda",
+        "lastName": "Pohoata"
+      },
+      {
+        "id": 5,
+        "email": "alexandra.tand.@stud.ubbcluj.ro",
+        "password": "admin4",
+        "firstName": "Alexandra",
+        "lastName": "Tand"
+      },
+      {
+        "id": 6,
+        "email": "alina.timerman.@stud.ubbcluj.ro",
+        "password": "admin5",
+        "firstName": "Alina",
+        "lastName": "Timerman"
+      },
+      {
+        "id": 7,
+        "email": "alina.sastras.@stud.ubbcluj.ro",
+        "password": "admin6",
+        "firstName": "Alina",
+        "lastName": "Sastras"
+      }
+    ],
+    "classes": [
+      {
+        "id": 1,
+        "name": "Barbarian",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 12
+        },
+        "primaryAbility": [
+          "Strength"
+        ],
+        "skillProficiencies": [
+          "Animal Handling",
+          "Athletics",
+          "Intimidation",
+          "Nature",
+          "Perception",
+          "Survival"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Strength",
+          "Constitution"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/barbarian-png.80072/",
+        "castingPotential": "No"
+      },
+      {
+        "id": 2,
+        "name": "Bard",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "primaryAbility": [
+          "Charisma"
+        ],
+        "skillProficiencies": [
+          "Acrobatics",
+          "Animal Handling",
+          "Arcana",
+          "Athletics",
+          "Deception",
+          "History",
+          "Insight",
+          "Intimidation",
+          "Investigation",
+          "Medicine",
+          "Nature",
+          "Perception",
+          "Performance",
+          "Persuasion",
+          "Religion",
+          "Sleight of Hand",
+          "Stealth",
+          "Survival"
+        ],
+        "skillNumber": 3,
+        "savingThrows": [
+          "Dexterity",
+          "Charisma"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/bard-png.80073/",
+        "castingPotential": "Full Caster"
+      },
+      {
+        "id": 3,
+        "name": "Cleric",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "primaryAbility": [
+          "Wisdom"
+        ],
+        "skillProficiencies": [
+          "History",
+          "Insight",
+          "Medicine",
+          "Persuasion",
+          "Religion"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Wisdom",
+          "Charisma"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+        "castingPotential": "Full Caster"
+      },
+      {
+        "id": 4,
+        "name": "Druid",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "primaryAbility": [
+          "Wisdom"
+        ],
+        "skillProficiencies": [
+          "Arcana",
+          "Animal Handling",
+          "Insight",
+          "Medicine",
+          "Nature",
+          "Perception",
+          "Religion",
+          "Survival"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Intelligence",
+          "Wisdom"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/druid-png.80075/",
+        "castingPotential": "Full Caster"
+      },
+      {
+        "id": 5,
+        "name": "Fighter",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 10
+        },
+        "primaryAbility": [
+          "Strength/ Dexterity"
+        ],
+        "skillProficiencies": [
+          "Acrobatics",
+          "Animal Handling",
+          "Athletics",
+          "History",
+          "Insight",
+          "Intimidation",
+          "Perception",
+          "Survival"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Strength",
+          "Constitution"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/fighter-png.80077/",
+        "castingPotential": "Subclass Only"
+      },
+      {
+        "id": 6,
+        "name": "Monk",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "primaryAbility": [
+          "Dexterity",
+          "Wisdom"
+        ],
+        "skillProficiencies": [
+          "Acrobatics",
+          "Athletics",
+          "History",
+          "Insight",
+          "Religion",
+          "Stealth"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Strength",
+          "Dexterity"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/monk-png.80078/",
+        "castingPotential": "Subclass Only"
+      },
+      {
+        "id": 7,
+        "name": "Paladin",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 10
+        },
+        "primaryAbility": [
+          "Strength",
+          "Charisma"
+        ],
+        "skillProficiencies": [
+          "Athletics",
+          "Insight",
+          "Intimidation",
+          "Medicine",
+          "Persuasion",
+          "Religion"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Wisdom",
+          "Charisma"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/paladin-png.80079/",
+        "castingPotential": "Half Caster"
+      },
+      {
+        "id": 8,
+        "name": "Ranger",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "primaryAbility": [
+          "Dexterity",
+          "Wisdom"
+        ],
+        "skillProficiencies": [
+          "Animal Handling",
+          "Athletics",
+          "Insight",
+          "Investigation",
+          "Nature",
+          "Perception",
+          "Stealth",
+          "Survival"
+        ],
+        "skillNumber": 3,
+        "savingThrows": [
+          "Strength",
+          "Dexterity"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/ranger-png.80080/",
+        "castingPotential": "Half Caster"
+      },
+      {
+        "id": 9,
+        "name": "Rogue",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "primaryAbility": [
+          "Dexterity"
+        ],
+        "skillProficiencies": [
+          "Acrobatics",
+          "Athletics",
+          "Deception",
+          "Insight",
+          "Intimidation",
+          "Investigation",
+          "Perception",
+          "Performance",
+          "Persuasion",
+          "Sleight of Hand",
+          "Stealth"
+        ],
+        "skillNumber": 4,
+        "savingThrows": [
+          "Dexterity",
+          "Intelligence"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/rogue-png.80081/",
+        "castingPotential": "Subclass Only"
+      },
+      {
+        "id": 10,
+        "name": "Sorcerer",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 6
+        },
+        "primaryAbility": [
+          "Charisma"
+        ],
+        "skillProficiencies": [
+          "Arcana",
+          "Deception",
+          "Insight",
+          "Intimidation",
+          "Persuasion",
+          "Religion"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Constitution",
+          "Charisma"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/sorcerer-png.80082/",
+        "castingPotential": "Full Caster"
+      },
+      {
+        "id": 11,
+        "name": "Warlock",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "primaryAbility": [
+          "Charisma"
+        ],
+        "skillProficiencies": [
+          "Arcana",
+          "Deception",
+          "History",
+          "Intimidation",
+          "Investigation",
+          "Nature",
+          "Religion"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Wisdom",
+          "Charisma"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/warlock-png.80083/",
+        "castingPotential": "Full Caster"
+      },
+      {
+        "id": 12,
+        "name": "Wizard",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 6
+        },
+        "primaryAbility": [
+          "Intelligence"
+        ],
+        "skillProficiencies": [
+          "Arcana",
+          "History",
+          "Insight",
+          "Investigation",
+          "Medicine",
+          "Religion"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Intelligence",
+          "Wisdom"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/wizard-png.80084/",
+        "castingPotential": "Full Caster"
+      }
+    ],
+    "savingThrows": [
+      "Strength",
+      "Dexterity",
+      "Constitution",
+      "Intelligence",
+      "Wisdom",
+      "Charisma"
+    ],
+    "skills": [
+      "Acrobatics",
+      "Animal Handling",
+      "Arcana",
+      "Athletics",
+      "Deception",
+      "History",
+      "Insight",
+      "Intimidation",
+      "Investigation",
+      "Medicine",
+      "Nature",
+      "Perception",
+      "Performance",
+      "Persuasion",
+      "Religion",
+      "Sleight of Hand",
+      "Stealth",
+      "Survival"
+    ],
+    "armors": [
+      {
+        "id": 1,
+        "name": "Padded Armor",
+        "type": "Light",
+        "ac": 11,
+        "stealthDisadvantage": true,
+        "strengthRequirement": 0
+      },
+      {
+        "id": 2,
+        "name": "Leather Armor",
+        "type": "Light",
+        "ac": 11,
+        "stealthDisadvantage": false,
+        "strengthRequirement": 0
+      },
+      {
+        "id": 3,
+        "name": "Studded Leather Armor",
+        "type": "Light",
+        "ac": 12,
+        "stealthDisadvantage": false,
+        "strengthRequirement": 0
+      },
+      {
+        "id": 4,
+        "name": "Hide Armor",
+        "type": "Medium",
+        "ac": 12,
+        "stealthDisadvantage": false,
+        "strengthRequirement": 0
+      },
+      {
+        "id": 5,
+        "name": "Chain Shirt",
+        "type": "Medium",
+        "ac": 13,
+        "stealthDisadvantage": false,
+        "strengthRequirement": 0
+      },
+      {
+        "id": 6,
+        "name": "Scale Mail",
+        "type": "Medium",
+        "ac": 14,
+        "stealthDisadvantage": true,
+        "strengthRequirement": 0
+      },
+      {
+        "id": 7,
+        "name": "Breastplate",
+        "type": "Medium",
+        "ac": 14,
+        "stealthDisadvantage": false,
+        "strengthRequirement": 0
+      },
+      {
+        "id": 8,
+        "name": "Half Plate",
+        "type": "Medium",
+        "ac": 15,
+        "stealthDisadvantage": true,
+        "strengthRequirement": 0
+      },
+      {
+        "id": 9,
+        "name": "Ring Mail",
+        "type": "Heavy",
+        "ac": 15,
+        "stealthDisadvantage": true,
+        "strengthRequirement": 0
+      },
+      {
+        "id": 10,
+        "name": "Chain Mail",
+        "type": "Heavy",
+        "ac": 16,
+        "stealthDisadvantage": true,
+        "strengthRequirement": 13
+      },
+      {
+        "id": 11,
+        "name": "Splint Armor",
+        "type": "Heavy",
+        "ac": 17,
+        "stealthDisadvantage": true,
+        "strengthRequirement": 15
+      },
+      {
+        "id": 12,
+        "name": "Plate Armor",
+        "type": "Heavy",
+        "ac": 18,
+        "stealthDisadvantage": true,
+        "strengthRequirement": 0
+      }
+    ],
+    "weapons": [
+      {
+        "id": 1,
+        "name": "Club",
+        "type": "Simple",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 4
+        },
+        "damageType": "Bludgeoning",
+        "finesse": false,
+        "heavy": false,
+        "light": true,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 2,
+        "name": "Dagger",
+        "type": "Simple",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 4
+        },
+        "damageType": "Piercing",
+        "finesse": true,
+        "heavy": false,
+        "light": true,
+        "loading": false,
+        "range": [
+          20,
+          60
+        ],
+        "reach": false,
+        "thrown": true,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 3,
+        "name": "Great Club",
+        "type": "Simple",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "damageType": "Bludgeoning",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": true,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 4,
+        "name": "Handaxe",
+        "type": "Simple",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 6
+        },
+        "damageType": "Slashing",
+        "finesse": false,
+        "heavy": false,
+        "light": true,
+        "loading": false,
+        "range": [
+          20,
+          60
+        ],
+        "reach": false,
+        "thrown": true,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 5,
+        "name": "Javelin",
+        "type": "Simple",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 6
+        },
+        "damageType": "Piercing",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          30,
+          120
+        ],
+        "reach": false,
+        "thrown": true,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 6,
+        "name": "Light Hammer",
+        "type": "Simple",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 4
+        },
+        "damageType": "Bludgeoning",
+        "finesse": false,
+        "heavy": false,
+        "light": true,
+        "loading": false,
+        "range": [
+          20,
+          60
+        ],
+        "reach": false,
+        "thrown": true,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 7,
+        "name": "Mace",
+        "type": "Simple",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 6
+        },
+        "damageType": "Bludgeoning",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 8,
+        "name": "Quarterstaff",
+        "type": "Simple",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 6
+        },
+        "damageType": "Bludgeoning",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": true,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 9,
+        "name": "Sickle",
+        "type": "Simple",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 4
+        },
+        "damageType": "Slashing",
+        "finesse": false,
+        "heavy": false,
+        "light": true,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 10,
+        "name": "Spear",
+        "type": "Simple",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 6
+        },
+        "damageType": "Piercing",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          20,
+          60
+        ],
+        "reach": false,
+        "thrown": true,
+        "twoHanded": false,
+        "versatile": true,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 11,
+        "name": "Light Crossbow",
+        "type": "Simple",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "damageType": "Piercing",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": true,
+        "range": [
+          80,
+          320
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": true,
+        "versatile": false,
+        "ammunition": true,
+        "special": false
+      },
+      {
+        "id": 12,
+        "name": "Dart",
+        "type": "Simple",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 4
+        },
+        "damageType": "Piercing",
+        "finesse": true,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          20,
+          60
+        ],
+        "reach": false,
+        "thrown": true,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 13,
+        "name": "Shortbow",
+        "type": "Simple",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 6
+        },
+        "damageType": "Piercing",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          80,
+          320
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": true,
+        "versatile": false,
+        "ammunition": true,
+        "special": false
+      },
+      {
+        "id": 14,
+        "name": "Sling",
+        "type": "Simple",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 4
+        },
+        "damageType": "Bludgeoning",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          30,
+          120
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": true,
+        "special": false
+      },
+      {
+        "id": 15,
+        "name": "Battleaxe",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "damageType": "Slashing",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": true,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 16,
+        "name": "Flail",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "damageType": "Bludgeoning",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 17,
+        "name": "Glaive",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 10
+        },
+        "damageType": "Slashing",
+        "finesse": false,
+        "heavy": true,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": true,
+        "thrown": false,
+        "twoHanded": true,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 18,
+        "name": "Greataxe",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 12
+        },
+        "damageType": "Slashing",
+        "finesse": false,
+        "heavy": true,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": true,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 19,
+        "name": "Greatsword",
+        "type": "Martial",
+        "damage": {
+          "minValue": 2,
+          "maxValue": 6
+        },
+        "damageType": "Slashing",
+        "finesse": false,
+        "heavy": true,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": true,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 20,
+        "name": "Halberd",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 10
+        },
+        "damageType": "Slashing",
+        "finesse": false,
+        "heavy": true,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": true,
+        "thrown": false,
+        "twoHanded": true,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 21,
+        "name": "Lance",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 12
+        },
+        "damageType": "Piercing",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": true,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": false,
+        "special": true,
+        "additionalMechanincs": "You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
+      },
+      {
+        "id": 22,
+        "name": "Longsword",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "damageType": "Slashing",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": true,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 23,
+        "name": "Maul",
+        "type": "Martial",
+        "damage": {
+          "minValue": 2,
+          "maxValue": 6
+        },
+        "damageType": "Bludgeoning",
+        "finesse": false,
+        "heavy": true,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": true,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 24,
+        "name": "Morningstar",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "damageType": "Piercing",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 25,
+        "name": "Pike",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 10
+        },
+        "damageType": "Piercing",
+        "finesse": false,
+        "heavy": true,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": true,
+        "thrown": false,
+        "twoHanded": true,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 26,
+        "name": "Rapier",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "damageType": "Piercing",
+        "finesse": true,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 27,
+        "name": "Scimitar",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 6
+        },
+        "damageType": "Slashing",
+        "finesse": true,
+        "heavy": false,
+        "light": true,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 28,
+        "name": "Shortsword",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 6
+        },
+        "damageType": "Piercing",
+        "finesse": true,
+        "heavy": false,
+        "light": true,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 29,
+        "name": "Trident",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 6
+        },
+        "damageType": "Piercing",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          20,
+          60
+        ],
+        "reach": false,
+        "thrown": true,
+        "twoHanded": false,
+        "versatile": true,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 30,
+        "name": "War Pick",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "damageType": "Piercing",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 31,
+        "name": "Warhammer",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "damageType": "Bludgeoning",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": true,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 32,
+        "name": "Whip",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 4
+        },
+        "damageType": "Slashing",
+        "finesse": true,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          5
+        ],
+        "reach": true,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": false,
+        "special": false
+      },
+      {
+        "id": 33,
+        "name": "Blowgun",
+        "type": "Martial",
+        "damage": {
+          "minValue": 0,
+          "maxValue": 1
+        },
+        "damageType": "Piercing",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": true,
+        "range": [
+          25,
+          100
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": true,
+        "special": false
+      },
+      {
+        "id": 34,
+        "name": "Hand Crossbow",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 6
+        },
+        "damageType": "Piercing",
+        "finesse": false,
+        "heavy": false,
+        "light": true,
+        "loading": true,
+        "range": [
+          30,
+          120
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": true,
+        "special": false
+      },
+      {
+        "id": 35,
+        "name": "Heavy Crossbow",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 10
+        },
+        "damageType": "Piercing",
+        "finesse": false,
+        "heavy": true,
+        "light": false,
+        "loading": true,
+        "range": [
+          100,
+          400
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": true,
+        "versatile": false,
+        "ammunition": true,
+        "special": false
+      },
+      {
+        "id": 36,
+        "name": "Longbow",
+        "type": "Martial",
+        "damage": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "damageType": "Piercing",
+        "finesse": false,
+        "heavy": true,
+        "light": false,
+        "loading": false,
+        "range": [
+          150,
+          600
+        ],
+        "reach": false,
+        "thrown": false,
+        "twoHanded": true,
+        "versatile": false,
+        "ammunition": true,
+        "special": false
+      },
+      {
+        "id": 37,
+        "name": "Net",
+        "type": "Martial",
+        "damage": {
+          "minValue": 0,
+          "maxValue": 0
+        },
+        "damageType": "Bludgeoning",
+        "finesse": false,
+        "heavy": false,
+        "light": false,
+        "loading": false,
+        "range": [
+          5,
+          15
+        ],
+        "reach": false,
+        "thrown": true,
+        "twoHanded": false,
+        "versatile": false,
+        "ammunition": false,
+        "special": true,
+        "additionalMechanics": "A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
+      }
+    ],
+    "alignments": [
+      "Lawful Good",
+      "Neutral Good",
+      "Chaotic Good",
+      "Lawful Neutral",
+      "Neutral",
+      "Chaotic Neutral",
+      "Lawful Evil",
+      "Neutral Evil",
+      "Chaotic Evil"
+    ],
+    "races": [
+      {
+        "id": 1,
+        "name": "Dwarf",
+        "subraces": [
+          {
+            "id": 1,
+            "name": "Hill Dwarf",
+            "increasedStats": [
+              {
+                "stat": "Wisdom",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Dwarven Toughness",
+                "description": "Vdvdfvdfvdf"
+              }
+            ],
+            "hpBonus": 1
+          },
+          {
+            "id": 2,
+            "name": "Mountain Dwarf",
+            "increasedStats": [
+              {
+                "stat": "Strength",
+                "value": 2
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Dwarven Armor Training",
+                "description": "dfvkdfjnvdflkjnvd"
+              }
+            ],
+            "armorProficienies": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          }
+        ],
+        "increasedStats": [
+          {
+            "stat": "Constitution",
+            "value": 2
+          }
+        ],
+        "size": "Medium",
+        "speed": 25,
+        "darkvision": 60,
+        "extraFeats": [
+          {
+            "name": "Dwarven Resillience",
+            "description": "skdjnvdkfjvndf"
+          },
+          {
+            "name": "Dwarven Combat Training",
+            "description": "vdfvdfvdfvndfknvdf"
+          },
+          {
+            "name": "Stonecunning",
+            "description": "vdfvdfvfdvdfvscsd"
+          },
+          {
+            "name": "Dwarven Stronkness",
+            "description": "Your speed is not reduced by wearing heavy armor"
+          }
+        ],
+        "weaponProficiencies": [
+          4,
+          6,
+          15,
+          31
+        ],
+        "toolProficiencies": [
+          "Smith's Tools",
+          "Brewer's Supplies",
+          "Mason's Tools"
+        ],
+        "languages": [
+          "Common",
+          "Dwarvish"
+        ],
+        "damageReistance": [
+          "Poison"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Human",
+        "increasedStats": [
+          {
+            "stat": "Strength",
+            "value": 1
+          },
+          {
+            "stat": "Dexterity",
+            "value": 1
+          },
+          {
+            "stat": "Constitution",
+            "value": 1
+          },
+          {
+            "stat": "Intelligence",
+            "value": 1
+          },
+          {
+            "stat": "Wisdom",
+            "value": 1
+          },
+          {
+            "stat": "Charisma",
+            "value": 1
+          }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "darkvision": 0,
+        "languages": [
+          "Common"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Tiefling",
+        "increasedStats": [
+          {
+            "stat": "Intelligence",
+            "value": 1
+          },
+          {
+            "stat": "Charisma",
+            "value": 2
+          }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "darkvision": 60,
+        "extraFeats": [
+          {
+            "name": "Hellish Resistance",
+            "description": "svdfvdf"
+          },
+          {
+            "name": "Infernal Legacy",
+            "description": "vdfbvfdlansckdff"
+          }
+        ],
+        "damageReistance": [
+          "Fire"
+        ],
+        "spells": [
+          "Thaumaturgy",
+          "Hellish Rebuke",
+          "Darkness"
+        ],
+        "languages": [
+          "Common",
+          "Infernal"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Elf",
+        "subraces": [
+          {
+            "id": 1,
+            "name": "High Elf",
+            "increasedStats": [
+              {
+                "stat": "Intelligence",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Elf Weapon Training",
+                "description": "Vdvdfvdfvdf"
+              },
+              {
+                "name": "Cantrip",
+                "description": "dkufhvhfkbfgkbfg"
+              },
+              {
+                "name": "Extra language",
+                "description": "kdfvhkfdhvhfd"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Wood Elf",
+            "increasedStats": [
+              {
+                "stat": "Wisdom",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Elf Weapon Training",
+                "description": "dfvkdfjnvdflkjnvd"
+              },
+              {
+                "name": "Fleet of Foot",
+                "description": "dkfvkfdbnkgbng"
+              },
+              {
+                "name": "Mask of the wild",
+                "description": "dkvnfkvnfkdvnfd"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Dark Elf (Drow)",
+            "increasedStats": [
+              {
+                "stat": "Charisma",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Superior Darkvision",
+                "description": "dkfnbfkbnfgkbngfbf"
+              },
+              {
+                "name": "Sunlight Sensitivity",
+                "description": "dfbfgbngfng"
+              },
+              {
+                "name": "Drow Weapon Training",
+                "description": "fgbfgbgf"
+              }
+            ],
+            "spells": [
+              "Darkness",
+              "Dancing Lights",
+              "Faerie Fire"
+            ]
+          }
+        ],
+        "increasedStats": [
+          {
+            "stat": "Dexterity",
+            "value": 2
+          }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "darkvision": 60,
+        "extraFeats": [
+          {
+            "name": "Fey Ancestry",
+            "description": "vdfvdfvdfvndfknvdf"
+          },
+          {
+            "name": "Trance",
+            "description": "vdfvdfvfdvdfvscsd"
+          }
+        ],
+        "skillProficiencies": [
+          "Perception"
+        ],
+        "languages": [
+          "Common",
+          "Elvish"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Halfling",
+        "subraces": [
+          {
+            "id": 1,
+            "name": "Lightfoot",
+            "increasedStats": [
+              {
+                "stat": "Charisma",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Naturally Stealthy",
+                "description": "Vdvdfvdfvdf"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Stout",
+            "increasedStats": [
+              {
+                "stat": "Constitution",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Sout Resilience",
+                "description": "dfvkdfjnvdflkjnvd"
+              }
+            ]
+          }
+        ],
+        "increasedStats": [
+          {
+            "stat": "Dexterity",
+            "value": 2
+          }
+        ],
+        "size": "Small",
+        "speed": 25,
+        "darkvision": 0,
+        "extraFeats": [
+          {
+            "name": "Lucky",
+            "description": "vdfvdfvdfvndfknvdf"
+          },
+          {
+            "name": "Brave",
+            "description": "vdfvdfvfdvdfvscsd"
+          },
+          {
+            "name": "Halfling Nimbleless",
+            "description": "vdfvdfvfdvdfvscsd"
+          }
+        ],
+        "languages": [
+          "Common",
+          "Halfling"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Dragonborn",
+        "increasedStats": [
+          {
+            "stat": "Strength",
+            "value": 2
+          },
+          {
+            "stat": "Charisma",
+            "value": 1
+          }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "darkvision": 0,
+        "extraFeats": [
+          {
+            "name": "Draconic Ancestry",
+            "description": "vdfvdfvdfvndfknvdf"
+          },
+          {
+            "name": "Breath Weapon",
+            "description": "vdfvdfvfdvdfvscsd"
+          },
+          {
+            "name": "Damage Resistance",
+            "description": "vdfvdfvfdvdfvscsd"
+          }
+        ],
+        "languages": [
+          "Common",
+          "Draconic"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Gnome",
+        "subraces": [
+          {
+            "id": 1,
+            "name": "Forest Gnome",
+            "increasedStats": [
+              {
+                "stat": "Dexterity",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Speak with Small Beasts",
+                "description": "Vdvdfvdfvdf"
+              }
+            ],
+            "spells": [
+              "Minor Illusion"
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Rock Gnome",
+            "increasedStats": [
+              {
+                "stat": "Constitution",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Artificer's Lore",
+                "description": "dfvkdfjnvdflkjnvd"
+              },
+              {
+                "name": "Tinker",
+                "description": "dfvkdfjnvdflkjnvd"
+              }
+            ],
+            "toolProficienies": [
+              "Artisan's Tools"
+            ]
+          }
+        ],
+        "increasedStats": [
+          {
+            "stat": "Intelligence",
+            "value": 2
+          }
+        ],
+        "size": "Small",
+        "speed": 25,
+        "darkvision": 60,
+        "extraFeats": [
+          {
+            "name": "Gnome Cunning",
+            "description": "vdfvdfvdfvndfknvdf"
+          }
+        ],
+        "languages": [
+          "Common",
+          "Gnomish"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Half-Elf",
+        "increasedStats": [
+          {
+            "stat": "Charisma",
+            "value": 2
+          }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "darkvision": 60,
+        "extraFeats": [
+          {
+            "name": "Ability Score Increase",
+            "description": "vdfvdfvdfvndfknvdf"
+          },
+          {
+            "name": "Skill Versatility",
+            "description": "vdfvdfvdfvndfknvdf"
+          },
+          {
+            "name": "Fey Ancestry",
+            "description": "vdfvdfvdfvndfknvdf"
+          },
+          {
+            "name": "Extra Language",
+            "description": "vdfvdfvdfvndfknvdf"
+          }
+        ],
+        "languages": [
+          "Common",
+          "Elvish"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Half-Orc",
+        "increasedStats": [
+          {
+            "stat": "Strength",
+            "value": 2
+          },
+          {
+            "stat": "Constitution",
+            "value": 1
+          }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "darkvision": 60,
+        "extraFeats": [
+          {
+            "name": "Relentless Endurance",
+            "description": "vdfvdfvdfvndfknvdf"
+          },
+          {
+            "name": "Savage Attacks",
+            "description": "vdfvdfvdfvndfknvdf"
+          }
+        ],
+        "skillProficiencies": [
+          "Intimidation"
+        ],
+        "languages": [
+          "Common",
+          "Orcish"
+        ]
+      }
+    ],
+    "backgrounds": [
+      {
+        "id":1,
+        "name": "Charlatan",
+        "skillProficiencies": [
+          "Deception",
+          "Sleight of Hand"
+        ],
+        "toolProficiencies": [
+          "Disguise Kit",
+          "Forgery Kit"
+        ],
+        "languages": 0,
+        "items": [
+          {
+            "name": "Set of fine clothes"
+          },
+          {
+            "name": "Disguise kit"
+          },
+          {
+            "name": "A set of weighted dice"
+          }
+        ],
+        "money": {
+          "gold": 15
+        },
+        "feat": {
+          "name": "False identity",
+          "description": "Lorem ipsum"
+        }
+      },
+      {
+        "id":2,
+        "name": "Soldier",
+        "skillProficiencies": [
+          "Athletics",
+          "Intimidation"
+        ],
+        "toolProficiencies": [
+          "Land Vehicles"
+        ],
+        "languages": 0,
+        "items": [
+          {
+            "name": "Insignia of rank"
+          },
+          {
+            "name": "Trophy taken from a fallen enemy"
+          },
+          {
+            "name": "A set of bone dice"
+          },
+          {
+            "name": "A set of common clothes"
+          }
+        ],
+        "money": {
+          "gold": 10
+        },
+        "feat": {
+          "name": "Military rank",
+          "description": "Lorem ipsumm"
+        },
+        "gamingProficiencies": 1
+      },
+      {
+        "id":3,
+        "name": "Acolyte",
+        "skillProficiencies": [
+          "Insight",
+          "Religion"
+        ],
+        "languages": 2,
+        "toolProficiencies": [],
+        "items": [
+          {
+            "name": "Holy Symbol"
+          },
+          {
+            "name": "Prayer Book"
+          },
+          {
+            "name": "Five sticks of incense"
+          },
+          {
+            "name": "Vestments"
+          },
+          {
+            "name": "A set of common clothes"
+          }
+        ],
+        "money": {
+          "gold": 15
+        },
+        "feat": {
+          "name": "Shelter of the Faithful",
+          "description": "Lorem ipsum"
+        }
+      },
+      {
+        "id":4,
+        "name": "Criminal",
+        "skillProficiencies": [
+          "Deception",
+          "Stealth"
+        ],
+        "languages": 0,
+        "toolProficiencies": [
+          "Thieves' Tools"
+        ],
+        "items": [
+          {
+            "name": "Crowbar"
+          },
+          {
+            "name": "A set of dark common clothes, including a hood"
+          }
+        ],
+        "gamingProficiencies": 1,
+        "money": {
+          "gold": 15
+        },
+        "feat": {
+          "name": "Criminal Contact",
+          "description": "Lorem ipsum"
+        }
+      },
+      {
+        "id":5,
+        "name": "Entertainer",
+        "skillProficiencies": [
+          "Acrobatics",
+          "Performance"
+        ],
+        "languages": 0,
+        "toolProficiencies": [
+          "Disguise Kit"
+        ],
+        "items": [
+          {
+            "name": "A musical instrument"
+          },
+          {
+            "name": "The favour of an admirer"
+          },
+          {
+            "name": "A costumes"
+          }
+        ],
+        "musicalInstruments": 1,
+        "money": {
+          "gold": 15
+        },
+        "feat": {
+          "name": "By popular demand",
+          "description": "Lorem ipsum"
+        }
+      },
+      {
+        "id":6,
+        "name": "Folk Hero",
+        "skillProficiencies": [
+          "Animal Handling",
+          "Survival"
+        ],
+        "languages": 0,
+        "toolProficiencies": [
+          "Land Vehicles",
+          "Artisan's Tools"
+        ],
+        "items": [
+          {
+            "name": "A set of Artisan's Tools"
+          },
+          {
+            "name": "A shovel"
+          },
+          {
+            "name": "An iron pot"
+          },
+          {
+            "name": "A set of common clothes"
+          }
+        ],
+        "money": {
+          "gold": 10
+        },
+        "feat": {
+          "name": "Rustic Hospitality",
+          "description": "Lorem ipsum"
+        }
+      },
+      {
+        "id":7,
+        "name": "Guild Artisan",
+        "skillProficiencies": [
+          "Insight",
+          "Persuasion"
+        ],
+        "languages": 1,
+        "toolProficiencies": [
+          "Artisan's Tools"
+        ],
+        "items": [
+          {
+            "name": "A set of Artisan's Tools"
+          },
+          {
+            "name": "A letter of introduction from your guild"
+          },
+          {
+            "name": "A set of traveler's clothes"
+          }
+        ],
+        "money": {
+          "gold": 15
+        },
+        "feat": {
+          "name": "Guild Membership",
+          "description": "Lorem ipsum"
+        }
+      },
+      {
+        "id":8,
+        "name": "Hermit",
+        "skillProficiencies": [
+          "Medicine",
+          "Religion"
+        ],
+        "languages": 1,
+        "toolProficiencies": [
+          "Herbalism Kit"
+        ],
+        "items": [
+          {
+            "name": "A scorll case stuffed, full of notes from your studies and prayers"
+          },
+          {
+            "name": "A winter blanket"
+          },
+          {
+            "name": "A set of common clothes"
+          },
+          {
+            "name": "An herbalism kit"
+          }
+        ],
+        "money": {
+          "gold": 5
+        },
+        "feat": {
+          "name": "Discovery",
+          "description": "Lorem ipsum"
+        }
+      },
+      {
+        "id":9,
+        "name": "Noble",
+        "skillProficiencies": [
+          "History",
+          "Persuasion"
+        ],
+        "languages": 1,
+        "items": [
+          {
+            "name": "A secret ring"
+          },
+          {
+            "name": "A scroll of pedigree"
+          },
+          {
+            "name": "A set of fine clothes"
+          }
+        ],
+        "gamingProficiencies": 1,
+        "money": {
+          "gold": 25
+        },
+        "feat": {
+          "name": "Position of privilege",
+          "description": "Lorem ipsum"
+        }
+      },
+      {
+        "id":10,
+        "name": "Outlander",
+        "skillProficiencies": [
+          "Athletics",
+          "Survival"
+        ],
+        "languages": 1,
+        "items": [
+          {
+            "name": "Staff"
+          },
+          {
+            "name": "Hunting trap"
+          },
+          {
+            "name": "A set of traveler's clothes"
+          },
+          {
+            "name": "A trophy from an animal you killed"
+          }
+        ],
+        "musicalInstruments": 1,
+        "money": {
+          "gold": 10
+        },
+        "feat": {
+          "name": "Wanderer",
+          "description": "Lorem ipsum"
+        }
+      },
+      {
+        "id":11,
+        "name": "Sage",
+        "skillProficiencies": [
+          "Arcana",
+          "History"
+        ],
+        "languages": 2,
+        "items": [
+          {
+            "name": "A bottle of black ink"
+          },
+          {
+            "name": "A quill"
+          },
+          {
+            "name": "A set of common clothes"
+          },
+          {
+            "name": "A small knife"
+          },
+          {
+            "name": "A letter from a dead colleague, posing a question you have not yet been able to answer"
+          }
+        ],
+        "money": {
+          "gold": 10
+        },
+        "feat": {
+          "name": "Researcher",
+          "description": "Lorem ipsum"
+        }
+      },
+      {
+        "id":12,
+        "name": "Sailor",
+        "skillProficiencies": [
+          "Atheltics",
+          "Perception"
+        ],
+        "languages": 0,
+        "toolProficiencies": [
+          "Navigator's Tools",
+          "Water Vehicles"
+        ],
+        "items": [
+          {
+            "name": "A belaing pin (club)"
+          },
+          {
+            "name": "Fifty feet of silk rope"
+          },
+          {
+            "name": "A set of common clothes"
+          },
+          {
+            "name": "A lucky charm"
+          }
+        ],
+        "money": {
+          "gold": 10
+        },
+        "feat": {
+          "name": "Ship's Pasage",
+          "description": "Lorem ipsum"
+        }
+      },
+      {
+        "id":13,
+        "name": "Urchin",
+        "skillProficiencies": [
+          "Sleight of Hand",
+          "Stealth"
+        ],
+        "languages": 0,
+        "toolProficiencies": [
+          "Disguise Kit",
+          "Thieves' Tools"
+        ],
+        "items": [
+          {
+            "name": "Small knife"
+          },
+          {
+            "name": "A map of the city you grew up in"
+          },
+          {
+            "name": "A set of common clothes"
+          },
+          {
+            "name": "A pet mouse"
+          },
+          {
+            "name": "A token to remember your parents by"
+          }
+        ],
+        "money": {
+          "gold": 10
+        },
+        "feat": {
+          "name": "City Secrets",
+          "description": "Lorem ipsum"
+        }
+      }
+    ],
+    "characters": [
+      {
+        "id": 1,
+        "userID": 2,
+        "name": "Georgel",
+        "level": 5,
+        "proficiencyBonus": 3,
+        "baseStats": [
+          {
+            "type": "Strength",
+            "value": 14,
+            "modifier": 2
+          },
+          {
+            "type": "Dexterity",
+            "value": 12,
+            "modifier": 1
+          },
+          {
+            "type": "Constitution",
+            "value": 14,
+            "modifier": 2
+          },
+          {
+            "type": "Intelligence",
+            "value": 8,
+            "modifier": -1
+          },
+          {
+            "type": "Wisdom",
+            "value": 8,
+            "modifier": -1
+          },
+          {
+            "type": "Charisma",
+            "value": 15,
+            "modifier": 2
+          }
+        ],
+        "characterClass": {
+          "id": 7,
+          "name": "Paladin",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 10
+          },
+          "primaryAbility": [
+            "Strength",
+            "Charisma"
+          ],
+          "skillProficiencies": [
+            "Athletics",
+            "Insight",
+            "Intimidation",
+            "Medicine",
+            "Persuasion",
+            "Religion"
+          ],
+          "skillNumber": 2,
+          "savingThrows": [
+            "Wisdom",
+            "Charisma"
+          ],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+          "castingPotential": "Half Caster"
+        },
+        "race": {
+          "id": 1,
+          "name": "Hill Dwarf",
+          "increasedStats": [
+            {
+              "stat": "Wisdom",
+              "value": 1
+            }
+          ],
+          "extraFeats": [
+            {
+              "name": "Dwarven Toughness",
+              "description": "Vdvdfvdfvdf"
+            }
+          ],
+          "hpBonus": 1
+        },
+        "background": {
+          "name": "Charlatan",
+          "skillProficiencies": [
+            "Deception",
+            "Sleight of Hand"
+          ],
+          "toolProficiencies": [
+            "Disguise Kit",
+            "Forgery Kit"
+          ],
+          "items": [
+            {
+              "name": "Set of fine clothes"
+            },
+            {
+              "name": "Disguise kit"
+            },
+            {
+              "name": "A set of weighted dice"
+            }
+          ],
+          "money": {
+            "gold": 15
+          },
+          "feat": {
+            "name": "False identity",
+            "description": "Lorem ipsum"
+          }
+        },
+        "savingThrows": [
+          {
+            "type": "Strength",
+            "value": 2
+          },
+          {
+            "type": "Dexterity",
+            "value": 1
+          },
+          {
+            "type": "Constitution",
+            "value": 2
+          },
+          {
+            "type": "Intelligence",
+            "value": -1
+          },
+          {
+            "type": "Wisdom",
+            "value": 2
+          },
+          {
+            "type": "Charisma",
+            "value": 5
+          }
+        ],
+        "skills": [
+          "Athletics",
+          "Deception",
+          "Religion",
+          "Sleight of Hand"
+        ],
+        "ac": 18,
+        "initiative": 1,
+        "speed": 30,
+        "hp": 69,
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 10
+        },
+        "passiveWisdom": 9,
+        "jackOfAllTrades": false
+      },
+      {
+        "userID": 1,
+        "name": "Royce",
+        "level": "17",
+        "proficiencyBonus": 3,
+        "baseStats": [
+          {
+            "type": "Strength",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Dexterity",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Constitution",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Intelligence",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Wisdom",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Charisma",
+            "value": 1,
+            "modifier": 1
+          }
+        ],
+        "characterClass": {
+          "id": 5,
+          "name": "Fighter",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 10
+          },
+          "primaryAbility": [
+            "Strength/ Dexterity"
+          ],
+          "skillProficiencies": [
+            "Acrobatics",
+            "Animal Handling",
+            "Athletics",
+            "History",
+            "Insight",
+            "Intimidation",
+            "Perception",
+            "Survival"
+          ],
+          "skillNumber": 2,
+          "savingThrows": [
+            "Strength",
+            "Constitution"
+          ],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+          "castingPotential": "Subclass Only"
+        },
+        "race": {
+          "id": 2,
+          "name": "Human",
+          "increasedStats": [
+            {
+              "stat": "Strength",
+              "value": 1
+            },
+            {
+              "stat": "Dexterity",
+              "value": 1
+            },
+            {
+              "stat": "Constitution",
+              "value": 1
+            },
+            {
+              "stat": "Intelligence",
+              "value": 1
+            },
+            {
+              "stat": "Wisdom",
+              "value": 1
+            },
+            {
+              "stat": "Charisma",
+              "value": 1
+            }
+          ],
+          "size": "Medium",
+          "speed": 30,
+          "darkvision": 0,
+          "languages": [
+            "Common"
+          ]
+        },
+        "background": {
+          "name": "Soldier",
+          "skillProficiencies": [
+            "Athletics",
+            "Intimidation"
+          ],
+          "toolProficiencies": [
+            "Land Vehicles"
+          ],
+          "items": [
+            {
+              "name": "Insignia of rank"
+            },
+            {
+              "name": "Trophy taken from a fallen enemy"
+            },
+            {
+              "name": "A set of bone dice"
+            },
+            {
+              "name": "A set of common clothes"
+            }
+          ],
+          "money": {
+            "gold": 10
+          },
+          "feat": {
+            "name": "Military rank",
+            "description": "Lorem ipsumm"
+          },
+          "gamingProficiencies": 1
+        },
+        "savingThrows": [
+          {
+            "type": "Charisma",
+            "value": 1
+          }
+        ],
+        "skills": [],
+        "ac": 10,
+        "initiative": 1,
+        "speed": 30,
+        "hp": 10,
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 10
+        },
+        "passiveWisdom": 10,
+        "jackOfAllTrades": false,
+        "id": 3
+      },
+      {
+        "userID": 1,
+        "name": "rbgbfgb",
+        "level": "13534",
+        "proficiencyBonus": 3,
+        "baseStats": [
+          {
+            "type": "Strength",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Dexterity",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Constitution",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Intelligence",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Wisdom",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Charisma",
+            "value": 1,
+            "modifier": 1
+          }
+        ],
+        "characterClass": {
+          "id": 9,
+          "name": "Rogue",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 8
+          },
+          "primaryAbility": [
+            "Dexterity"
+          ],
+          "skillProficiencies": [
+            "Acrobatics",
+            "Athletics",
+            "Deception",
+            "Insight",
+            "Intimidation",
+            "Investigation",
+            "Perception",
+            "Performance",
+            "Persuasion",
+            "Sleight of Hand",
+            "Stealth"
+          ],
+          "skillNumber": 4,
+          "savingThrows": [
+            "Dexterity",
+            "Intelligence"
+          ],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+          "castingPotential": "Subclass Only"
+        },
+        "race": {
+          "id": 2,
+          "name": "Human",
+          "increasedStats": [
+            {
+              "stat": "Strength",
+              "value": 1
+            },
+            {
+              "stat": "Dexterity",
+              "value": 1
+            },
+            {
+              "stat": "Constitution",
+              "value": 1
+            },
+            {
+              "stat": "Intelligence",
+              "value": 1
+            },
+            {
+              "stat": "Wisdom",
+              "value": 1
+            },
+            {
+              "stat": "Charisma",
+              "value": 1
+            }
+          ],
+          "size": "Medium",
+          "speed": 30,
+          "darkvision": 0,
+          "languages": [
+            "Common"
+          ]
+        },
+        "background": {
+          "name": "Charlatan",
+          "skillProficiencies": [
+            "Deception",
+            "Sleight of Hand"
+          ],
+          "toolProficiencies": [
+            "Disguise Kit",
+            "Forgery Kit"
+          ],
+          "items": [
+            {
+              "name": "Set of fine clothes"
+            },
+            {
+              "name": "Disguise kit"
+            },
+            {
+              "name": "A set of weighted dice"
+            }
+          ],
+          "money": {
+            "gold": 15
+          },
+          "feat": {
+            "name": "False identity",
+            "description": "Lorem ipsum"
+          }
+        },
+        "savingThrows": [
+          {
+            "type": "Charisma",
+            "value": 1
+          }
+        ],
+        "skills": [],
+        "ac": 10,
+        "initiative": 1,
+        "speed": 30,
+        "hp": 8,
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "passiveWisdom": 10,
+        "jackOfAllTrades": false,
+        "id": 4
+      },
+      {
+        "userID": 1,
+        "name": "Petrica",
+        "level": "1",
+        "proficiencyBonus": 3,
+        "baseStats": [
+          {
+            "type": "Strength",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Dexterity",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Constitution",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Intelligence",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Wisdom",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Charisma",
+            "value": 1,
+            "modifier": 1
+          }
+        ],
+        "characterClass": {
+          "id": 1,
+          "name": "Barbarian",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 12
+          },
+          "primaryAbility": [
+            "Strength"
+          ],
+          "skillProficiencies": [
+            "Animal Handling",
+            "Athletics",
+            "Intimidation",
+            "Nature",
+            "Perception",
+            "Survival"
+          ],
+          "skillNumber": 2,
+          "savingThrows": [
+            "Strength",
+            "Constitution"
+          ],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://listimg.pinclipart.com/picdir/s/574-5741600_static-media-barbarian-logo-30637d21-dnd-class-symbols.png",
+          "castingPotential": "No"
+        },
+        "race": {
+          "id": 2,
+          "name": "Human",
+          "increasedStats": [
+            {
+              "stat": "Strength",
+              "value": 1
+            },
+            {
+              "stat": "Dexterity",
+              "value": 1
+            },
+            {
+              "stat": "Constitution",
+              "value": 1
+            },
+            {
+              "stat": "Intelligence",
+              "value": 1
+            },
+            {
+              "stat": "Wisdom",
+              "value": 1
+            },
+            {
+              "stat": "Charisma",
+              "value": 1
+            }
+          ],
+          "size": "Medium",
+          "speed": 30,
+          "darkvision": 0,
+          "languages": [
+            "Common"
+          ]
+        },
+        "background": {
+          "name": "Soldier",
+          "skillProficiencies": [
+            "Athletics",
+            "Intimidation"
+          ],
+          "toolProficiencies": [
+            "Land Vehicles"
+          ],
+          "items": [
+            {
+              "name": "Insignia of rank"
+            },
+            {
+              "name": "Trophy taken from a fallen enemy"
+            },
+            {
+              "name": "A set of bone dice"
+            },
+            {
+              "name": "A set of common clothes"
+            }
+          ],
+          "money": {
+            "gold": 10
+          },
+          "feat": {
+            "name": "Military rank",
+            "description": "Lorem ipsumm"
+          },
+          "gamingProficiencies": 1
+        },
+        "savingThrows": [
+          {
+            "type": "Charisma",
+            "value": 1
+          }
+        ],
+        "skills": [],
+        "ac": 10,
+        "initiative": 1,
+        "speed": 30,
+        "hp": 12,
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 12
+        },
+        "passiveWisdom": 10,
+        "jackOfAllTrades": false,
+        "id": 5
+      },
+      {
+        "userID": 1,
+        "name": "bbf",
+        "level": "1",
+        "proficiencyBonus": 3,
+        "baseStats": [
+          {
+            "type": "Strength",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Dexterity",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Constitution",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Intelligence",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Wisdom",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Charisma",
+            "value": 1,
+            "modifier": 1
+          }
+        ],
+        "characterClass": {
+          "id": 3,
+          "name": "Cleric",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 8
+          },
+          "primaryAbility": [
+            "Wisdom"
+          ],
+          "skillProficiencies": [
+            "History",
+            "Insight",
+            "Medicine",
+            "Persuasion",
+            "Religion"
+          ],
+          "skillNumber": 2,
+          "savingThrows": [
+            "Wisdom",
+            "Charisma"
+          ],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+          "castingPotential": "Full Caster"
+        },
+        "race": {
+          "id": 7,
+          "name": "Gnome",
+          "subraces": [
+            {
+              "id": 1,
+              "name": "Forest Gnome",
+              "increasedStats": [
+                {
+                  "stat": "Dexterity",
+                  "value": 1
+                }
+              ],
+              "extraFeats": [
+                {
+                  "name": "Speak with Small Beasts",
+                  "description": "Vdvdfvdfvdf"
+                }
+              ],
+              "spells": [
+                "Minor Illusion"
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Rock Gnome",
+              "increasedStats": [
+                {
+                  "stat": "Constitution",
+                  "value": 1
+                }
+              ],
+              "extraFeats": [
+                {
+                  "name": "Artificer's Lore",
+                  "description": "dfvkdfjnvdflkjnvd"
+                },
+                {
+                  "name": "Tinker",
+                  "description": "dfvkdfjnvdflkjnvd"
+                }
+              ],
+              "toolProficienies": [
+                "Artisan's Tools"
+              ]
+            }
+          ],
+          "increasedStats": [
+            {
+              "stat": "Intelligence",
+              "value": 2
+            }
+          ],
+          "size": "Small",
+          "speed": 25,
+          "darkvision": 60,
+          "extraFeats": [
+            {
+              "name": "Gnome Cunning",
+              "description": "vdfvdfvdfvndfknvdf"
+            }
+          ],
+          "languages": [
+            "Common",
+            "Gnomish"
+          ]
+        },
+        "background": {
+          "name": "Charlatan",
+          "skillProficiencies": [
+            "Deception",
+            "Sleight of Hand"
+          ],
+          "toolProficiencies": [
+            "Disguise Kit",
+            "Forgery Kit"
+          ],
+          "items": [
+            {
+              "name": "Set of fine clothes"
+            },
+            {
+              "name": "Disguise kit"
+            },
+            {
+              "name": "A set of weighted dice"
+            }
+          ],
+          "money": {
+            "gold": 15
+          },
+          "feat": {
+            "name": "False identity",
+            "description": "Lorem ipsum"
+          }
+        },
+        "savingThrows": [
+          {
+            "type": "Charisma",
+            "value": 1
+          }
+        ],
+        "skills": [],
+        "ac": 10,
+        "initiative": 1,
+        "speed": 25,
+        "hp": 8,
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "passiveWisdom": 10,
+        "jackOfAllTrades": false,
+        "id": 6
+      },
+      {
+        "userID": 1,
+        "name": "trhrhty",
+        "level": "1",
+        "proficiencyBonus": 3,
+        "baseStats": [
+          {
+            "type": "Strength",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Dexterity",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Constitution",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Intelligence",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Wisdom",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Charisma",
+            "value": 1,
+            "modifier": 1
+          }
+        ],
+        "characterClass": {
+          "id": 12,
+          "name": "Wizard",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 6
+          },
+          "primaryAbility": [
+            "Intelligence"
+          ],
+          "skillProficiencies": [
+            "Arcana",
+            "History",
+            "Insight",
+            "Investigation",
+            "Medicine",
+            "Religion"
+          ],
+          "skillNumber": 2,
+          "savingThrows": [
+            "Intelligence",
+            "Wisdom"
+          ],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+          "castingPotential": "Full Caster"
+        },
+        "race": {
+          "id": 9,
+          "name": "Half-Orc",
+          "increasedStats": [
+            {
+              "stat": "Strength",
+              "value": 2
+            },
+            {
+              "stat": "Constitution",
+              "value": 1
+            }
+          ],
+          "size": "Medium",
+          "speed": 30,
+          "darkvision": 60,
+          "extraFeats": [
+            {
+              "name": "Relentless Endurance",
+              "description": "vdfvdfvdfvndfknvdf"
+            },
+            {
+              "name": "Savage Attacks",
+              "description": "vdfvdfvdfvndfknvdf"
+            }
+          ],
+          "skillProficiencies": [
+            "Intimidation"
+          ],
+          "languages": [
+            "Common",
+            "Orcish"
+          ]
+        },
+        "background": {
+          "name": "Urchin",
+          "skillProficiencies": [
+            "Sleight of Hand",
+            "Stealth"
+          ],
+          "languages": 0,
+          "toolProficiencies": [
+            "Disguise Kit",
+            "Thieves' Tools"
+          ],
+          "items": [
+            {
+              "name": "Small knife"
+            },
+            {
+              "name": "A map of the city you grew up in"
+            },
+            {
+              "name": "A set of common clothes"
+            },
+            {
+              "name": "A pet mouse"
+            },
+            {
+              "name": "A token to remember your parents by"
+            }
+          ],
+          "money": {
+            "gold": 10
+          },
+          "feat": {
+            "name": "City Secrets",
+            "description": "Lorem ipsum"
+          }
+        },
+        "savingThrows": [
+          {
+            "type": "Charisma",
+            "value": 1
+          }
+        ],
+        "skills": [],
+        "ac": 10,
+        "initiative": 1,
+        "speed": 30,
+        "hp": 6,
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 6
+        },
+        "passiveWisdom": 10,
+        "jackOfAllTrades": false,
+        "id": 7
+      },
+      {
+        "userID": "26vPXComj1fv2X3Qi4DIMyNy7082",
+        "name": "Gandalf",
+        "level": "20",
+        "proficiencyBonus": 3,
+        "baseStats": [
+          {
+            "type": "Strength",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Dexterity",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Constitution",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Intelligence",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Wisdom",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Charisma",
+            "value": 1,
+            "modifier": 1
+          }
+        ],
+        "characterClass": {
+          "id": 12,
+          "name": "Wizard",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 6
+          },
+          "primaryAbility": [
+            "Intelligence"
+          ],
+          "skillProficiencies": [
+            "Arcana",
+            "History",
+            "Insight",
+            "Investigation",
+            "Medicine",
+            "Religion"
+          ],
+          "skillNumber": 2,
+          "savingThrows": [
+            "Intelligence",
+            "Wisdom"
+          ],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+          "castingPotential": "Full Caster"
+        },
+        "race": {
+          "id": 2,
+          "name": "Human",
+          "increasedStats": [
+            {
+              "stat": "Strength",
+              "value": 1
+            },
+            {
+              "stat": "Dexterity",
+              "value": 1
+            },
+            {
+              "stat": "Constitution",
+              "value": 1
+            },
+            {
+              "stat": "Intelligence",
+              "value": 1
+            },
+            {
+              "stat": "Wisdom",
+              "value": 1
+            },
+            {
+              "stat": "Charisma",
+              "value": 1
+            }
+          ],
+          "size": "Medium",
+          "speed": 30,
+          "darkvision": 0,
+          "languages": [
+            "Common"
+          ]
+        },
+        "background": {
+          "name": "Sage",
+          "skillProficiencies": [
+            "Arcana",
+            "History"
+          ],
+          "languages": 2,
+          "items": [
+            {
+              "name": "A bottle of black ink"
+            },
+            {
+              "name": "A quill"
+            },
+            {
+              "name": "A set of common clothes"
+            },
+            {
+              "name": "A small knife"
+            },
+            {
+              "name": "A letter from a dead colleague, posing a question you have not yet been able to answer"
+            }
+          ],
+          "money": {
+            "gold": 10
+          },
+          "feat": {
+            "name": "Researcher",
+            "description": "Lorem ipsum"
+          }
+        },
+        "savingThrows": [
+          {
+            "type": "Charisma",
+            "value": 1
+          }
+        ],
+        "skills": [],
+        "ac": 10,
+        "initiative": 1,
+        "speed": 30,
+        "hp": 6,
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 6
+        },
+        "passiveWisdom": 10,
+        "jackOfAllTrades": false,
+        "id": 9
+      },
+      {
+        "userID": "nnYVwIm7tic9f7M7rK4o6IlaFv32",
+        "name": "Gandalf",
+        "level": "20",
+        "proficiencyBonus": 3,
+        "baseStats": [
+          {
+            "type": "Strength",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Dexterity",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Constitution",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Intelligence",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Wisdom",
+            "value": 1,
+            "modifier": 1
+          },
+          {
+            "type": "Charisma",
+            "value": 1,
+            "modifier": 1
+          }
+        ],
+        "characterClass": {
+          "id": 12,
+          "name": "Wizard",
+          "hitDie": {
+            "minValue": 1,
+            "maxValue": 6
+          },
+          "primaryAbility": [
+            "Intelligence"
+          ],
+          "skillProficiencies": [
+            "Arcana",
+            "History",
+            "Insight",
+            "Investigation",
+            "Medicine",
+            "Religion"
+          ],
+          "skillNumber": 2,
+          "savingThrows": [
+            "Intelligence",
+            "Wisdom"
+          ],
+          "armorProficiencies": [],
+          "weaponProficiencies": [],
+          "toolProficiencies": [],
+          "classImage": "https://www.enworld.org/attachments/cleric-png.80074/",
+          "castingPotential": "Full Caster"
+        },
+        "race": {
+          "id": 2,
+          "name": "Human",
+          "increasedStats": [
+            {
+              "stat": "Strength",
+              "value": 1
+            },
+            {
+              "stat": "Dexterity",
+              "value": 1
+            },
+            {
+              "stat": "Constitution",
+              "value": 1
+            },
+            {
+              "stat": "Intelligence",
+              "value": 1
+            },
+            {
+              "stat": "Wisdom",
+              "value": 1
+            },
+            {
+              "stat": "Charisma",
+              "value": 1
+            }
+          ],
+          "size": "Medium",
+          "speed": 30,
+          "darkvision": 0,
+          "languages": [
+            "Common"
+          ]
+        },
+        "background": {
+          "name": "Sage",
+          "skillProficiencies": [
+            "Arcana",
+            "History"
+          ],
+          "languages": 2,
+          "items": [
+            {
+              "name": "A bottle of black ink"
+            },
+            {
+              "name": "A quill"
+            },
+            {
+              "name": "A set of common clothes"
+            },
+            {
+              "name": "A small knife"
+            },
+            {
+              "name": "A letter from a dead colleague, posing a question you have not yet been able to answer"
+            }
+          ],
+          "money": {
+            "gold": 10
+          },
+          "feat": {
+            "name": "Researcher",
+            "description": "Lorem ipsum"
+          }
+        },
+        "savingThrows": [
+          {
+            "type": "Charisma",
+            "value": 1
+          }
+        ],
+        "skills": [],
+        "ac": 10,
+        "initiative": 1,
+        "speed": 30,
+        "hp": 6,
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 6
+        },
+        "passiveWisdom": 10,
+        "jackOfAllTrades": false,
+        "id": 11
+      }
+    ]
+  }

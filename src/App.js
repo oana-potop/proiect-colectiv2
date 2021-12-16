@@ -19,6 +19,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { AppBar } from "@material-ui/core";
 import theme from "./UI/Theme";
 import Header from "./Components/Header/Header";
+import RaceSelection from "./Screens/RaceSelection/RaceSelection";
+import BackgroundSelection from "./Screens/BackgroundSelection/BackgroundSelection";
+import SubraceSelection from "./Screens/SubraceSelection/SubraceSelection";
 
 const App = () => {
 
@@ -43,6 +46,12 @@ const App = () => {
               </Route>
               <Route exact path="/classSelection">
                 <ClassSelection />
+              </Route>
+              <Route exact path="/raceSelection">
+                <RaceSelection />
+              </Route>
+              <Route exact path="/backgroundSelection">
+                <BackgroundSelection />
               </Route>
             </Switch>
           </div>
