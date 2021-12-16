@@ -17,5 +17,3 @@ import WarlockIcon from "./Class Icons/Warlock.png";
 import WizardIcon from "./Class Icons/Wizard.png";
 
 export { BarbarianIcon, BardIcon, ClericIcon, DruidIcon, FighterIcon, MonkIcon, PaladinIcon, RangerIcon, RogueIcon, SorcererIcon, WarlockIcon, WizardIcon, DnDLogo };
-
-

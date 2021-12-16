@@ -45,13 +45,6 @@ const RaceSelection = () => {
         Choose a race!
       </Typography>
       {renderRaces()}
-      <Button
-        onClick={() => {
-          history.push("/");
-        }}
-      >
-        Go back
-      </Button>
     </Container>
   );
 };

@@ -60,13 +60,6 @@ const BackgroundSelection = () => {
   return (
     <Container style={{ marginTop: 20 }}>
       {renderBackgrounds()}
-      <Button
-        onClick={() => {
-          history.push("/");
-        }}
-      >
-        Go back
-      </Button>
     </Container>
   );
 };

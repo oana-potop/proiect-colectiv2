@@ -8,9 +8,7 @@ import { useHistory } from "react-router-dom";
 import { Button, Typography } from "@material-ui/core";
 
 const ClassSelection = () => {
-  const dispatch = useDispatch();
   const history = useHistory();
-  const char1 = useSelector((state) => state.characterList[0]);
   const [classes, setClasses] = useState([]);
   useEffect(() => {
     fetch("http://localhost:8000/classes", {
@@ -44,13 +42,6 @@ const ClassSelection = () => {
         Choose a class!
       </Typography>
       {renderClasses()}
-      <Button
-        onClick={() => {
-          history.push("/");
-        }}
-      >
-        Go back
-      </Button>
     </Container>
   );
 };

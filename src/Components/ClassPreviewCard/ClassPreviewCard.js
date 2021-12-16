@@ -2,6 +2,7 @@ import * as React from "react";
 import Card from "@material-ui/core/Card";
 import CardHeader from "@material-ui/core/CardHeader";
 import CardContent from "@material-ui/core/CardContent";
+import CardActions from "@mui/material/CardActions";
 import {
   Avatar,
   CardMedia,
@@ -9,13 +10,17 @@ import {
   Grid,
   SvgIcon,
   Typography,
+  Button,
 } from "@material-ui/core";
 import { useStyles } from "./styles";
+import { CardActionArea } from "@mui/material";
 
-const ClassPreviewCard = ({ characterClass }) => {
+const ClassPreviewCard = ({ characterClass }, action) => {
   const styles = useStyles();
   return (
-    <div>
+    <div
+      onClick={action}
+    >
       <div>
         <Card>
             <div>
