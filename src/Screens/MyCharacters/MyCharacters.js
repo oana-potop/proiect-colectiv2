@@ -71,7 +71,7 @@ const MyCharacters = () => {
       <Container style={{ display: "space-between" }}>
         <Button
           onClick={() => {
-            history.push("/creation");
+            history.push("/char-creation");
           }}
         >
           Create a new character
@@ -90,7 +90,6 @@ const MyCharacters = () => {
         >
           Sign out
         </Button>
-        <DemoMultistep />
       </Container>
     </Container>
   );

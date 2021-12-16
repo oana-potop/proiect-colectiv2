@@ -22,6 +22,8 @@ import StatRoller from "../../Components/DiceRoller/StatRoller";
 import { miniSerializeError } from "@reduxjs/toolkit";
 import ClassSelection from "../ClassSelection/ClassSelection";
 import ClassPreviewCard from "../../Components/ClassPreviewCard/ClassPreviewCard";
+import RaceSelection from "../RaceSelection/RaceSelection";
+import BackgroundSelection from "../BackgroundSelection/BackgroundSelection";
 
 const DemoMultistep = () => {
   const history = useHistory();
@@ -346,7 +348,10 @@ const DemoMultistep = () => {
         <ClassSelection />
       )}
       {step === 3 && (
-        <ClassSelection />
+        <RaceSelection />
+      )}
+      {step === 4 && (
+        <BackgroundSelection />
       )}
 
       {step !== 1 && (

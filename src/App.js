@@ -22,6 +22,7 @@ import Header from "./Components/Header/Header";
 import RaceSelection from "./Screens/RaceSelection/RaceSelection";
 import BackgroundSelection from "./Screens/BackgroundSelection/BackgroundSelection";
 import SubraceSelection from "./Screens/SubraceSelection/SubraceSelection";
+import DemoMultistep from "./Screens/DemoMultistep/DemoMultistep";
 
 const App = () => {
 
@@ -52,6 +53,9 @@ const App = () => {
               </Route>
               <Route exact path="/backgroundSelection">
                 <BackgroundSelection />
+              </Route>
+              <Route exact path="/char-creation">
+                <DemoMultistep />
               </Route>
             </Switch>
           </div>

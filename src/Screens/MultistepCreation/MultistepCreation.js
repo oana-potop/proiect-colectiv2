@@ -22,6 +22,7 @@ import StatRoller from "../../Components/DiceRoller/StatRoller";
 import { miniSerializeError } from "@reduxjs/toolkit";
 import ClassSelection from "../ClassSelection/ClassSelection";
 import ClassPreviewCard from "../../Components/ClassPreviewCard/ClassPreviewCard";
+import RaceSelection from "../RaceSelection/RaceSelection";
 
 const MultistepCreation = () => {
   const history = useHistory();
@@ -371,12 +372,10 @@ const MultistepCreation = () => {
       )}
 
       {step === 2 && (
-        <Container style={{ marginTop: 20 }}>
-          <Typography gutterBottom variant="h4" component="h4">
-            Choose a class!
-          </Typography>
-          {renderClasses()}
-        </Container>
+        <ClassSelection />
+      )}
+      {step === 3 && (
+       <RaceSelection />
       )}
 
       {step !== 1 && (

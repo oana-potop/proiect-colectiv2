@@ -7,7 +7,7 @@ import Paper from "@material-ui/core/Paper";
 import { useHistory } from "react-router-dom";
 import { Button, Typography } from "@material-ui/core";
 
-const ClassSelection = (action) => {
+const ClassSelection = () => {
   const history = useHistory();
   const [classes, setClasses] = useState([]);
   useEffect(() => {
@@ -42,13 +42,6 @@ const ClassSelection = (action) => {
         Choose a class!
       </Typography>
       {renderClasses()}
-      <Button
-        onClick={() => {
-          history.push("/");
-        }}
-      >
-        Go back
-      </Button>
     </Container>
   );
 };
