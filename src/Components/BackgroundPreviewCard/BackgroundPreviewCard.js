@@ -13,10 +13,10 @@ import {
 } from "@material-ui/core";
 import { useStyles } from "./styles";
 
-const BackgroundPreviewCard = ({ characterBackground }) => {
+const BackgroundPreviewCard = ({ characterBackground, changeableBackground, action, step, setStep }) => {
   const styles = useStyles();
   return (
-    <div>
+    <div onClick={event => {action(characterBackground); console.log(changeableBackground); setStep(step+1)}}>
         <Paper gutterBottom>
             <Grid container spacing={2}>
                 <Grid item xs={4}>

@@ -15,16 +15,15 @@ import {
 import { useStyles } from "./styles";
 import { CardActionArea } from "@mui/material";
 
-const ClassPreviewCard = ({ characterClass }, action) => {
+const ClassPreviewCard = ({ characterClass, changeableClass, action, step, setStep }) => {
   const styles = useStyles();
   return (
-    <div
-      onClick={action}
-    >
+    <div onClick={event => {action(characterClass); console.log(changeableClass); setStep(step+1)}}>
       <div>
         <Card>
+          <CardActionArea>
             <div>
-                  <CardHeader title={characterClass.name} className={styles.name} />
+              <CardHeader title={characterClass.name} className={styles.name} />
             </div>
             <CardContent>
               <Grid container spacing={2}>
@@ -35,11 +34,15 @@ const ClassPreviewCard = ({ characterClass }, action) => {
                   </Typography>
                   <Typography>
                     <b>Primary Ability: </b>{" "}
-                    {characterClass.primaryAbility.map((element) => `${element} `)}
+                    {characterClass.primaryAbility.map(
+                      (element) => `${element} `
+                    )}
                   </Typography>
                   <Typography>
                     <b>Saving Throws: </b>
-                    {characterClass.savingThrows.map((element) => `${element} `)}
+                    {characterClass.savingThrows.map(
+                      (element) => `${element} `
+                    )}
                   </Typography>
                   <Typography>
                     <b>Casting potential: </b>
@@ -47,10 +50,11 @@ const ClassPreviewCard = ({ characterClass }, action) => {
                   </Typography>
                 </Grid>
                 <Grid item xs={7}>
-                  <img src={characterClass.classImage} width="225"/>
+                  <img src={characterClass.classImage} width="225" />
                 </Grid>
               </Grid>
             </CardContent>
+          </CardActionArea>
         </Card>
       </div>
     </div>

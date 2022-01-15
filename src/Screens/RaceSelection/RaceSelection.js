@@ -7,7 +7,7 @@ import Paper from "@material-ui/core/Paper";
 import { useHistory } from "react-router-dom";
 import { Button, Typography } from "@material-ui/core";
 
-const RaceSelection = () => {
+const RaceSelection = ({changeableRace, action, step, setStep}) => {
   const dispatch = useDispatch();
   const history = useHistory();
   const char1 = useSelector((state) => state.characterList[0]);
@@ -32,7 +32,7 @@ const RaceSelection = () => {
       <Grid container spacing={3}>
         {races.map((element) => (
           <Grid item key={element.id} xs={12} md={6} lg={4}>
-            <RacePreviewCard characterRace={element} />
+            <RacePreviewCard characterRace={element} changeableRace={changeableRace} action={action} step={step} setStep={setStep}/>
           </Grid>
         ))}
       </Grid>

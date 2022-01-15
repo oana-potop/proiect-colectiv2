@@ -22,8 +22,9 @@ import ClassSelection from "../ClassSelection/ClassSelection";
 import ClassPreviewCard from "../../Components/ClassPreviewCard/ClassPreviewCard";
 import RaceSelection from "../RaceSelection/RaceSelection";
 import BackgroundSelection from "../BackgroundSelection/BackgroundSelection";
+import MyCharacters from "../MyCharacters/MyCharacters";
 
-const DemoMultistep = () => {
+const DemoMultistepTest = () => {
   const history = useHistory();
   const [classes, setClasses] = useState([]);
   const [races, setRaces] = useState([]);
@@ -151,11 +152,6 @@ const DemoMultistep = () => {
         history.push("/characters");
       });
   };
-
-  // const pseudoEnter = jQuery.Event("keypress");
-  // pseudoEnter.which = 13; //choose the one you want
-  // pseudoEnter.keyCode = 13;
-  // $("#theInputToTest").trigger(pseudoEnter);
 
   const computeStat = () => {
     const val1 = Math.floor(Math.random() * (6 - 1 + 1) + 1);
@@ -343,13 +339,23 @@ const DemoMultistep = () => {
       )}
 
       {step === 2 && (
-        <ClassSelection />
+        <ClassSelection changeableClass={characterClass} action={setCharacterClass} step={step} setStep={setStep}/>
       )}
       {step === 3 && (
-        <RaceSelection />
+        <RaceSelection changeableRace={race} action={setRace} step={step} setStep={setStep}/>
+        
       )}
       {step === 4 && (
-        <BackgroundSelection />
+        <BackgroundSelection changeableBackground={background} action={setBackground} step={step} setStep={setStep} handleCreate={handleCreate}/>
+      )}
+      {step === 5 && (
+        <Button
+        onClick={(e) => {
+            handleCreate(e);
+        }}
+      >
+        Create Character!
+      </Button>
       )}
 
       {step !== 1 && (
@@ -361,7 +367,7 @@ const DemoMultistep = () => {
           Previous
         </Button>
       )}
-      {step !== 4 && (
+      {step < 4 && (
         <Button
           onClick={(e) => {
             setStep(step + 1);
@@ -374,4 +380,4 @@ const DemoMultistep = () => {
   );
 };
 
-export default DemoMultistep;
+export default DemoMultistepTest;
