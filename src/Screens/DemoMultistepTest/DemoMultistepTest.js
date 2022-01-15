@@ -23,6 +23,8 @@ import ClassPreviewCard from "../../Components/ClassPreviewCard/ClassPreviewCard
 import RaceSelection from "../RaceSelection/RaceSelection";
 import BackgroundSelection from "../BackgroundSelection/BackgroundSelection";
 import MyCharacters from "../MyCharacters/MyCharacters";
+import ChooseName from "../../Components/ChooseAName/ChooseName";
+import ChooseImage from "../../Components/ChooseImage/ChooseImage";
 
 const DemoMultistepTest = () => {
   const history = useHistory();
@@ -34,6 +36,7 @@ const DemoMultistepTest = () => {
   const [characterClass, setCharacterClass] = useState();
   const [race, setRace] = useState();
   const [background, setBackground] = useState();
+  const [image, setImage] = useState();
   const [isPending, setIsPending] = useState(false);
   const [text1, setText1] = useState("Roll");
   const [text2, setText2] = useState("Roll");
@@ -121,6 +124,7 @@ const DemoMultistepTest = () => {
     const character = {
       userID,
       name,
+      image,
       level,
       proficiencyBonus,
       baseStats,
@@ -346,9 +350,15 @@ const DemoMultistepTest = () => {
         
       )}
       {step === 4 && (
-        <BackgroundSelection changeableBackground={background} action={setBackground} step={step} setStep={setStep} handleCreate={handleCreate}/>
+        <BackgroundSelection changeableBackground={background} action={setBackground} step={step} setStep={setStep} />
       )}
       {step === 5 && (
+        <ChooseName changeableName={name} action={setName} step={step} setStep={setStep} />
+      )}
+      {step === 6 && (
+        <ChooseImage changeableName={image} action={setImage} step={step} setStep={setStep} />
+      )}
+      {step === 7 && (
         <Button
         onClick={(e) => {
             handleCreate(e);
