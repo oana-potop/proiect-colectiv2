@@ -7,7 +7,7 @@ import Paper from "@material-ui/core/Paper";
 import { useHistory } from "react-router-dom";
 import { Button, Typography } from "@material-ui/core";
 
-const BackgroundSelection = () => {
+const BackgroundSelection = ({changeableBackground, action, step, setStep}) => {
   const dispatch = useDispatch();
   const history = useHistory();
   const char1 = useSelector((state) => state.characterList[0]);
@@ -49,7 +49,7 @@ const BackgroundSelection = () => {
         <Grid container spacing={3}>
           {backgrounds.map((element) => (
             <Grid item key={element.name} xs={12}>
-              <BackgroundPreviewCard characterBackground={element} />
+              <BackgroundPreviewCard characterBackground={element} changeableBackground={changeableBackground} action={action} step={step} setStep={setStep}/>
             </Grid>
           ))}
         </Grid>
