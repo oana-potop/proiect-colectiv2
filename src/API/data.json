@@ -8058,6 +8058,987 @@
       "passiveWisdom": 10,
       "jackOfAllTrades": false,
       "id": 50
+    },
+    {
+      "userID": "UrcA0aszYbfF42MNJClnEEFEOk43",
+      "name": ":>",
+      "level": "1",
+      "proficiencyBonus": 3,
+      "baseStats": [
+        {
+          "type": "Strength",
+          "value": "1",
+          "modifier": 1
+        },
+        {
+          "type": "Dexterity",
+          "value": "1",
+          "modifier": 1
+        },
+        {
+          "type": "Constitution",
+          "value": "1",
+          "modifier": 1
+        },
+        {
+          "type": "Intelligence",
+          "value": "1",
+          "modifier": 1
+        },
+        {
+          "type": "Wisdom",
+          "value": "1",
+          "modifier": 1
+        },
+        {
+          "type": "Charisma",
+          "value": "1",
+          "modifier": 1
+        }
+      ],
+      "characterClass": {
+        "id": 1,
+        "name": "Barbarian",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 12
+        },
+        "primaryAbility": [
+          "Strength"
+        ],
+        "skillProficiencies": [
+          "Animal Handling",
+          "Athletics",
+          "Intimidation",
+          "Nature",
+          "Perception",
+          "Survival"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Strength",
+          "Constitution"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/barbarian-png.80072/",
+        "castingPotential": "No"
+      },
+      "race": {
+        "id": 2,
+        "name": "Human",
+        "increasedStats": [
+          {
+            "stat": "Strength",
+            "value": 1
+          },
+          {
+            "stat": "Dexterity",
+            "value": 1
+          },
+          {
+            "stat": "Constitution",
+            "value": 1
+          },
+          {
+            "stat": "Intelligence",
+            "value": 1
+          },
+          {
+            "stat": "Wisdom",
+            "value": 1
+          },
+          {
+            "stat": "Charisma",
+            "value": 1
+          }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "darkvision": 0,
+        "languages": [
+          "Common"
+        ]
+      },
+      "background": {
+        "name": "Criminal",
+        "skillProficiencies": [
+          "Deception",
+          "Stealth"
+        ],
+        "languages": 0,
+        "toolProficiencies": [
+          "Thieves' Tools"
+        ],
+        "items": [
+          {
+            "name": "Crowbar"
+          },
+          {
+            "name": "A set of dark common clothes, including a hood"
+          }
+        ],
+        "gamingProficiencies": 1,
+        "money": {
+          "gold": 15
+        },
+        "feat": {
+          "name": "Criminal Contact",
+          "description": "Lorem ipsum"
+        }
+      },
+      "savingThrows": [
+        {
+          "type": "Charisma",
+          "value": 1
+        }
+      ],
+      "skillProficiencies": [
+        "Intimidation",
+        "Athletics",
+        "Deception",
+        "Stealth"
+      ],
+      "ac": 10,
+      "initiative": 1,
+      "speed": 30,
+      "hp": 12,
+      "hitDie": {
+        "minValue": 1,
+        "maxValue": 12
+      },
+      "passiveWisdom": 10,
+      "jackOfAllTrades": false,
+      "id": 51
+    },
+    {
+      "userID": "UrcA0aszYbfF42MNJClnEEFEOk43",
+      "name": "",
+      "level": "1",
+      "proficiencyBonus": 2,
+      "baseStats": [
+        {
+          "type": "Strength",
+          "value": "21",
+          "modifier": 10
+        },
+        {
+          "type": "Dexterity",
+          "value": "21",
+          "modifier": 10
+        },
+        {
+          "type": "Constitution",
+          "value": "21",
+          "modifier": 10
+        },
+        {
+          "type": "Intelligence",
+          "value": "21",
+          "modifier": 10
+        },
+        {
+          "type": "Wisdom",
+          "value": "21",
+          "modifier": 10
+        },
+        {
+          "type": "Charisma",
+          "value": "21",
+          "modifier": 10
+        }
+      ],
+      "characterClass": {
+        "id": 2,
+        "name": "Bard",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "primaryAbility": [
+          "Charisma"
+        ],
+        "skillProficiencies": [
+          "Acrobatics",
+          "Animal Handling",
+          "Arcana",
+          "Athletics",
+          "Deception",
+          "History",
+          "Insight",
+          "Intimidation",
+          "Investigation",
+          "Medicine",
+          "Nature",
+          "Perception",
+          "Performance",
+          "Persuasion",
+          "Religion",
+          "Sleight of Hand",
+          "Stealth",
+          "Survival"
+        ],
+        "skillNumber": 3,
+        "savingThrows": [
+          "Dexterity",
+          "Charisma"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/bard-png.80073/",
+        "castingPotential": "Full Caster"
+      },
+      "race": {
+        "id": 2,
+        "name": "Human",
+        "increasedStats": [
+          {
+            "stat": "Strength",
+            "value": 1
+          },
+          {
+            "stat": "Dexterity",
+            "value": 1
+          },
+          {
+            "stat": "Constitution",
+            "value": 1
+          },
+          {
+            "stat": "Intelligence",
+            "value": 1
+          },
+          {
+            "stat": "Wisdom",
+            "value": 1
+          },
+          {
+            "stat": "Charisma",
+            "value": 1
+          }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "darkvision": 0,
+        "languages": [
+          "Common"
+        ]
+      },
+      "background": {
+        "name": "Acolyte",
+        "skillProficiencies": [
+          "Insight",
+          "Religion"
+        ],
+        "languages": 2,
+        "toolProficiencies": [],
+        "items": [
+          {
+            "name": "Holy Symbol"
+          },
+          {
+            "name": "Prayer Book"
+          },
+          {
+            "name": "Five sticks of incense"
+          },
+          {
+            "name": "Vestments"
+          },
+          {
+            "name": "A set of common clothes"
+          }
+        ],
+        "money": {
+          "gold": 15
+        },
+        "feat": {
+          "name": "Shelter of the Faithful",
+          "description": "Lorem ipsum"
+        }
+      },
+      "savingThrows": [
+        {
+          "type": "Charisma",
+          "value": 1
+        }
+      ],
+      "skillProficiencies": [],
+      "ac": 10,
+      "initiative": 10,
+      "speed": 30,
+      "hp": 8,
+      "hitDie": {
+        "minValue": 1,
+        "maxValue": 8
+      },
+      "passiveWisdom": 10,
+      "jackOfAllTrades": false,
+      "id": 52
+    },
+    {
+      "userID": "UrcA0aszYbfF42MNJClnEEFEOk43",
+      "name": "penis",
+      "level": "1",
+      "proficiencyBonus": 2,
+      "baseStats": [
+        {
+          "type": "Strength",
+          "value": 5,
+          "modifier": 2
+        },
+        {
+          "type": "Dexterity",
+          "value": 5,
+          "modifier": 2
+        },
+        {
+          "type": "Constitution",
+          "value": 5,
+          "modifier": 2
+        },
+        {
+          "type": "Intelligence",
+          "value": 5,
+          "modifier": 2
+        },
+        {
+          "type": "Wisdom",
+          "value": 5,
+          "modifier": 2
+        },
+        {
+          "type": "Charisma",
+          "value": 5,
+          "modifier": 2
+        }
+      ],
+      "characterClass": {
+        "id": 2,
+        "name": "Bard",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "primaryAbility": [
+          "Charisma"
+        ],
+        "skillProficiencies": [
+          "Acrobatics",
+          "Animal Handling",
+          "Arcana",
+          "Athletics",
+          "Deception",
+          "History",
+          "Insight",
+          "Intimidation",
+          "Investigation",
+          "Medicine",
+          "Nature",
+          "Perception",
+          "Performance",
+          "Persuasion",
+          "Religion",
+          "Sleight of Hand",
+          "Stealth",
+          "Survival"
+        ],
+        "skillNumber": 3,
+        "savingThrows": [
+          "Dexterity",
+          "Charisma"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/bard-png.80073/",
+        "castingPotential": "Full Caster"
+      },
+      "race": {
+        "id": 2,
+        "name": "Human",
+        "increasedStats": [
+          {
+            "stat": "Strength",
+            "value": 1
+          },
+          {
+            "stat": "Dexterity",
+            "value": 1
+          },
+          {
+            "stat": "Constitution",
+            "value": 1
+          },
+          {
+            "stat": "Intelligence",
+            "value": 1
+          },
+          {
+            "stat": "Wisdom",
+            "value": 1
+          },
+          {
+            "stat": "Charisma",
+            "value": 1
+          }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "darkvision": 0,
+        "languages": [
+          "Common"
+        ]
+      },
+      "background": {
+        "name": "Criminal",
+        "skillProficiencies": [
+          "Deception",
+          "Stealth"
+        ],
+        "languages": 0,
+        "toolProficiencies": [
+          "Thieves' Tools"
+        ],
+        "items": [
+          {
+            "name": "Crowbar"
+          },
+          {
+            "name": "A set of dark common clothes, including a hood"
+          }
+        ],
+        "gamingProficiencies": 1,
+        "money": {
+          "gold": 15
+        },
+        "feat": {
+          "name": "Criminal Contact",
+          "description": "Lorem ipsum"
+        }
+      },
+      "savingThrows": [
+        {
+          "type": "Charisma",
+          "value": 1
+        }
+      ],
+      "skillProficiencies": [
+        "Animal Handling",
+        "Athletics",
+        "Intimidation",
+        "Deception",
+        "Stealth"
+      ],
+      "ac": 10,
+      "initiative": 2,
+      "speed": 30,
+      "hp": 8,
+      "hitDie": {
+        "minValue": 1,
+        "maxValue": 8
+      },
+      "passiveWisdom": 10,
+      "jackOfAllTrades": false,
+      "id": 53
+    },
+    {
+      "userID": "UrcA0aszYbfF42MNJClnEEFEOk43",
+      "name": "teifaseasdsa",
+      "level": "1",
+      "proficiencyBonus": 2,
+      "baseStats": [
+        {
+          "type": "Strength",
+          "value": 3,
+          "modifier": 1
+        },
+        {
+          "type": "Dexterity",
+          "value": 3,
+          "modifier": 1
+        },
+        {
+          "type": "Constitution",
+          "value": 3,
+          "modifier": 1
+        },
+        {
+          "type": "Intelligence",
+          "value": 4,
+          "modifier": 2
+        },
+        {
+          "type": "Wisdom",
+          "value": 3,
+          "modifier": 1
+        },
+        {
+          "type": "Charisma",
+          "value": 5,
+          "modifier": 2
+        }
+      ],
+      "characterClass": {
+        "id": 2,
+        "name": "Bard",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "primaryAbility": [
+          "Charisma"
+        ],
+        "skillProficiencies": [
+          "Acrobatics",
+          "Animal Handling",
+          "Arcana",
+          "Athletics",
+          "Deception",
+          "History",
+          "Insight",
+          "Intimidation",
+          "Investigation",
+          "Medicine",
+          "Nature",
+          "Perception",
+          "Performance",
+          "Persuasion",
+          "Religion",
+          "Sleight of Hand",
+          "Stealth",
+          "Survival"
+        ],
+        "skillNumber": 3,
+        "savingThrows": [
+          "Dexterity",
+          "Charisma"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/bard-png.80073/",
+        "castingPotential": "Full Caster"
+      },
+      "race": {
+        "id": 3,
+        "name": "Tiefling",
+        "increasedStats": [
+          {
+            "stat": "Intelligence",
+            "value": 1
+          },
+          {
+            "stat": "Charisma",
+            "value": 2
+          }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "darkvision": 60,
+        "extraFeats": [
+          {
+            "name": "Hellish Resistance",
+            "description": "svdfvdf"
+          },
+          {
+            "name": "Infernal Legacy",
+            "description": "vdfbvfdlansckdff"
+          }
+        ],
+        "damageReistance": [
+          "Fire"
+        ],
+        "spells": [
+          "Thaumaturgy",
+          "Hellish Rebuke",
+          "Darkness"
+        ],
+        "languages": [
+          "Common",
+          "Infernal"
+        ]
+      },
+      "background": {
+        "name": "Guild Artisan",
+        "skillProficiencies": [
+          "Insight",
+          "Persuasion"
+        ],
+        "languages": 1,
+        "toolProficiencies": [
+          "Artisan's Tools"
+        ],
+        "items": [
+          {
+            "name": "A set of Artisan's Tools"
+          },
+          {
+            "name": "A letter of introduction from your guild"
+          },
+          {
+            "name": "A set of traveler's clothes"
+          }
+        ],
+        "money": {
+          "gold": 15
+        },
+        "feat": {
+          "name": "Guild Membership",
+          "description": "Lorem ipsum"
+        }
+      },
+      "savingThrows": [
+        {
+          "type": "Charisma",
+          "value": 1
+        }
+      ],
+      "skillProficiencies": [
+        "Arcana",
+        "Athletics",
+        "History",
+        "Insight",
+        "Persuasion"
+      ],
+      "ac": 10,
+      "initiative": 1,
+      "speed": 30,
+      "hp": 8,
+      "hitDie": {
+        "minValue": 1,
+        "maxValue": 8
+      },
+      "passiveWisdom": 10,
+      "jackOfAllTrades": false,
+      "id": 54
+    },
+    {
+      "userID": "UrcA0aszYbfF42MNJClnEEFEOk43",
+      "name": "dragon eboi",
+      "level": "1",
+      "proficiencyBonus": 2,
+      "baseStats": [
+        {
+          "type": "Strength",
+          "value": 8,
+          "modifier": -1
+        },
+        {
+          "type": "Dexterity",
+          "value": 13,
+          "modifier": 1
+        },
+        {
+          "type": "Constitution",
+          "value": 16,
+          "modifier": 3
+        },
+        {
+          "type": "Intelligence",
+          "value": 11,
+          "modifier": 0
+        },
+        {
+          "type": "Wisdom",
+          "value": 7,
+          "modifier": -2
+        },
+        {
+          "type": "Charisma",
+          "value": 20,
+          "modifier": 5
+        }
+      ],
+      "characterClass": {
+        "id": 1,
+        "name": "Barbarian",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 12
+        },
+        "primaryAbility": [
+          "Strength"
+        ],
+        "skillProficiencies": [
+          "Animal Handling",
+          "Athletics",
+          "Intimidation",
+          "Nature",
+          "Perception",
+          "Survival"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Strength",
+          "Constitution"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/barbarian-png.80072/",
+        "castingPotential": "No"
+      },
+      "race": {
+        "id": 6,
+        "name": "Dragonborn",
+        "increasedStats": [
+          {
+            "stat": "Strength",
+            "value": 2
+          },
+          {
+            "stat": "Charisma",
+            "value": 1
+          }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "darkvision": 0,
+        "extraFeats": [
+          {
+            "name": "Draconic Ancestry",
+            "description": "vdfvdfvdfvndfknvdf"
+          },
+          {
+            "name": "Breath Weapon",
+            "description": "vdfvdfvfdvdfvscsd"
+          },
+          {
+            "name": "Damage Resistance",
+            "description": "vdfvdfvfdvdfvscsd"
+          }
+        ],
+        "languages": [
+          "Common",
+          "Draconic"
+        ]
+      },
+      "background": {
+        "name": "Noble",
+        "skillProficiencies": [
+          "History",
+          "Persuasion"
+        ],
+        "languages": 1,
+        "items": [
+          {
+            "name": "A secret ring"
+          },
+          {
+            "name": "A scroll of pedigree"
+          },
+          {
+            "name": "A set of fine clothes"
+          }
+        ],
+        "gamingProficiencies": 1,
+        "money": {
+          "gold": 25
+        },
+        "feat": {
+          "name": "Position of privilege",
+          "description": "Lorem ipsum"
+        }
+      },
+      "savingThrows": [
+        {
+          "type": "Charisma",
+          "value": 1
+        }
+      ],
+      "skillProficiencies": [
+        "Athletics",
+        "Nature",
+        "History",
+        "Persuasion"
+      ],
+      "ac": 10,
+      "initiative": 1,
+      "speed": 30,
+      "hp": 12,
+      "hitDie": {
+        "minValue": 1,
+        "maxValue": 12
+      },
+      "passiveWisdom": 10,
+      "jackOfAllTrades": false,
+      "id": 55
+    },
+    {
+      "userID": "UrcA0aszYbfF42MNJClnEEFEOk43",
+      "name": "stt",
+      "level": "1",
+      "proficiencyBonus": 2,
+      "baseStats": [
+        {
+          "type": "Strength",
+          "value": 11,
+          "modifier": 0
+        },
+        {
+          "type": "Dexterity",
+          "value": 11,
+          "modifier": 0
+        },
+        {
+          "type": "Constitution",
+          "value": 11,
+          "modifier": 0
+        },
+        {
+          "type": "Intelligence",
+          "value": 11,
+          "modifier": 0
+        },
+        {
+          "type": "Wisdom",
+          "value": 11,
+          "modifier": 0
+        },
+        {
+          "type": "Charisma",
+          "value": 11,
+          "modifier": 0
+        }
+      ],
+      "characterClass": {
+        "id": 1,
+        "name": "Barbarian",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 12
+        },
+        "primaryAbility": [
+          "Strength"
+        ],
+        "skillProficiencies": [
+          "Animal Handling",
+          "Athletics",
+          "Intimidation",
+          "Nature",
+          "Perception",
+          "Survival"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Strength",
+          "Constitution"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/barbarian-png.80072/",
+        "castingPotential": "No"
+      },
+      "race": {
+        "id": 2,
+        "name": "Human",
+        "increasedStats": [
+          {
+            "stat": "Strength",
+            "value": 1
+          },
+          {
+            "stat": "Dexterity",
+            "value": 1
+          },
+          {
+            "stat": "Constitution",
+            "value": 1
+          },
+          {
+            "stat": "Intelligence",
+            "value": 1
+          },
+          {
+            "stat": "Wisdom",
+            "value": 1
+          },
+          {
+            "stat": "Charisma",
+            "value": 1
+          }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "darkvision": 0,
+        "languages": [
+          "Common"
+        ]
+      },
+      "background": {
+        "name": "Criminal",
+        "skillProficiencies": [
+          "Deception",
+          "Stealth"
+        ],
+        "languages": 0,
+        "toolProficiencies": [
+          "Thieves' Tools"
+        ],
+        "items": [
+          {
+            "name": "Crowbar"
+          },
+          {
+            "name": "A set of dark common clothes, including a hood"
+          }
+        ],
+        "gamingProficiencies": 1,
+        "money": {
+          "gold": 15
+        },
+        "feat": {
+          "name": "Criminal Contact",
+          "description": "Lorem ipsum"
+        }
+      },
+      "savingThrows": [
+        {
+          "type": "Strength",
+          "value": 2
+        },
+        {
+          "type": "Dexterity",
+          "value": 0
+        },
+        {
+          "type": "Constitution",
+          "value": 2
+        },
+        {
+          "type": "Intelligence",
+          "value": 0
+        },
+        {
+          "type": "Wisdom",
+          "value": 0
+        },
+        {
+          "type": "Charisma",
+          "value": 0
+        }
+      ],
+      "skillProficiencies": [
+        "Perception",
+        "Nature",
+        "Deception",
+        "Stealth"
+      ],
+      "ac": 10,
+      "initiative": 0,
+      "speed": 30,
+      "hp": 12,
+      "hitDie": {
+        "minValue": 1,
+        "maxValue": 12
+      },
+      "passiveWisdom": 10,
+      "jackOfAllTrades": false,
+      "id": 56
     }
   ]
 }
