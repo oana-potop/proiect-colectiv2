@@ -24,6 +24,7 @@ import BackgroundSelection from "./Screens/BackgroundSelection/BackgroundSelecti
 import SubraceSelection from "./Screens/SubraceSelection/SubraceSelection";
 import DemoMultistep from "./Screens/DemoMultistep/DemoMultistep";
 import DemoMultistepTest from "./Screens/DemoMultistepTest/DemoMultistepTest";
+import CharacterOverview from "./Components/CharacterOverview/CharacterOverview";
 
 const App = () => {
 
@@ -57,6 +58,9 @@ const App = () => {
               </Route>
               <Route exact path="/char-creation">
                 <DemoMultistepTest />
+              </Route>
+              <Route exact path="/char-overview">
+                <CharacterOverview />
               </Route>
             </Switch>
           </div>
