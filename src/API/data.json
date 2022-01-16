@@ -3801,1543 +3801,6 @@
       "id": 16
     },
     {
-      "userID": "A5u56KGNqle266AaxXe1iimD9Lt2",
-      "name": " fgvbfgb",
-      "level": "1",
-      "proficiencyBonus": 3,
-      "baseStats": [
-        {
-          "type": "Strength",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Dexterity",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Constitution",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Intelligence",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Wisdom",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Charisma",
-          "value": 1,
-          "modifier": 1
-        }
-      ],
-      "characterClass": {
-        "id": 1,
-        "name": "Barbarian",
-        "hitDie": {
-          "minValue": 1,
-          "maxValue": 12
-        },
-        "primaryAbility": [
-          "Strength"
-        ],
-        "skillProficiencies": [
-          "Animal Handling",
-          "Athletics",
-          "Intimidation",
-          "Nature",
-          "Perception",
-          "Survival"
-        ],
-        "skillNumber": 2,
-        "savingThrows": [
-          "Strength",
-          "Constitution"
-        ],
-        "armorProficiencies": [],
-        "weaponProficiencies": [],
-        "toolProficiencies": [],
-        "classImage": "https://www.enworld.org/attachments/barbarian-png.80072/",
-        "castingPotential": "No"
-      },
-      "race": {
-        "id": 1,
-        "name": "Dwarf",
-        "subraces": [
-          {
-            "id": 1,
-            "name": "Hill Dwarf",
-            "increasedStats": [
-              {
-                "stat": "Wisdom",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Dwarven Toughness",
-                "description": "Vdvdfvdfvdf"
-              }
-            ],
-            "hpBonus": 1
-          },
-          {
-            "id": 2,
-            "name": "Mountain Dwarf",
-            "increasedStats": [
-              {
-                "stat": "Strength",
-                "value": 2
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Dwarven Armor Training",
-                "description": "dfvkdfjnvdflkjnvd"
-              }
-            ],
-            "armorProficienies": [
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8
-            ]
-          }
-        ],
-        "increasedStats": [
-          {
-            "stat": "Constitution",
-            "value": 2
-          }
-        ],
-        "size": "Medium",
-        "speed": 25,
-        "darkvision": 60,
-        "extraFeats": [
-          {
-            "name": "Dwarven Resillience",
-            "description": "skdjnvdkfjvndf"
-          },
-          {
-            "name": "Dwarven Combat Training",
-            "description": "vdfvdfvdfvndfknvdf"
-          },
-          {
-            "name": "Stonecunning",
-            "description": "vdfvdfvfdvdfvscsd"
-          },
-          {
-            "name": "Dwarven Stronkness",
-            "description": "Your speed is not reduced by wearing heavy armor"
-          }
-        ],
-        "weaponProficiencies": [
-          4,
-          6,
-          15,
-          31
-        ],
-        "toolProficiencies": [
-          "Smith's Tools",
-          "Brewer's Supplies",
-          "Mason's Tools"
-        ],
-        "languages": [
-          "Common",
-          "Dwarvish"
-        ],
-        "damageReistance": [
-          "Poison"
-        ]
-      },
-      "background": {
-        "name": "Criminal",
-        "skillProficiencies": [
-          "Deception",
-          "Stealth"
-        ],
-        "languages": 0,
-        "toolProficiencies": [
-          "Thieves' Tools"
-        ],
-        "items": [
-          {
-            "name": "Crowbar"
-          },
-          {
-            "name": "A set of dark common clothes, including a hood"
-          }
-        ],
-        "gamingProficiencies": 1,
-        "money": {
-          "gold": 15
-        },
-        "feat": {
-          "name": "Criminal Contact",
-          "description": "Lorem ipsum"
-        }
-      },
-      "savingThrows": [
-        {
-          "type": "Charisma",
-          "value": 1
-        }
-      ],
-      "skills": [],
-      "ac": 10,
-      "initiative": 1,
-      "speed": 25,
-      "hp": 12,
-      "hitDie": {
-        "minValue": 1,
-        "maxValue": 12
-      },
-      "passiveWisdom": 10,
-      "jackOfAllTrades": false,
-      "id": 29
-    },
-    {
-      "userID": "A5u56KGNqle266AaxXe1iimD9Lt2",
-      "name": "vdvf",
-      "level": "1",
-      "proficiencyBonus": 3,
-      "baseStats": [
-        {
-          "type": "Strength",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Dexterity",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Constitution",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Intelligence",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Wisdom",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Charisma",
-          "value": 1,
-          "modifier": 1
-        }
-      ],
-      "characterClass": {
-        "id": 4,
-        "name": "Druid",
-        "hitDie": {
-          "minValue": 1,
-          "maxValue": 8
-        },
-        "primaryAbility": [
-          "Wisdom"
-        ],
-        "skillProficiencies": [
-          "Arcana",
-          "Animal Handling",
-          "Insight",
-          "Medicine",
-          "Nature",
-          "Perception",
-          "Religion",
-          "Survival"
-        ],
-        "skillNumber": 2,
-        "savingThrows": [
-          "Intelligence",
-          "Wisdom"
-        ],
-        "armorProficiencies": [],
-        "weaponProficiencies": [],
-        "toolProficiencies": [],
-        "classImage": "https://www.enworld.org/attachments/druid-png.80075/",
-        "castingPotential": "Full Caster"
-      },
-      "race": {
-        "id": 4,
-        "name": "Elf",
-        "subraces": [
-          {
-            "id": 1,
-            "name": "High Elf",
-            "increasedStats": [
-              {
-                "stat": "Intelligence",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Elf Weapon Training",
-                "description": "Vdvdfvdfvdf"
-              },
-              {
-                "name": "Cantrip",
-                "description": "dkufhvhfkbfgkbfg"
-              },
-              {
-                "name": "Extra language",
-                "description": "kdfvhkfdhvhfd"
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "name": "Wood Elf",
-            "increasedStats": [
-              {
-                "stat": "Wisdom",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Elf Weapon Training",
-                "description": "dfvkdfjnvdflkjnvd"
-              },
-              {
-                "name": "Fleet of Foot",
-                "description": "dkfvkfdbnkgbng"
-              },
-              {
-                "name": "Mask of the wild",
-                "description": "dkvnfkvnfkdvnfd"
-              }
-            ]
-          },
-          {
-            "id": 3,
-            "name": "Dark Elf (Drow)",
-            "increasedStats": [
-              {
-                "stat": "Charisma",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Superior Darkvision",
-                "description": "dkfnbfkbnfgkbngfbf"
-              },
-              {
-                "name": "Sunlight Sensitivity",
-                "description": "dfbfgbngfng"
-              },
-              {
-                "name": "Drow Weapon Training",
-                "description": "fgbfgbgf"
-              }
-            ],
-            "spells": [
-              "Darkness",
-              "Dancing Lights",
-              "Faerie Fire"
-            ]
-          }
-        ],
-        "increasedStats": [
-          {
-            "stat": "Dexterity",
-            "value": 2
-          }
-        ],
-        "size": "Medium",
-        "speed": 30,
-        "darkvision": 60,
-        "extraFeats": [
-          {
-            "name": "Fey Ancestry",
-            "description": "vdfvdfvdfvndfknvdf"
-          },
-          {
-            "name": "Trance",
-            "description": "vdfvdfvfdvdfvscsd"
-          }
-        ],
-        "skillProficiencies": [
-          "Perception"
-        ],
-        "languages": [
-          "Common",
-          "Elvish"
-        ]
-      },
-      "background": {
-        "name": "Outlander",
-        "skillProficiencies": [
-          "Athletics",
-          "Survival"
-        ],
-        "languages": 1,
-        "items": [
-          {
-            "name": "Staff"
-          },
-          {
-            "name": "Hunting trap"
-          },
-          {
-            "name": "A set of traveler's clothes"
-          },
-          {
-            "name": "A trophy from an animal you killed"
-          }
-        ],
-        "musicalInstruments": 1,
-        "money": {
-          "gold": 10
-        },
-        "feat": {
-          "name": "Wanderer",
-          "description": "Lorem ipsum"
-        }
-      },
-      "savingThrows": [
-        {
-          "type": "Charisma",
-          "value": 1
-        }
-      ],
-      "skills": [],
-      "ac": 10,
-      "initiative": 1,
-      "speed": 30,
-      "hp": 8,
-      "hitDie": {
-        "minValue": 1,
-        "maxValue": 8
-      },
-      "passiveWisdom": 10,
-      "jackOfAllTrades": false,
-      "id": 31
-    },
-    {
-      "userID": "A5u56KGNqle266AaxXe1iimD9Lt2",
-      "name": "vdgbgfdfxdvfvfdv",
-      "image": "https://image.stirileprotv.ro/media/images/800x450/May2017/61884123.jpg",
-      "level": "1",
-      "proficiencyBonus": 3,
-      "baseStats": [
-        {
-          "type": "Strength",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Dexterity",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Constitution",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Intelligence",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Wisdom",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Charisma",
-          "value": 1,
-          "modifier": 1
-        }
-      ],
-      "characterClass": {
-        "id": 1,
-        "name": "Barbarian",
-        "hitDie": {
-          "minValue": 1,
-          "maxValue": 12
-        },
-        "primaryAbility": [
-          "Strength"
-        ],
-        "skillProficiencies": [
-          "Animal Handling",
-          "Athletics",
-          "Intimidation",
-          "Nature",
-          "Perception",
-          "Survival"
-        ],
-        "skillNumber": 2,
-        "savingThrows": [
-          "Strength",
-          "Constitution"
-        ],
-        "armorProficiencies": [],
-        "weaponProficiencies": [],
-        "toolProficiencies": [],
-        "classImage": "https://www.enworld.org/attachments/barbarian-png.80072/",
-        "castingPotential": "No"
-      },
-      "race": {
-        "id": 1,
-        "name": "Dwarf",
-        "subraces": [
-          {
-            "id": 1,
-            "name": "Hill Dwarf",
-            "increasedStats": [
-              {
-                "stat": "Wisdom",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Dwarven Toughness",
-                "description": "Vdvdfvdfvdf"
-              }
-            ],
-            "hpBonus": 1
-          },
-          {
-            "id": 2,
-            "name": "Mountain Dwarf",
-            "increasedStats": [
-              {
-                "stat": "Strength",
-                "value": 2
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Dwarven Armor Training",
-                "description": "dfvkdfjnvdflkjnvd"
-              }
-            ],
-            "armorProficienies": [
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8
-            ]
-          }
-        ],
-        "increasedStats": [
-          {
-            "stat": "Constitution",
-            "value": 2
-          }
-        ],
-        "size": "Medium",
-        "speed": 25,
-        "darkvision": 60,
-        "extraFeats": [
-          {
-            "name": "Dwarven Resillience",
-            "description": "skdjnvdkfjvndf"
-          },
-          {
-            "name": "Dwarven Combat Training",
-            "description": "vdfvdfvdfvndfknvdf"
-          },
-          {
-            "name": "Stonecunning",
-            "description": "vdfvdfvfdvdfvscsd"
-          },
-          {
-            "name": "Dwarven Stronkness",
-            "description": "Your speed is not reduced by wearing heavy armor"
-          }
-        ],
-        "weaponProficiencies": [
-          4,
-          6,
-          15,
-          31
-        ],
-        "toolProficiencies": [
-          "Smith's Tools",
-          "Brewer's Supplies",
-          "Mason's Tools"
-        ],
-        "languages": [
-          "Common",
-          "Dwarvish"
-        ],
-        "damageReistance": [
-          "Poison"
-        ]
-      },
-      "background": {
-        "name": "Entertainer",
-        "skillProficiencies": [
-          "Acrobatics",
-          "Performance"
-        ],
-        "languages": 0,
-        "toolProficiencies": [
-          "Disguise Kit"
-        ],
-        "items": [
-          {
-            "name": "A musical instrument"
-          },
-          {
-            "name": "The favour of an admirer"
-          },
-          {
-            "name": "A costumes"
-          }
-        ],
-        "musicalInstruments": 1,
-        "money": {
-          "gold": 15
-        },
-        "feat": {
-          "name": "By popular demand",
-          "description": "Lorem ipsum"
-        }
-      },
-      "savingThrows": [
-        {
-          "type": "Charisma",
-          "value": 1
-        }
-      ],
-      "skills": [],
-      "ac": 10,
-      "initiative": 1,
-      "speed": 25,
-      "hp": 12,
-      "hitDie": {
-        "minValue": 1,
-        "maxValue": 12
-      },
-      "passiveWisdom": 10,
-      "jackOfAllTrades": false,
-      "id": 32
-    },
-    {
-      "userID": "A5u56KGNqle266AaxXe1iimD9Lt2",
-      "name": "bfgbr",
-      "image": "https://image.stirileprotv.ro/media/images/800x450/May2017/61884123.jpg",
-      "level": "1",
-      "proficiencyBonus": 3,
-      "baseStats": [
-        {
-          "type": "Strength",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Dexterity",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Constitution",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Intelligence",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Wisdom",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Charisma",
-          "value": 1,
-          "modifier": 1
-        }
-      ],
-      "characterClass": {
-        "id": 4,
-        "name": "Druid",
-        "hitDie": {
-          "minValue": 1,
-          "maxValue": 8
-        },
-        "primaryAbility": [
-          "Wisdom"
-        ],
-        "skillProficiencies": [
-          "Arcana",
-          "Animal Handling",
-          "Insight",
-          "Medicine",
-          "Nature",
-          "Perception",
-          "Religion",
-          "Survival"
-        ],
-        "skillNumber": 2,
-        "savingThrows": [
-          "Intelligence",
-          "Wisdom"
-        ],
-        "armorProficiencies": [],
-        "weaponProficiencies": [],
-        "toolProficiencies": [],
-        "classImage": "https://www.enworld.org/attachments/druid-png.80075/",
-        "castingPotential": "Full Caster"
-      },
-      "race": {
-        "id": 4,
-        "name": "Elf",
-        "subraces": [
-          {
-            "id": 1,
-            "name": "High Elf",
-            "increasedStats": [
-              {
-                "stat": "Intelligence",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Elf Weapon Training",
-                "description": "Vdvdfvdfvdf"
-              },
-              {
-                "name": "Cantrip",
-                "description": "dkufhvhfkbfgkbfg"
-              },
-              {
-                "name": "Extra language",
-                "description": "kdfvhkfdhvhfd"
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "name": "Wood Elf",
-            "increasedStats": [
-              {
-                "stat": "Wisdom",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Elf Weapon Training",
-                "description": "dfvkdfjnvdflkjnvd"
-              },
-              {
-                "name": "Fleet of Foot",
-                "description": "dkfvkfdbnkgbng"
-              },
-              {
-                "name": "Mask of the wild",
-                "description": "dkvnfkvnfkdvnfd"
-              }
-            ]
-          },
-          {
-            "id": 3,
-            "name": "Dark Elf (Drow)",
-            "increasedStats": [
-              {
-                "stat": "Charisma",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Superior Darkvision",
-                "description": "dkfnbfkbnfgkbngfbf"
-              },
-              {
-                "name": "Sunlight Sensitivity",
-                "description": "dfbfgbngfng"
-              },
-              {
-                "name": "Drow Weapon Training",
-                "description": "fgbfgbgf"
-              }
-            ],
-            "spells": [
-              "Darkness",
-              "Dancing Lights",
-              "Faerie Fire"
-            ]
-          }
-        ],
-        "increasedStats": [
-          {
-            "stat": "Dexterity",
-            "value": 2
-          }
-        ],
-        "size": "Medium",
-        "speed": 30,
-        "darkvision": 60,
-        "extraFeats": [
-          {
-            "name": "Fey Ancestry",
-            "description": "vdfvdfvdfvndfknvdf"
-          },
-          {
-            "name": "Trance",
-            "description": "vdfvdfvfdvdfvscsd"
-          }
-        ],
-        "skillProficiencies": [
-          "Perception"
-        ],
-        "languages": [
-          "Common",
-          "Elvish"
-        ]
-      },
-      "background": {
-        "name": "Noble",
-        "skillProficiencies": [
-          "History",
-          "Persuasion"
-        ],
-        "languages": 1,
-        "items": [
-          {
-            "name": "A secret ring"
-          },
-          {
-            "name": "A scroll of pedigree"
-          },
-          {
-            "name": "A set of fine clothes"
-          }
-        ],
-        "gamingProficiencies": 1,
-        "money": {
-          "gold": 25
-        },
-        "feat": {
-          "name": "Position of privilege",
-          "description": "Lorem ipsum"
-        }
-      },
-      "savingThrows": [
-        {
-          "type": "Charisma",
-          "value": 1
-        }
-      ],
-      "skills": [],
-      "ac": 10,
-      "initiative": 1,
-      "speed": 30,
-      "hp": 8,
-      "hitDie": {
-        "minValue": 1,
-        "maxValue": 8
-      },
-      "passiveWisdom": 10,
-      "jackOfAllTrades": false,
-      "id": 33
-    },
-    {
-      "userID": "A5u56KGNqle266AaxXe1iimD9Lt2",
-      "name": "bgdbfgbgf",
-      "image": "https://image.stirileprotv.ro/media/images/800x450/May2017/61884123.jpg",
-      "level": "1",
-      "proficiencyBonus": 3,
-      "baseStats": [
-        {
-          "type": "Strength",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Dexterity",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Constitution",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Intelligence",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Wisdom",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Charisma",
-          "value": 1,
-          "modifier": 1
-        }
-      ],
-      "characterClass": {
-        "id": 4,
-        "name": "Druid",
-        "hitDie": {
-          "minValue": 1,
-          "maxValue": 8
-        },
-        "primaryAbility": [
-          "Wisdom"
-        ],
-        "skillProficiencies": [
-          "Arcana",
-          "Animal Handling",
-          "Insight",
-          "Medicine",
-          "Nature",
-          "Perception",
-          "Religion",
-          "Survival"
-        ],
-        "skillNumber": 2,
-        "savingThrows": [
-          "Intelligence",
-          "Wisdom"
-        ],
-        "armorProficiencies": [],
-        "weaponProficiencies": [],
-        "toolProficiencies": [],
-        "classImage": "https://www.enworld.org/attachments/druid-png.80075/",
-        "castingPotential": "Full Caster"
-      },
-      "race": {
-        "id": 4,
-        "name": "Elf",
-        "subraces": [
-          {
-            "id": 1,
-            "name": "High Elf",
-            "increasedStats": [
-              {
-                "stat": "Intelligence",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Elf Weapon Training",
-                "description": "Vdvdfvdfvdf"
-              },
-              {
-                "name": "Cantrip",
-                "description": "dkufhvhfkbfgkbfg"
-              },
-              {
-                "name": "Extra language",
-                "description": "kdfvhkfdhvhfd"
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "name": "Wood Elf",
-            "increasedStats": [
-              {
-                "stat": "Wisdom",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Elf Weapon Training",
-                "description": "dfvkdfjnvdflkjnvd"
-              },
-              {
-                "name": "Fleet of Foot",
-                "description": "dkfvkfdbnkgbng"
-              },
-              {
-                "name": "Mask of the wild",
-                "description": "dkvnfkvnfkdvnfd"
-              }
-            ]
-          },
-          {
-            "id": 3,
-            "name": "Dark Elf (Drow)",
-            "increasedStats": [
-              {
-                "stat": "Charisma",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Superior Darkvision",
-                "description": "dkfnbfkbnfgkbngfbf"
-              },
-              {
-                "name": "Sunlight Sensitivity",
-                "description": "dfbfgbngfng"
-              },
-              {
-                "name": "Drow Weapon Training",
-                "description": "fgbfgbgf"
-              }
-            ],
-            "spells": [
-              "Darkness",
-              "Dancing Lights",
-              "Faerie Fire"
-            ]
-          }
-        ],
-        "increasedStats": [
-          {
-            "stat": "Dexterity",
-            "value": 2
-          }
-        ],
-        "size": "Medium",
-        "speed": 30,
-        "darkvision": 60,
-        "extraFeats": [
-          {
-            "name": "Fey Ancestry",
-            "description": "vdfvdfvdfvndfknvdf"
-          },
-          {
-            "name": "Trance",
-            "description": "vdfvdfvfdvdfvscsd"
-          }
-        ],
-        "skillProficiencies": [
-          "Perception"
-        ],
-        "languages": [
-          "Common",
-          "Elvish"
-        ]
-      },
-      "background": {
-        "name": "Noble",
-        "skillProficiencies": [
-          "History",
-          "Persuasion"
-        ],
-        "languages": 1,
-        "items": [
-          {
-            "name": "A secret ring"
-          },
-          {
-            "name": "A scroll of pedigree"
-          },
-          {
-            "name": "A set of fine clothes"
-          }
-        ],
-        "gamingProficiencies": 1,
-        "money": {
-          "gold": 25
-        },
-        "feat": {
-          "name": "Position of privilege",
-          "description": "Lorem ipsum"
-        }
-      },
-      "savingThrows": [
-        {
-          "type": "Charisma",
-          "value": 1
-        }
-      ],
-      "skills": [],
-      "ac": 10,
-      "initiative": 1,
-      "speed": 30,
-      "hp": 8,
-      "hitDie": {
-        "minValue": 1,
-        "maxValue": 8
-      },
-      "passiveWisdom": 10,
-      "jackOfAllTrades": false,
-      "id": 34
-    },
-    {
-      "userID": "A5u56KGNqle266AaxXe1iimD9Lt2",
-      "name": "gfbfgbfgx fgbf",
-      "level": "1",
-      "proficiencyBonus": 3,
-      "baseStats": [
-        {
-          "type": "Strength",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Dexterity",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Constitution",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Intelligence",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Wisdom",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Charisma",
-          "value": 1,
-          "modifier": 1
-        }
-      ],
-      "characterClass": {
-        "id": 4,
-        "name": "Druid",
-        "hitDie": {
-          "minValue": 1,
-          "maxValue": 8
-        },
-        "primaryAbility": [
-          "Wisdom"
-        ],
-        "skillProficiencies": [
-          "Arcana",
-          "Animal Handling",
-          "Insight",
-          "Medicine",
-          "Nature",
-          "Perception",
-          "Religion",
-          "Survival"
-        ],
-        "skillNumber": 2,
-        "savingThrows": [
-          "Intelligence",
-          "Wisdom"
-        ],
-        "armorProficiencies": [],
-        "weaponProficiencies": [],
-        "toolProficiencies": [],
-        "classImage": "https://www.enworld.org/attachments/druid-png.80075/",
-        "castingPotential": "Full Caster"
-      },
-      "race": {
-        "id": 4,
-        "name": "Elf",
-        "subraces": [
-          {
-            "id": 1,
-            "name": "High Elf",
-            "increasedStats": [
-              {
-                "stat": "Intelligence",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Elf Weapon Training",
-                "description": "Vdvdfvdfvdf"
-              },
-              {
-                "name": "Cantrip",
-                "description": "dkufhvhfkbfgkbfg"
-              },
-              {
-                "name": "Extra language",
-                "description": "kdfvhkfdhvhfd"
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "name": "Wood Elf",
-            "increasedStats": [
-              {
-                "stat": "Wisdom",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Elf Weapon Training",
-                "description": "dfvkdfjnvdflkjnvd"
-              },
-              {
-                "name": "Fleet of Foot",
-                "description": "dkfvkfdbnkgbng"
-              },
-              {
-                "name": "Mask of the wild",
-                "description": "dkvnfkvnfkdvnfd"
-              }
-            ]
-          },
-          {
-            "id": 3,
-            "name": "Dark Elf (Drow)",
-            "increasedStats": [
-              {
-                "stat": "Charisma",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Superior Darkvision",
-                "description": "dkfnbfkbnfgkbngfbf"
-              },
-              {
-                "name": "Sunlight Sensitivity",
-                "description": "dfbfgbngfng"
-              },
-              {
-                "name": "Drow Weapon Training",
-                "description": "fgbfgbgf"
-              }
-            ],
-            "spells": [
-              "Darkness",
-              "Dancing Lights",
-              "Faerie Fire"
-            ]
-          }
-        ],
-        "increasedStats": [
-          {
-            "stat": "Dexterity",
-            "value": 2
-          }
-        ],
-        "size": "Medium",
-        "speed": 30,
-        "darkvision": 60,
-        "extraFeats": [
-          {
-            "name": "Fey Ancestry",
-            "description": "vdfvdfvdfvndfknvdf"
-          },
-          {
-            "name": "Trance",
-            "description": "vdfvdfvfdvdfvscsd"
-          }
-        ],
-        "skillProficiencies": [
-          "Perception"
-        ],
-        "languages": [
-          "Common",
-          "Elvish"
-        ]
-      },
-      "background": {
-        "name": "Noble",
-        "skillProficiencies": [
-          "History",
-          "Persuasion"
-        ],
-        "languages": 1,
-        "items": [
-          {
-            "name": "A secret ring"
-          },
-          {
-            "name": "A scroll of pedigree"
-          },
-          {
-            "name": "A set of fine clothes"
-          }
-        ],
-        "gamingProficiencies": 1,
-        "money": {
-          "gold": 25
-        },
-        "feat": {
-          "name": "Position of privilege",
-          "description": "Lorem ipsum"
-        }
-      },
-      "savingThrows": [
-        {
-          "type": "Charisma",
-          "value": 1
-        }
-      ],
-      "skills": [],
-      "ac": 10,
-      "initiative": 1,
-      "speed": 30,
-      "hp": 8,
-      "hitDie": {
-        "minValue": 1,
-        "maxValue": 8
-      },
-      "passiveWisdom": 10,
-      "jackOfAllTrades": false,
-      "id": 35
-    },
-    {
-      "userID": "A5u56KGNqle266AaxXe1iimD9Lt2",
-      "name": "szbdbfgbfgb",
-      "image": "https://image.stirileprotv.ro/media/images/800x450/May2017/61884123.jpg",
-      "level": "1",
-      "proficiencyBonus": 3,
-      "baseStats": [
-        {
-          "type": "Strength",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Dexterity",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Constitution",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Intelligence",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Wisdom",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Charisma",
-          "value": 1,
-          "modifier": 1
-        }
-      ],
-      "characterClass": {
-        "id": 4,
-        "name": "Druid",
-        "hitDie": {
-          "minValue": 1,
-          "maxValue": 8
-        },
-        "primaryAbility": [
-          "Wisdom"
-        ],
-        "skillProficiencies": [
-          "Arcana",
-          "Animal Handling",
-          "Insight",
-          "Medicine",
-          "Nature",
-          "Perception",
-          "Religion",
-          "Survival"
-        ],
-        "skillNumber": 2,
-        "savingThrows": [
-          "Intelligence",
-          "Wisdom"
-        ],
-        "armorProficiencies": [],
-        "weaponProficiencies": [],
-        "toolProficiencies": [],
-        "classImage": "https://www.enworld.org/attachments/druid-png.80075/",
-        "castingPotential": "Full Caster"
-      },
-      "race": {
-        "id": 4,
-        "name": "Elf",
-        "subraces": [
-          {
-            "id": 1,
-            "name": "High Elf",
-            "increasedStats": [
-              {
-                "stat": "Intelligence",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Elf Weapon Training",
-                "description": "Vdvdfvdfvdf"
-              },
-              {
-                "name": "Cantrip",
-                "description": "dkufhvhfkbfgkbfg"
-              },
-              {
-                "name": "Extra language",
-                "description": "kdfvhkfdhvhfd"
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "name": "Wood Elf",
-            "increasedStats": [
-              {
-                "stat": "Wisdom",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Elf Weapon Training",
-                "description": "dfvkdfjnvdflkjnvd"
-              },
-              {
-                "name": "Fleet of Foot",
-                "description": "dkfvkfdbnkgbng"
-              },
-              {
-                "name": "Mask of the wild",
-                "description": "dkvnfkvnfkdvnfd"
-              }
-            ]
-          },
-          {
-            "id": 3,
-            "name": "Dark Elf (Drow)",
-            "increasedStats": [
-              {
-                "stat": "Charisma",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Superior Darkvision",
-                "description": "dkfnbfkbnfgkbngfbf"
-              },
-              {
-                "name": "Sunlight Sensitivity",
-                "description": "dfbfgbngfng"
-              },
-              {
-                "name": "Drow Weapon Training",
-                "description": "fgbfgbgf"
-              }
-            ],
-            "spells": [
-              "Darkness",
-              "Dancing Lights",
-              "Faerie Fire"
-            ]
-          }
-        ],
-        "increasedStats": [
-          {
-            "stat": "Dexterity",
-            "value": 2
-          }
-        ],
-        "size": "Medium",
-        "speed": 30,
-        "darkvision": 60,
-        "extraFeats": [
-          {
-            "name": "Fey Ancestry",
-            "description": "vdfvdfvdfvndfknvdf"
-          },
-          {
-            "name": "Trance",
-            "description": "vdfvdfvfdvdfvscsd"
-          }
-        ],
-        "skillProficiencies": [
-          "Perception"
-        ],
-        "languages": [
-          "Common",
-          "Elvish"
-        ]
-      },
-      "background": {
-        "name": "Noble",
-        "skillProficiencies": [
-          "History",
-          "Persuasion"
-        ],
-        "languages": 1,
-        "items": [
-          {
-            "name": "A secret ring"
-          },
-          {
-            "name": "A scroll of pedigree"
-          },
-          {
-            "name": "A set of fine clothes"
-          }
-        ],
-        "gamingProficiencies": 1,
-        "money": {
-          "gold": 25
-        },
-        "feat": {
-          "name": "Position of privilege",
-          "description": "Lorem ipsum"
-        }
-      },
-      "savingThrows": [
-        {
-          "type": "Charisma",
-          "value": 1
-        }
-      ],
-      "skills": [],
-      "ac": 10,
-      "initiative": 1,
-      "speed": 30,
-      "hp": 8,
-      "hitDie": {
-        "minValue": 1,
-        "maxValue": 8
-      },
-      "passiveWisdom": 10,
-      "jackOfAllTrades": false,
-      "id": 36
-    },
-    {
       "userID": "UrcA0aszYbfF42MNJClnEEFEOk43",
       "name": "123",
       "image": "data:image/jpeg;base64,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",
@@ -5546,358 +4009,6 @@
       "passiveWisdom": 10,
       "jackOfAllTrades": false,
       "id": 19
-    },
-    {
-      "userID": "A5u56KGNqle266AaxXe1iimD9Lt2",
-      "name": "Tralala",
-      "image": "https://i.kym-cdn.com/entries/icons/original/000/021/807/ig9OoyenpxqdCQyABmOQBZDI0duHk2QZZmWg2Hxd4ro.jpg",
-      "level": "1",
-      "proficiencyBonus": 3,
-      "baseStats": [
-        {
-          "type": "Strength",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Dexterity",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Constitution",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Intelligence",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Wisdom",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Charisma",
-          "value": 1,
-          "modifier": 1
-        }
-      ],
-      "characterClass": {
-        "id": 2,
-        "name": "Bard",
-        "hitDie": {
-          "minValue": 1,
-          "maxValue": 8
-        },
-        "primaryAbility": [
-          "Charisma"
-        ],
-        "skillProficiencies": [
-          "Acrobatics",
-          "Animal Handling",
-          "Arcana",
-          "Athletics",
-          "Deception",
-          "History",
-          "Insight",
-          "Intimidation",
-          "Investigation",
-          "Medicine",
-          "Nature",
-          "Perception",
-          "Performance",
-          "Persuasion",
-          "Religion",
-          "Sleight of Hand",
-          "Stealth",
-          "Survival"
-        ],
-        "skillNumber": 3,
-        "savingThrows": [
-          "Dexterity",
-          "Charisma"
-        ],
-        "armorProficiencies": [],
-        "weaponProficiencies": [],
-        "toolProficiencies": [],
-        "classImage": "https://www.enworld.org/attachments/bard-png.80073/",
-        "castingPotential": "Full Caster"
-      },
-      "race": {
-        "id": 5,
-        "name": "Halfling",
-        "subraces": [
-          {
-            "id": 1,
-            "name": "Lightfoot",
-            "increasedStats": [
-              {
-                "stat": "Charisma",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Naturally Stealthy",
-                "description": "Vdvdfvdfvdf"
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "name": "Stout",
-            "increasedStats": [
-              {
-                "stat": "Constitution",
-                "value": 1
-              }
-            ],
-            "extraFeats": [
-              {
-                "name": "Sout Resilience",
-                "description": "dfvkdfjnvdflkjnvd"
-              }
-            ]
-          }
-        ],
-        "increasedStats": [
-          {
-            "stat": "Dexterity",
-            "value": 2
-          }
-        ],
-        "size": "Small",
-        "speed": 25,
-        "darkvision": 0,
-        "extraFeats": [
-          {
-            "name": "Lucky",
-            "description": "vdfvdfvdfvndfknvdf"
-          },
-          {
-            "name": "Brave",
-            "description": "vdfvdfvfdvdfvscsd"
-          },
-          {
-            "name": "Halfling Nimbleless",
-            "description": "vdfvdfvfdvdfvscsd"
-          }
-        ],
-        "languages": [
-          "Common",
-          "Halfling"
-        ]
-      },
-      "background": {
-        "name": "Hermit",
-        "skillProficiencies": [
-          "Medicine",
-          "Religion"
-        ],
-        "languages": 1,
-        "toolProficiencies": [
-          "Herbalism Kit"
-        ],
-        "items": [
-          {
-            "name": "A scorll case stuffed, full of notes from your studies and prayers"
-          },
-          {
-            "name": "A winter blanket"
-          },
-          {
-            "name": "A set of common clothes"
-          },
-          {
-            "name": "An herbalism kit"
-          }
-        ],
-        "money": {
-          "gold": 5
-        },
-        "feat": {
-          "name": "Discovery",
-          "description": "Lorem ipsum"
-        }
-      },
-      "savingThrows": [
-        {
-          "type": "Charisma",
-          "value": 1
-        }
-      ],
-      "skillProficiencies": [
-        "Deception",
-        "History",
-        "Intimidation"
-      ],
-      "ac": 10,
-      "initiative": 1,
-      "speed": 25,
-      "hp": 8,
-      "hitDie": {
-        "minValue": 1,
-        "maxValue": 8
-      },
-      "passiveWisdom": 10,
-      "jackOfAllTrades": false,
-      "id": 39
-    },
-    {
-      "userID": "A5u56KGNqle266AaxXe1iimD9Lt2",
-      "name": "Barosanu",
-      "image": "https://i.kym-cdn.com/entries/icons/original/000/021/807/ig9OoyenpxqdCQyABmOQBZDI0duHk2QZZmWg2Hxd4ro.jpg",
-      "level": "1",
-      "proficiencyBonus": 3,
-      "baseStats": [
-        {
-          "type": "Strength",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Dexterity",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Constitution",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Intelligence",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Wisdom",
-          "value": 1,
-          "modifier": 1
-        },
-        {
-          "type": "Charisma",
-          "value": 1,
-          "modifier": 1
-        }
-      ],
-      "characterClass": {
-        "id": 5,
-        "name": "Fighter",
-        "hitDie": {
-          "minValue": 1,
-          "maxValue": 10
-        },
-        "primaryAbility": [
-          "Strength/ Dexterity"
-        ],
-        "skillProficiencies": [
-          "Acrobatics",
-          "Animal Handling",
-          "Athletics",
-          "History",
-          "Insight",
-          "Intimidation",
-          "Perception",
-          "Survival"
-        ],
-        "skillNumber": 2,
-        "savingThrows": [
-          "Strength",
-          "Constitution"
-        ],
-        "armorProficiencies": [],
-        "weaponProficiencies": [],
-        "toolProficiencies": [],
-        "classImage": "https://www.enworld.org/attachments/fighter-png.80077/",
-        "castingPotential": "Subclass Only"
-      },
-      "race": {
-        "id": 6,
-        "name": "Dragonborn",
-        "increasedStats": [
-          {
-            "stat": "Strength",
-            "value": 2
-          },
-          {
-            "stat": "Charisma",
-            "value": 1
-          }
-        ],
-        "size": "Medium",
-        "speed": 30,
-        "darkvision": 0,
-        "extraFeats": [
-          {
-            "name": "Draconic Ancestry",
-            "description": "vdfvdfvdfvndfknvdf"
-          },
-          {
-            "name": "Breath Weapon",
-            "description": "vdfvdfvfdvdfvscsd"
-          },
-          {
-            "name": "Damage Resistance",
-            "description": "vdfvdfvfdvdfvscsd"
-          }
-        ],
-        "languages": [
-          "Common",
-          "Draconic"
-        ]
-      },
-      "background": {
-        "name": "Criminal",
-        "skillProficiencies": [
-          "Deception",
-          "Stealth"
-        ],
-        "languages": 0,
-        "toolProficiencies": [
-          "Thieves' Tools"
-        ],
-        "items": [
-          {
-            "name": "Crowbar"
-          },
-          {
-            "name": "A set of dark common clothes, including a hood"
-          }
-        ],
-        "gamingProficiencies": 1,
-        "money": {
-          "gold": 15
-        },
-        "feat": {
-          "name": "Criminal Contact",
-          "description": "Lorem ipsum"
-        }
-      },
-      "savingThrows": [
-        {
-          "type": "Charisma",
-          "value": 1
-        }
-      ],
-      "skillProficiencies": [
-        "Animal Handling",
-        "Athletics"
-      ],
-      "ac": 10,
-      "initiative": 1,
-      "speed": 30,
-      "hp": 10,
-      "hitDie": {
-        "minValue": 1,
-        "maxValue": 10
-      },
-      "passiveWisdom": 10,
-      "jackOfAllTrades": false,
-      "id": 40
     },
     {
       "userID": "A5u56KGNqle266AaxXe1iimD9Lt2",
@@ -8060,578 +6171,158 @@
       "id": 50
     },
     {
-      "userID": "UrcA0aszYbfF42MNJClnEEFEOk43",
-      "name": ":>",
+      "userID": "A5u56KGNqle266AaxXe1iimD9Lt2",
+      "name": "",
       "level": "1",
       "proficiencyBonus": 3,
       "baseStats": [
         {
           "type": "Strength",
-          "value": "1",
+          "value": 1,
           "modifier": 1
         },
         {
           "type": "Dexterity",
-          "value": "1",
+          "value": 1,
           "modifier": 1
         },
         {
           "type": "Constitution",
-          "value": "1",
+          "value": 1,
           "modifier": 1
         },
         {
           "type": "Intelligence",
-          "value": "1",
+          "value": 1,
           "modifier": 1
         },
         {
           "type": "Wisdom",
-          "value": "1",
+          "value": 1,
           "modifier": 1
         },
         {
           "type": "Charisma",
-          "value": "1",
+          "value": 1,
           "modifier": 1
         }
       ],
       "characterClass": {
-        "id": 1,
-        "name": "Barbarian",
+        "id": 4,
+        "name": "Druid",
         "hitDie": {
           "minValue": 1,
-          "maxValue": 12
+          "maxValue": 8
         },
         "primaryAbility": [
-          "Strength"
+          "Wisdom"
         ],
         "skillProficiencies": [
+          "Arcana",
           "Animal Handling",
-          "Athletics",
-          "Intimidation",
+          "Insight",
+          "Medicine",
           "Nature",
           "Perception",
+          "Religion",
           "Survival"
         ],
         "skillNumber": 2,
         "savingThrows": [
-          "Strength",
-          "Constitution"
+          "Intelligence",
+          "Wisdom"
         ],
         "armorProficiencies": [],
         "weaponProficiencies": [],
         "toolProficiencies": [],
-        "classImage": "https://www.enworld.org/attachments/barbarian-png.80072/",
-        "castingPotential": "No"
-      },
-      "race": {
-        "id": 2,
-        "name": "Human",
-        "increasedStats": [
-          {
-            "stat": "Strength",
-            "value": 1
-          },
-          {
-            "stat": "Dexterity",
-            "value": 1
-          },
-          {
-            "stat": "Constitution",
-            "value": 1
-          },
-          {
-            "stat": "Intelligence",
-            "value": 1
-          },
-          {
-            "stat": "Wisdom",
-            "value": 1
-          },
-          {
-            "stat": "Charisma",
-            "value": 1
-          }
-        ],
-        "size": "Medium",
-        "speed": 30,
-        "darkvision": 0,
-        "languages": [
-          "Common"
-        ]
-      },
-      "background": {
-        "name": "Criminal",
-        "skillProficiencies": [
-          "Deception",
-          "Stealth"
-        ],
-        "languages": 0,
-        "toolProficiencies": [
-          "Thieves' Tools"
-        ],
-        "items": [
-          {
-            "name": "Crowbar"
-          },
-          {
-            "name": "A set of dark common clothes, including a hood"
-          }
-        ],
-        "gamingProficiencies": 1,
-        "money": {
-          "gold": 15
-        },
-        "feat": {
-          "name": "Criminal Contact",
-          "description": "Lorem ipsum"
-        }
-      },
-      "savingThrows": [
-        {
-          "type": "Charisma",
-          "value": 1
-        }
-      ],
-      "skillProficiencies": [
-        "Intimidation",
-        "Athletics",
-        "Deception",
-        "Stealth"
-      ],
-      "ac": 10,
-      "initiative": 1,
-      "speed": 30,
-      "hp": 12,
-      "hitDie": {
-        "minValue": 1,
-        "maxValue": 12
-      },
-      "passiveWisdom": 10,
-      "jackOfAllTrades": false,
-      "id": 51
-    },
-    {
-      "userID": "UrcA0aszYbfF42MNJClnEEFEOk43",
-      "name": "",
-      "level": "1",
-      "proficiencyBonus": 2,
-      "baseStats": [
-        {
-          "type": "Strength",
-          "value": "21",
-          "modifier": 10
-        },
-        {
-          "type": "Dexterity",
-          "value": "21",
-          "modifier": 10
-        },
-        {
-          "type": "Constitution",
-          "value": "21",
-          "modifier": 10
-        },
-        {
-          "type": "Intelligence",
-          "value": "21",
-          "modifier": 10
-        },
-        {
-          "type": "Wisdom",
-          "value": "21",
-          "modifier": 10
-        },
-        {
-          "type": "Charisma",
-          "value": "21",
-          "modifier": 10
-        }
-      ],
-      "characterClass": {
-        "id": 2,
-        "name": "Bard",
-        "hitDie": {
-          "minValue": 1,
-          "maxValue": 8
-        },
-        "primaryAbility": [
-          "Charisma"
-        ],
-        "skillProficiencies": [
-          "Acrobatics",
-          "Animal Handling",
-          "Arcana",
-          "Athletics",
-          "Deception",
-          "History",
-          "Insight",
-          "Intimidation",
-          "Investigation",
-          "Medicine",
-          "Nature",
-          "Perception",
-          "Performance",
-          "Persuasion",
-          "Religion",
-          "Sleight of Hand",
-          "Stealth",
-          "Survival"
-        ],
-        "skillNumber": 3,
-        "savingThrows": [
-          "Dexterity",
-          "Charisma"
-        ],
-        "armorProficiencies": [],
-        "weaponProficiencies": [],
-        "toolProficiencies": [],
-        "classImage": "https://www.enworld.org/attachments/bard-png.80073/",
+        "classImage": "https://www.enworld.org/attachments/druid-png.80075/",
         "castingPotential": "Full Caster"
       },
       "race": {
-        "id": 2,
-        "name": "Human",
-        "increasedStats": [
+        "id": 4,
+        "name": "Elf",
+        "subraces": [
           {
-            "stat": "Strength",
-            "value": 1
+            "id": 1,
+            "name": "High Elf",
+            "increasedStats": [
+              {
+                "stat": "Intelligence",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Elf Weapon Training",
+                "description": "Vdvdfvdfvdf"
+              },
+              {
+                "name": "Cantrip",
+                "description": "dkufhvhfkbfgkbfg"
+              },
+              {
+                "name": "Extra language",
+                "description": "kdfvhkfdhvhfd"
+              }
+            ]
           },
+          {
+            "id": 2,
+            "name": "Wood Elf",
+            "increasedStats": [
+              {
+                "stat": "Wisdom",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Elf Weapon Training",
+                "description": "dfvkdfjnvdflkjnvd"
+              },
+              {
+                "name": "Fleet of Foot",
+                "description": "dkfvkfdbnkgbng"
+              },
+              {
+                "name": "Mask of the wild",
+                "description": "dkvnfkvnfkdvnfd"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Dark Elf (Drow)",
+            "increasedStats": [
+              {
+                "stat": "Charisma",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Superior Darkvision",
+                "description": "dkfnbfkbnfgkbngfbf"
+              },
+              {
+                "name": "Sunlight Sensitivity",
+                "description": "dfbfgbngfng"
+              },
+              {
+                "name": "Drow Weapon Training",
+                "description": "fgbfgbgf"
+              }
+            ],
+            "spells": [
+              "Darkness",
+              "Dancing Lights",
+              "Faerie Fire"
+            ]
+          }
+        ],
+        "increasedStats": [
           {
             "stat": "Dexterity",
-            "value": 1
-          },
-          {
-            "stat": "Constitution",
-            "value": 1
-          },
-          {
-            "stat": "Intelligence",
-            "value": 1
-          },
-          {
-            "stat": "Wisdom",
-            "value": 1
-          },
-          {
-            "stat": "Charisma",
-            "value": 1
-          }
-        ],
-        "size": "Medium",
-        "speed": 30,
-        "darkvision": 0,
-        "languages": [
-          "Common"
-        ]
-      },
-      "background": {
-        "name": "Acolyte",
-        "skillProficiencies": [
-          "Insight",
-          "Religion"
-        ],
-        "languages": 2,
-        "toolProficiencies": [],
-        "items": [
-          {
-            "name": "Holy Symbol"
-          },
-          {
-            "name": "Prayer Book"
-          },
-          {
-            "name": "Five sticks of incense"
-          },
-          {
-            "name": "Vestments"
-          },
-          {
-            "name": "A set of common clothes"
-          }
-        ],
-        "money": {
-          "gold": 15
-        },
-        "feat": {
-          "name": "Shelter of the Faithful",
-          "description": "Lorem ipsum"
-        }
-      },
-      "savingThrows": [
-        {
-          "type": "Charisma",
-          "value": 1
-        }
-      ],
-      "skillProficiencies": [],
-      "ac": 10,
-      "initiative": 10,
-      "speed": 30,
-      "hp": 8,
-      "hitDie": {
-        "minValue": 1,
-        "maxValue": 8
-      },
-      "passiveWisdom": 10,
-      "jackOfAllTrades": false,
-      "id": 52
-    },
-    {
-      "userID": "UrcA0aszYbfF42MNJClnEEFEOk43",
-      "name": "penis",
-      "level": "1",
-      "proficiencyBonus": 2,
-      "baseStats": [
-        {
-          "type": "Strength",
-          "value": 5,
-          "modifier": 2
-        },
-        {
-          "type": "Dexterity",
-          "value": 5,
-          "modifier": 2
-        },
-        {
-          "type": "Constitution",
-          "value": 5,
-          "modifier": 2
-        },
-        {
-          "type": "Intelligence",
-          "value": 5,
-          "modifier": 2
-        },
-        {
-          "type": "Wisdom",
-          "value": 5,
-          "modifier": 2
-        },
-        {
-          "type": "Charisma",
-          "value": 5,
-          "modifier": 2
-        }
-      ],
-      "characterClass": {
-        "id": 2,
-        "name": "Bard",
-        "hitDie": {
-          "minValue": 1,
-          "maxValue": 8
-        },
-        "primaryAbility": [
-          "Charisma"
-        ],
-        "skillProficiencies": [
-          "Acrobatics",
-          "Animal Handling",
-          "Arcana",
-          "Athletics",
-          "Deception",
-          "History",
-          "Insight",
-          "Intimidation",
-          "Investigation",
-          "Medicine",
-          "Nature",
-          "Perception",
-          "Performance",
-          "Persuasion",
-          "Religion",
-          "Sleight of Hand",
-          "Stealth",
-          "Survival"
-        ],
-        "skillNumber": 3,
-        "savingThrows": [
-          "Dexterity",
-          "Charisma"
-        ],
-        "armorProficiencies": [],
-        "weaponProficiencies": [],
-        "toolProficiencies": [],
-        "classImage": "https://www.enworld.org/attachments/bard-png.80073/",
-        "castingPotential": "Full Caster"
-      },
-      "race": {
-        "id": 2,
-        "name": "Human",
-        "increasedStats": [
-          {
-            "stat": "Strength",
-            "value": 1
-          },
-          {
-            "stat": "Dexterity",
-            "value": 1
-          },
-          {
-            "stat": "Constitution",
-            "value": 1
-          },
-          {
-            "stat": "Intelligence",
-            "value": 1
-          },
-          {
-            "stat": "Wisdom",
-            "value": 1
-          },
-          {
-            "stat": "Charisma",
-            "value": 1
-          }
-        ],
-        "size": "Medium",
-        "speed": 30,
-        "darkvision": 0,
-        "languages": [
-          "Common"
-        ]
-      },
-      "background": {
-        "name": "Criminal",
-        "skillProficiencies": [
-          "Deception",
-          "Stealth"
-        ],
-        "languages": 0,
-        "toolProficiencies": [
-          "Thieves' Tools"
-        ],
-        "items": [
-          {
-            "name": "Crowbar"
-          },
-          {
-            "name": "A set of dark common clothes, including a hood"
-          }
-        ],
-        "gamingProficiencies": 1,
-        "money": {
-          "gold": 15
-        },
-        "feat": {
-          "name": "Criminal Contact",
-          "description": "Lorem ipsum"
-        }
-      },
-      "savingThrows": [
-        {
-          "type": "Charisma",
-          "value": 1
-        }
-      ],
-      "skillProficiencies": [
-        "Animal Handling",
-        "Athletics",
-        "Intimidation",
-        "Deception",
-        "Stealth"
-      ],
-      "ac": 10,
-      "initiative": 2,
-      "speed": 30,
-      "hp": 8,
-      "hitDie": {
-        "minValue": 1,
-        "maxValue": 8
-      },
-      "passiveWisdom": 10,
-      "jackOfAllTrades": false,
-      "id": 53
-    },
-    {
-      "userID": "UrcA0aszYbfF42MNJClnEEFEOk43",
-      "name": "teifaseasdsa",
-      "level": "1",
-      "proficiencyBonus": 2,
-      "baseStats": [
-        {
-          "type": "Strength",
-          "value": 3,
-          "modifier": 1
-        },
-        {
-          "type": "Dexterity",
-          "value": 3,
-          "modifier": 1
-        },
-        {
-          "type": "Constitution",
-          "value": 3,
-          "modifier": 1
-        },
-        {
-          "type": "Intelligence",
-          "value": 4,
-          "modifier": 2
-        },
-        {
-          "type": "Wisdom",
-          "value": 3,
-          "modifier": 1
-        },
-        {
-          "type": "Charisma",
-          "value": 5,
-          "modifier": 2
-        }
-      ],
-      "characterClass": {
-        "id": 2,
-        "name": "Bard",
-        "hitDie": {
-          "minValue": 1,
-          "maxValue": 8
-        },
-        "primaryAbility": [
-          "Charisma"
-        ],
-        "skillProficiencies": [
-          "Acrobatics",
-          "Animal Handling",
-          "Arcana",
-          "Athletics",
-          "Deception",
-          "History",
-          "Insight",
-          "Intimidation",
-          "Investigation",
-          "Medicine",
-          "Nature",
-          "Perception",
-          "Performance",
-          "Persuasion",
-          "Religion",
-          "Sleight of Hand",
-          "Stealth",
-          "Survival"
-        ],
-        "skillNumber": 3,
-        "savingThrows": [
-          "Dexterity",
-          "Charisma"
-        ],
-        "armorProficiencies": [],
-        "weaponProficiencies": [],
-        "toolProficiencies": [],
-        "classImage": "https://www.enworld.org/attachments/bard-png.80073/",
-        "castingPotential": "Full Caster"
-      },
-      "race": {
-        "id": 3,
-        "name": "Tiefling",
-        "increasedStats": [
-          {
-            "stat": "Intelligence",
-            "value": 1
-          },
-          {
-            "stat": "Charisma",
             "value": 2
           }
         ],
@@ -8640,180 +6331,20 @@
         "darkvision": 60,
         "extraFeats": [
           {
-            "name": "Hellish Resistance",
-            "description": "svdfvdf"
-          },
-          {
-            "name": "Infernal Legacy",
-            "description": "vdfbvfdlansckdff"
-          }
-        ],
-        "damageReistance": [
-          "Fire"
-        ],
-        "spells": [
-          "Thaumaturgy",
-          "Hellish Rebuke",
-          "Darkness"
-        ],
-        "languages": [
-          "Common",
-          "Infernal"
-        ]
-      },
-      "background": {
-        "name": "Guild Artisan",
-        "skillProficiencies": [
-          "Insight",
-          "Persuasion"
-        ],
-        "languages": 1,
-        "toolProficiencies": [
-          "Artisan's Tools"
-        ],
-        "items": [
-          {
-            "name": "A set of Artisan's Tools"
-          },
-          {
-            "name": "A letter of introduction from your guild"
-          },
-          {
-            "name": "A set of traveler's clothes"
-          }
-        ],
-        "money": {
-          "gold": 15
-        },
-        "feat": {
-          "name": "Guild Membership",
-          "description": "Lorem ipsum"
-        }
-      },
-      "savingThrows": [
-        {
-          "type": "Charisma",
-          "value": 1
-        }
-      ],
-      "skillProficiencies": [
-        "Arcana",
-        "Athletics",
-        "History",
-        "Insight",
-        "Persuasion"
-      ],
-      "ac": 10,
-      "initiative": 1,
-      "speed": 30,
-      "hp": 8,
-      "hitDie": {
-        "minValue": 1,
-        "maxValue": 8
-      },
-      "passiveWisdom": 10,
-      "jackOfAllTrades": false,
-      "id": 54
-    },
-    {
-      "userID": "UrcA0aszYbfF42MNJClnEEFEOk43",
-      "name": "dragon eboi",
-      "level": "1",
-      "proficiencyBonus": 2,
-      "baseStats": [
-        {
-          "type": "Strength",
-          "value": 8,
-          "modifier": -1
-        },
-        {
-          "type": "Dexterity",
-          "value": 13,
-          "modifier": 1
-        },
-        {
-          "type": "Constitution",
-          "value": 16,
-          "modifier": 3
-        },
-        {
-          "type": "Intelligence",
-          "value": 11,
-          "modifier": 0
-        },
-        {
-          "type": "Wisdom",
-          "value": 7,
-          "modifier": -2
-        },
-        {
-          "type": "Charisma",
-          "value": 20,
-          "modifier": 5
-        }
-      ],
-      "characterClass": {
-        "id": 1,
-        "name": "Barbarian",
-        "hitDie": {
-          "minValue": 1,
-          "maxValue": 12
-        },
-        "primaryAbility": [
-          "Strength"
-        ],
-        "skillProficiencies": [
-          "Animal Handling",
-          "Athletics",
-          "Intimidation",
-          "Nature",
-          "Perception",
-          "Survival"
-        ],
-        "skillNumber": 2,
-        "savingThrows": [
-          "Strength",
-          "Constitution"
-        ],
-        "armorProficiencies": [],
-        "weaponProficiencies": [],
-        "toolProficiencies": [],
-        "classImage": "https://www.enworld.org/attachments/barbarian-png.80072/",
-        "castingPotential": "No"
-      },
-      "race": {
-        "id": 6,
-        "name": "Dragonborn",
-        "increasedStats": [
-          {
-            "stat": "Strength",
-            "value": 2
-          },
-          {
-            "stat": "Charisma",
-            "value": 1
-          }
-        ],
-        "size": "Medium",
-        "speed": 30,
-        "darkvision": 0,
-        "extraFeats": [
-          {
-            "name": "Draconic Ancestry",
+            "name": "Fey Ancestry",
             "description": "vdfvdfvdfvndfknvdf"
           },
           {
-            "name": "Breath Weapon",
-            "description": "vdfvdfvfdvdfvscsd"
-          },
-          {
-            "name": "Damage Resistance",
+            "name": "Trance",
             "description": "vdfvdfvfdvdfvscsd"
           }
         ],
+        "skillProficiencies": [
+          "Perception"
+        ],
         "languages": [
           "Common",
-          "Draconic"
+          "Elvish"
         ]
       },
       "background": {
@@ -8850,58 +6381,58 @@
         }
       ],
       "skillProficiencies": [
-        "Athletics",
-        "Nature",
+        "Insight",
+        "Religion",
         "History",
         "Persuasion"
       ],
       "ac": 10,
       "initiative": 1,
       "speed": 30,
-      "hp": 12,
+      "hp": 8,
       "hitDie": {
         "minValue": 1,
-        "maxValue": 12
+        "maxValue": 8
       },
       "passiveWisdom": 10,
       "jackOfAllTrades": false,
-      "id": 55
+      "id": 51
     },
     {
-      "userID": "UrcA0aszYbfF42MNJClnEEFEOk43",
-      "name": "stt",
+      "userID": "A5u56KGNqle266AaxXe1iimD9Lt2",
+      "name": "Lololo",
       "level": "1",
-      "proficiencyBonus": 2,
+      "proficiencyBonus": 3,
       "baseStats": [
         {
           "type": "Strength",
-          "value": 11,
-          "modifier": 0
+          "value": "20",
+          "modifier": 1
         },
         {
           "type": "Dexterity",
-          "value": 11,
-          "modifier": 0
+          "value": "20",
+          "modifier": 1
         },
         {
           "type": "Constitution",
-          "value": 11,
-          "modifier": 0
+          "value": "20",
+          "modifier": 1
         },
         {
           "type": "Intelligence",
-          "value": 11,
-          "modifier": 0
+          "value": "20",
+          "modifier": 1
         },
         {
           "type": "Wisdom",
-          "value": 11,
-          "modifier": 0
+          "value": "20",
+          "modifier": 1
         },
         {
           "type": "Charisma",
-          "value": 11,
-          "modifier": 0
+          "value": "20",
+          "modifier": 1
         }
       ],
       "characterClass": {
@@ -8934,39 +6465,765 @@
         "castingPotential": "No"
       },
       "race": {
-        "id": 2,
-        "name": "Human",
+        "id": 1,
+        "name": "Dwarf",
+        "subraces": [
+          {
+            "id": 1,
+            "name": "Hill Dwarf",
+            "increasedStats": [
+              {
+                "stat": "Wisdom",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Dwarven Toughness",
+                "description": "Vdvdfvdfvdf"
+              }
+            ],
+            "hpBonus": 1
+          },
+          {
+            "id": 2,
+            "name": "Mountain Dwarf",
+            "increasedStats": [
+              {
+                "stat": "Strength",
+                "value": 2
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Dwarven Armor Training",
+                "description": "dfvkdfjnvdflkjnvd"
+              }
+            ],
+            "armorProficienies": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          }
+        ],
         "increasedStats": [
           {
-            "stat": "Strength",
-            "value": 1
+            "stat": "Constitution",
+            "value": 2
+          }
+        ],
+        "size": "Medium",
+        "speed": 25,
+        "darkvision": 60,
+        "extraFeats": [
+          {
+            "name": "Dwarven Resillience",
+            "description": "skdjnvdkfjvndf"
           },
+          {
+            "name": "Dwarven Combat Training",
+            "description": "vdfvdfvdfvndfknvdf"
+          },
+          {
+            "name": "Stonecunning",
+            "description": "vdfvdfvfdvdfvscsd"
+          },
+          {
+            "name": "Dwarven Stronkness",
+            "description": "Your speed is not reduced by wearing heavy armor"
+          }
+        ],
+        "weaponProficiencies": [
+          4,
+          6,
+          15,
+          31
+        ],
+        "toolProficiencies": [
+          "Smith's Tools",
+          "Brewer's Supplies",
+          "Mason's Tools"
+        ],
+        "languages": [
+          "Common",
+          "Dwarvish"
+        ],
+        "damageReistance": [
+          "Poison"
+        ]
+      },
+      "background": {
+        "name": "Entertainer",
+        "skillProficiencies": [
+          "Acrobatics",
+          "Performance"
+        ],
+        "languages": 0,
+        "toolProficiencies": [
+          "Disguise Kit"
+        ],
+        "items": [
+          {
+            "name": "A musical instrument"
+          },
+          {
+            "name": "The favour of an admirer"
+          },
+          {
+            "name": "A costumes"
+          }
+        ],
+        "musicalInstruments": 1,
+        "money": {
+          "gold": 15
+        },
+        "feat": {
+          "name": "By popular demand",
+          "description": "Lorem ipsum"
+        }
+      },
+      "savingThrows": [
+        {
+          "type": "Charisma",
+          "value": 1
+        }
+      ],
+      "skillProficiencies": [
+        "Intimidation",
+        "Nature",
+        "Perception",
+        "Survival",
+        "Acrobatics",
+        "Performance"
+      ],
+      "ac": 10,
+      "initiative": 1,
+      "speed": 25,
+      "hp": 12,
+      "hitDie": {
+        "minValue": 1,
+        "maxValue": 12
+      },
+      "passiveWisdom": 10,
+      "jackOfAllTrades": false,
+      "id": 52
+    },
+    {
+      "userID": "A5u56KGNqle266AaxXe1iimD9Lt2",
+      "name": "wtf",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFhUYGRgaGhocHBoYHBohGhwcGhoaHBoaGhocIS4lHB4rIRoYJzgmLC8xNTU1HCQ7QDs0Py40NTEBDAwMEA8QHxISHzQrJCs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAKgBKwMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAABAgUGB//EAEQQAAIAAwQECgcGBQQDAQAAAAECAAMRBBIhMQVBUWEiMlJxgZGSodHSBhMUQlOxwRVicoKT4SMzorLwQ1Rz8Qdj4hb/xAAYAQADAQEAAAAAAAAAAAAAAAAAAQIDBP/EACcRAQEAAgICAQIGAwAAAAAAAAABAhESIQMxQRORIjJRYXGhgbHB/9oADAMBAAIRAxEAPwD5GTFsxOJ/ygpFRI7DSJEghoWwAAr0Cv0gMOIRGhEEAS7GrsaCxYg0NMgQeRLqCagXRWhNCa4UG3/uM0/zfEXDVmP8MRYetIjDGorUYbsRj9OmIsUFjQWFom1EaWKJIqtcK4gZEior3nriKINjRgS9eqDBBXDvgSwdDD2NNiUSRhBGs4uimdTUfv1wSWIZSQdkGzkc31RgyWesdJ7MRSoGIrhsgTSqZQtqsYs9jN0uwN0VFVzDEG7XpHzgOJOsnvhwJWoGzb/lYCqYxpje3P5JuFJkk4mmQr9PrCbDXHYtAGoECgqN9Me+scyakVWeFKOIEywzMXOghVzE1rAHEYMbcwOEuKEU0SIYZsxIuJASokSLhBUSIIsCGEEVFiJAbSEjpFNWUUYLciXICCpEpBbkXdgAVIukbuQRZW6DRsAbIsatcNS5Ija2cCHo9F2EaSXUjEDeYK8oViXSIWiyrD7hTDn1UiisEJr0xkLE0ljE4a4iYdMbuboKi7sYnRxZTmy/eGpEsa+iBIkN2fmhq2esEq+11VrWvNz9Gcda2Wmz2VBfF92wCnLKpJ2AbTClltSSkJFL57hqH16o8owe12g3ccaDYF1npgs1juptuWXHF0h6WuW4i3aYKFQDnPBqTzRUvTyseGgQHCoy5yDq5so9Vo70VkIBeQsddco72kfRyz2iQ0sS0Q04DgAFWGRrGXOb1Wt8Vxm9vIGUUoduI5sDWFLmMY0FMa40t+NKYo35TQeENzCDuoOvE5xpjbPftz59lJ1RlURzpoPRHQn1pXHZ1ao574xpaiY6KksxwAJJyAHy+kJzV10h5kgZBpd1VrTVXKvzhaXK5rLGKQ88kivVAWlwaPZekZYQYpGSkM9hARVIMJcEeTSAywEVSGFQRkpAQV2NBYJdiXYAFSKuwa7GrkAFuRYSHPVRfqYCI3IlyHvVQzZ7KDAqTbliVDCLlnWOkZI2CKCAZriIZyaJIlI264Q0qVMWZWMMWkghjIl44w88qKmSshs2RNRSLysBnju36tsUqUhz1UX6qJIsJcHVMo2JcGVIIGESkHVqAsdQJ6hWIFi5suqMBrBHWIPkfDiy7QTJdycbx6yB4w/6HTQgdyCcRlnzCscQzKSSm169AUfWPSehSIVdXpQmhrvGEZeW9SVt4Z+Lr9HVPpfOBF1EKXrtQWY1zoSBStId09pG1ynlKGKrMAN5AMMaEVOVI6Fn9HZatfvFyMVXghQdRooFTzx0LJbhaH9Q9ma4tSGmUzGwCsZbm9/DfLHr/bwDOy22erVq6q3CpiaCrYYGtTiIemgXdd4Hopq6Y36fuiW6zFFu8C42/hEAd8LzljeX/jjsJTtWNfpjAXWGWlxZl4V2nwr8xFwqSZIGyQ2yQNlito1SjrhSF3lYx0CkYeXBs5K5zS4HcjptIjJkQKjn3IlyOiZIpA/UwGSCRAkP+oiGz0hmTRI1Mk64dSTGnkwH8OWZcVdh/wBVE9VAk6qA5ERSoDhWKRhqI5q+FYp8MxQ84/aDjG/08REQbYPJABxpCyzOY7q4/KGZRGvDnI+pg4xWPjx+GnQAjHOIVU41HRGHU14P9J8KRgGhxoOcgHxiuMF8cMoi7YkxVOsQOW2oY82Peco2VwqSOlq/KKmMpXx4qcDaOmMEDb/nPGXFcRiOoDnMAd8cWUc2J78IjLEr48TN0ZVirorSo6MYAhrjq2scD9IpnGRau5cB10+kRxhfThkqBmRG8KYkfWFVU0rUKNR1n6nohrR6S6lnJuA0rrY7Kahtzg4lcMZN0ZEqMMeasWgGNdWdcKc8dB9IUoFuBDxSoF3p/eOXabQXah2nriuMZcsdvP6Vsqh2C5E3h050hr0TtaIzo5pfpdJ2jVHRtkleCKEGmB27o89abIQ5FKa4jyY8oeOXHLcfQbPOdQQjsN4zpujVi0dOeaGYTGXWXd+4VpHhrDpSalbrcXbBX9K7SzC69NeBw6ow4V0XzTXp0vSus62qqYrJKhmJwBreI5xlD5daHEH6b45dme6DUhi2LfeLGpJNM6kxqaStCDgcm5sxzxtMZ7TPHNdmmZTkRAyV2jrhdnDCpIU5VA4JO/DAwOa7DjUNevnBGrrEPQ+niZYjKo64ywGsiFlevFYH7rfSuB+cWZlDjVT094MPiPp4mSgpmP8AN8ZujaOuBq1djfhwPVT6Ri/v7Q+oxh8Ym4YjhBtEQoNo64EtddecUYRbGpwIPd88IcxE8eK/VjaI2ZAGsREIpj8sOsRYcXa1+X7GLmMVPFiiSxtEH9nUjMQkXodnOCPmDDSPh/h+sExhzx4sJKpnSI8rXqjU00/z/qAmaxBWppgSAMKitMq7TBxh/TxT1QzrA7o2xsvqy6vrA7w39/hE6hfSxSzCoYsrbrxoD3QGabrGvB3AVPeKd8Dl2hF2k/mHzJrEa1MzcFFJ5nJ7zC7VbNLVyxwDtToHUBBUcg5qvTX6GkLve99lG4s5PZBNOmkUroMgW3m+B1Aknrhpl06COKnhO2BzNB8oxws6BfxHzfSKs9qOShRhSih69ecZeTTjlV3cMt1DLppDjS0VXGty3Nl1kfSDpMJ4g59fXXAQsHQZAHe1/wDtGXSTFPOLECophgL9BzAYRcLZiecKl+gY9+UJtPpxQBvJqe/DuhlkC8dlUbOGW7OrppAjaFHEujeS5boOroicuyrBRji7Xecm8eZc/kN8QTqYLntY1PVkO/ngTMM6j+uCtJC4zGpXEKC988/IG89AMZ0mEDuSQxwxLFsBvJj0MgqspVcXkIrXXjjexjz18uQoKhQRgt8AVw15sdpxj1DSxdUUoAoAFa5DWTBj7Y+S9acx7GEN5H4BzBy/+TCdpJRl11GG/Z06uiOsEI4sAtGjr60ulTmGTUfw+FIvTEvaZ4Za5XRWh2jGF7XKrwh/lYjSCOCzXqChc6xzd0MZgdUTP3U5i6OLcNQxvErgRmqgkEZjCFLBIArXM57hHeu0s8zGhLoBnUrThAatlca9Ec0pRd5IA5tcTotjOCudRnSp/fmjci00qDwlOYvbNYNcCMYeRwF4YBFbpB7iNhgU2yLSqOQdQJNNlKg11w+LbHzT5KWmqgcKqGpU1wOVcL2DZAj9oGlqoKE1Fcie8G9UHmiSp90lHNVJowBaoI95djDvyjFplFCOECrCqsC9GG3cdo1HCFrS+XzBlQNijVGZWvCA1+9whvHTSMLaTkaEbCfkb1RABOOpgCMqF6wdbSr8dgp5alqH8agY84x3GHC5CG6eK1DsZvk1addI3MmkUVh1nPLEG9XqMLTEZSKkY5EMxU8xAoYuXaiuF4EbCWI+WB3iKhbNSyhyYrzmo6wajqMWyOBUgMu3PrIasYRkbJrrbCWK9BpUd/PHUssrIMSNjBjToIzjTHHa8XLlTVrheXpqP7oZUhq8Vub/ALBiWuZcNGoRtqQesDHprAgqkVV6bmJHfl10h+lMTKDDhL0/S9EvCnGU9x/uHzgjO4zPNUkqeY0p1QVpC0qxIIzuscOute7OJup7VJaWdqDEMOmo/u+sZWmsr04HuaLacMkmdbFcMzicO+ATrS4HDUU21PzGcLZW6EY1xoTzEEdV6BXhu7K+aBCap1uDuYn6CkT1v/uPafywk7RZl3KVMJ2sxPcFA+cYea7ZrNpsBoOoLSMPLkrmzsdiHDpZl+QMT2xRxEKbwQW7TAkdFIlOxpdkc4lHUbXanULtT0AxsKqkUWa/SVX+2p7o57OpNSHJOssK/KNyUVyFVHYnIA1PUFgG3RNoc4BHUbFw6zdqemKVHJoEmdZ8sZFnlpxyxbkIyk9LUujoqd0Ee2KBRFZFpiFIqfxMRU82W6HF/wAmVs13j3weSpq3ThRek13RXrmAoqOm+tWP5ruHRSEFubG6x4RoMmx+seEVstre9yX6/wBo3Z7O7mgR9pJNABtJIoBDAsaBb0wOtcQlRfbecOAu847AYXtVpVgFusqDEIpFBqqcKk7zUwaFFLhKhFdm+Ia4fgUjD8Rx2UhVr1a0evP+0WrJsfrHhA2uVyfrHhEWFaLKchkUggX7xrnhQCu7GPSWpjdHT4x5aYtVAPGJqeitMef5R6CY9QVJxHzgx6rlyu+1yn3xm0zmcXAzIOUtK9NYVLkYRHyxNIoaL2jRropPrFcE7aN0g4d8YW0leCwoRjjEdJFeFMfmC+Jjc+bZ2VVQPgc8KkbIkx7XP/gKvKmsR0Ii/NjCjYsBshh7OjhSjXboPBc5kkmoYDA1PcIA8tkoWFK5HUeYjOFJ0BbZaiqgjPuOWcYslrFBgwuk1vsGqTSig0xAxxO2EdKTwQtM6+EHskhQVv4mlbgwCge85gt7mkyJbUZXNb5rwgRkQdnyglmtFAUcTCjZnMoeWu/aNYHMRnSM0PRzeu4qt2lBTH6woLn3+seEO+22F3DNos7o103yDQhgcGByKnZ+4OIjF00GL82OEMWadLK+qe/cJqGwJRjmw2qda66VzAjM6yhGute1EEEEMDiGU6wdsORVxXZrSyVBDsp91q03Hcd4od8EEkvihevwyeF+Q+/zZ7jnCzylB9/rEWiLSvD6xFzGnDMhmz4Yjo2S0Fci/TiD0HCFFtSOAHv1+IKXh+Ll/Pfqjc9LgBqSpyZeKd247jQxfpU6Et1oVyKl0I1ipXpGY7+aFnvqK1cjUVxHXqO40MDmulc27o2JgUXlLDm2b9ohU9jaOLlqVcfLpFY3pS1ipFGB1lD9Mj3QJLYhAvKyk+8oFOlMuqkJ2yQTVlYuozKHL8QzXpEZ3urt1j0w0stxHY7jwT3mh6DArzqaFpqnWKEdYrC5ccp43LtrKKX2I5LAEdR+cFZbM+0H3lY7wLp7jTugV4bZw/KD31FYy06W2d9DtU1HZY17+iL9Uvx/7/CENleHyx2oPIs81zdRrxGODZDadg3mCCTZkPCdph2ItErsLXqsPw054xaLUri7fZU1IiAIN9A/CO81O+EQqS1TF519uQjin5phw7IPOIzNtUxhdDoi8lGoDzkks3STCYly+W/YHniykvlt2B54Bsdb/LHbHjBlL8sdseMKqsvlt2B5o6S6PloA053WuIQKBMYajSpuLvbPUDAqJIs0x63WFAKsS4oo2sa4CGVniXgjq765jMKDdLU5fiOOwLC1ptSOAgcogNVRU4I3mrVZvvGphQonLbsDzRUp26Ps7kVvgk58MVJ64CwfljtjxjCFB77dgeaLa5nfbsDzQbC1v5XwfzjxhiVZXcM5dQiCrMWwrjdXPFmOAH0BgdhsSzGorkAAszMvBRRmzG9l3k0GuCaTtSOoSUWCLxFuirsRQu5rxj3DDnQv5e3JkC8GZjnWgrljnWHp1quuDXBv8rClxQoDEE0WtchTGGrbOdVoqoyzlurxSQV1jWpHR0xLjGe0gEXoStOkQThCNovLRS1T3DcIClmdqlEZgNYFYm5U5Nn/AGxDxhGluHFWoY5bIwzVh0GM9MTyp6dgM2s1EEn2ngXTleBA3xxknMNcXMnsQMDD5FozORgVehKBuNTg3s6V20HdD4li5edqX8Ww4RGpRBPR63qizZc5L6TkC3TUYreKsrcoE1hoS8itxgMq1r35GHj32d0G5e4t2ksZqKgG7liTrygSF68cdtfGDG65YkFWoaitRTaIRCJyz2f3jWNPHejgZ+WvbXxjoWSeSvq5jqB7j3lJQ9BxQ6xqzGsHjXU1Oab1/eNBU5Z7P7xW2sdaYro11yKj7y68QQa4gjEGAvNflKPzL4xVnno6iU73aYS3K4IT7j48Q/0nHKoha0yQjsjkqwNCCuXfiN8PlSsFvvy17S+Mal2mapqHWmsFkKtzgnGE1C1wc9n940yry/6f3g2HTmSy4qjKr4fwy60J+4xPccd5hSk5bwZgCDiCyAimYIrAEK8v+n94fa1IyBZhLAYB1HDUahUmjKOSegiFaud9kw00++vbTxiXpoNVdQRkQ6A/ONz7GqrfV76ZX1BwOoOM0O456qwi6KcS/wDT+8SV6OC0M2D3D99HlhukVut1A74G9kmt/LdHwrRWS+OdK/Ko3xz2lJy/6TGAicv+k+MKp2Y/icpO2njFfxOUnbTxg3tiNhNN/wC9QiZ2/e/MGgRkWfVOI55Zr00MIit2Xyn7C+eIFl8p+wvnjXqE+KnZmeSK9nT4ydUzyQEq7L5T9hfPDNjsImEhC+AqzFVCIOU7F6KOeGk0QiXXtE0KpFVlqH9Yw1VBTgKeURzAwO22kOAizJaSwarLQTLteUxKVdvvNU8wwgPX6tpaJEmolszuP9UoLq/8aM2B++2OwLnCgKsalnZiaklQSTrJN/EwL2dPjJ1P5I0slPip1TPJAN0QXOU/ZHmiz6vlP2R5oyJCfGTqmeSJ7Onxk6n8kB7bFzlP2R5oYstlE11RC5YnkgAUxLE3sABiTqpA7LYA7BEmKzMQAAsyprq4kdW0oklGkpNS+2E6YL5rQ/y0IU8Aaz7x3CDZwG12iUqeolOxQGruFH8Vxk3G4gxur05mES6gihYneAPqY2LKnxU6n8kBtEtUF6+rU1C9XvUQWln+WpPRF41DkTu3RVlS+zOoqaYDXic+6ElUzHArhXHm1x0wPVox95zgNijAQp3f2cvqE7TLAvDNrtT3QmJry3JRipwy1+MMiWaFjmcvEwF1vGJymzlP2bThyda7x9RHPt7q7sy5GnygTSyNUUkp2NFBJxwGeAJOHMDEdzpVtotmRSccocKo1Beod4wjlq8XeMEuidadLdRgAy7qFYuVb1bB1IbauHdHOk2t04rGGPblPGTpEXygOlth6ddIEFTlt2R5o3LlllVqFEatGcNRruBC0BrSojQsi/ETqmeWLxrTDGwIBOU/ZHmjahM7z9keaCJY1+In9flgrWdTh6xOp/LFNdFrqZ3n7I80dazTJc5FlO5DrhLdgAKapbm9xdhPF5skPY1+InU/kizZU+InU/lhiMTZKoxRy6spoQUFQR+aIpTlN2R5o6ySktKrLeanrlost+GL41S3JUYj3W6NlOU1kCMVaYisCQQRMqCNRBTCGaKiE8duyPNG5lwClW7I80XJs6V/mp1P5IJbbOpN71iCu58+hIVEnQVmmhGLo7rXClxSCNasC1GG4ikNTJUiYeC3qn5LACWx+6S3AO5jTeMoSS4oP8VC3M9P7IUmop/1k6pnkibRbqNWmQqMUcurDMMgB72gFyXy37A88dGRaFuhJzpMljBeOHT/AI3uYD7pqu7XGZ2h1Ks8qajy1zNHDqDy0CkoPvZHbCRZ+jn3JfLfsDzxd2Xy37A88V7MvxU6pnkiezr8VOqZ5ICasNheaxVFrQVZiQEVeU7HBRzw77VKkYSaTJozmsOAv/Eja/vsK7AM4q3aemvRVZpaDiojNhsLMTV23nopCQt034r9tvGA9yegZjliWYlmNSSTUk6yScTGawwbfN+K/bbxie3Tfiv2m8YE9F4lYY9um/FftN4xPbpvxX7TeMA6ABjYU1pSpNKAa65AQZrdMB/muRtvt9THoJNpeySw7u5tLrWXLZiRKQ/6rqTxz7qnLMwKkhjReimRvZ0ZVtToxmO1aSEAqUBUE3zUAkZVptMLWn0edJsiVfRmnEgEBwFAIBZrwBpiThyTHT9CLai+tm2ifTiol9iSSeE5xqdS488epL2UTRaHtDVAuqCXEsYcm5i2JOeuIysliblbbp8/01oB7OgdnR1L3Bdvhq3WatGUYUXbrG2C6L9FJlplesLqiMSFvByWC5sAoNBXCpzoY7/pG6T7TKVJ9ySsu/MmBiAFZhqwN48Gn4lOqPTJpqyrcVZierCkX7wwK3QqXOMSQWJNNW+DfW9VNt9PlsrRLyXeVS9M9ZcAUE1xwu6zXA9MdtfQu0NwnaWmGCFnYj8VxSK7qx6izyrNLtD2p5yBHoZRJOLMGEw0pX3SB0x5/wBLPSick+7Z5l1Eu4BV4ZoCS14VoK3bu4w93jJj7+WVxu7aB/8Ai5pahnSzgT/qZCmNLm0qMNohC0eic316yUZGJQOzi8ERSzCrllrXg4ACpqKR6r0S0yCjzrVPo0xrqB8qLQvcAFAKsuG4bI6lv9ILNKR3lt616gkAEcJqqtWYcUUpQVp0wrcpdaOTp42Z6CT7pKvLY4UHDWtTQmrKBQa/HCN2b0GnI94T5VQDqma1K8jfHqvR+3SUlK060KbRNCvMrxsVrLUKooAEpgN8NGZKvMwt87hVAW6hVanC6pk5jKpibbOtf0JLY8GP/H7uWHrpQu3RWkzElQ1KXaigZTjyhAZv/jmcOLPknomjvuR77RVts0lCj2m85mM7FzV2vUKklVoeDdy2bo3oyfKDvW3vON1j6soAEFQS2CVFMsTShxhZX+fseq+Y6L9Cp7vNR2SX6ooDW8QxcFluFAai6K13iCaW9H/ZmQMUe8CVu3q4GlKMAa5R9O0bpGzFmIdQ01wUXEsyqLitQDXcYjdSFrRaLI86XaDaVuIGW7VqM+DIaAY0vMezDl1Z1fsvHre3BX0ZdrMJDugcTA6cchLygTEYhaZ0OFRUGPJ6N0e8+YJaUqa8I1uhRm5NOL+0fVbZpWzBXQzQSOCwUNeALBWyGfCyGMcfQs+RZUmK9oV59TWWWoRdFUlgvQKTgTUjE0OUaY5e7ZT5XXft5m3ejjyUBZkYFrtVDghiCRW8owIDdUa0f6NvMW+HVVDXReDkmgBJF1ThiI9L6T6SlvZyJM9fWKUdkQ44cFlDDA0L6jjSGdDaTkJIlo84GZdBcVJYF6NicqAMNeqFjldW2KuX4Z+rx40I7TmkX1BRb143rt2gIOAvGt5RlHO0xo5pDKrOjXlvcG9gASMQwFMjH0b7RsgdpvtKUKhCOFSoN6t2la0AGWqPGabtxNpmFHYpeABDMBRVC4Ac0EztsmqrHeV9vOpnHeWULUt1sLQoorHKaoyRjywMjryONDCz29q/zH7R8YG+mHGTvX8TRfJrMZPdKvJuGhzGB2jbUajCduevNHo10i9rS6jstqQYKGIE9QMaahMA7Q3x5qZpKdWhmON15vGFbtnlZoiWiXhthoaQm/FmdtvGJ9oTvizO23jAz6LBoLZrSyMHRirDIqadHNu1wT7QnfFmdt/GL+0ZvxZnbbxgHRsPJn8a7Jmn3hhJc/eA/ltvHB3LnAZmip6kr6iYaa1Usp5mUkEc0COkZ3xX7beMaGlp4ynzB+d/GA9yq+z25cr9SX5onsDcuV+onmhOkXAXRv7Pblyv1JfmiewHlyv1JfmhQRIBuG/YDy5X6qeMT2A8uX+pL80KR3dCaNRUNqtI/goaImRnuMkX7o949G2A5qnNF6LWzoLTP9WWONnls6Uc/Eck0KKdXvHdHHtMuZMdpjzEZ2JLMZkupJ/N3QHSukXtExpjnE0AA4qqOKijUo2QpWENx9E9HrVZJVlVJjyzMBd7udWPFF4C7iFUZwP0TtVnRJvtM5LzzAwW8XXI1Iu1AJJ7hsj5/FqmBOHd3Qtd1Outf5fW5+k9Hoj0eVMY8IKCKEhbqIGpdUAAZnDE644WhtNr61BaEsiy6NfdLpbIlSAHJpWgwBjwESsKY6+aLqzT6u/pNo5ZolH1ZllK+sRWIDEngNwcqUNRWlSDSCzrXoZiWZrOSTixR8Tz0j5EEqT1xdYm4/vfujdj6q+nNHpZmuNLvqJhSWAxoWJKAYUBPBJxgei9L2GdZgtoKJMKlH4LVbLh1UHM0POI+XBV20+UESYV1g9MOTr3/ad19Q0Dp6xCWqTyizJYuF7hKuFFwOCBrUDAxNLaa0ekiZ7O6GbcolFeoYkAHhClBWvRHzVJoYEHDnjBstUZ68VlWn4gxH9kOy73LfuJlfT6H6W6csrSaWZ1aa7KCyBgwUCrEMQOSow2w5orTtjaQhmuiTjLKPVWq3AuVqARiAI+XK9BFetO2F8a2N3e30ufpqyJZUuTU9oVJQ4rlgwu3+EVpWl8V3wxpXTuj1uCQ0su7ot66aS1rVphvLQ0ANBjiRHy8trjKUJrsyh935qse6+x/bGjr+DJTBr1xqBlNV92taknojk+kdsC3JlnSztKmBuG6rVnVuFi5H+Vj52r0Eek0T/HsFok5vJItCfh4swDox6YOGrvdbTGR6W026xTLM3DlJMMuhUUqH2KcmxGrKFfSq3WV5d2zPLvllqRwaKuJxcAHEIKbKx86rFMYfHve6Ukj6kukbCyXz6oPdLshIHDGJVWPBNTlQx4V0ah4cvH/wBieaOQIy9IfHu08fwzTovZjy5f6kvzQBrI3Ll/qS/NCJMZhi5bPpZHUhhMlggggibLBBGRBDYGO7aNH+2pfQyxa1HDRHQicozmKFODj3hrzGyPJxuzzmR1dGKspBVgaEEZEQFuGfs9h78r9RPNFfZ7cuV+pL80dm1WdbajT5ShbSgvTpS5ONc6WNvKUba8/mxALo57AeXK/Ul+aK9gblyv1JfmhQxIC6N+wNy5f6kvzRXsLcuV+pL80KxIB0b+y7R/t536b+ET7KtH+3nfpv4RIkSvjF/ZVo/2839N/CJ9k2j4E39OZ4RIkA4x1tA+jLzGZ56TJcmWLz8Bg77ERSKszHDdA9OG02hwfZ5qS0F2VLWW91EGQGGesnWeiJEgPjHM+y5/wJv6b+EWNFT/AIE3sP4RIkBcYr7Ln/Am/pv4RPsuf8Cb2H8IkSGOMT7Ln/Am9h/CL+y5/wACb2H8IkSAcYoaMtHwJvYfwjFpkU4ylW1gggjcQYkSD4rLySdESsVWJEjOoarhnBVdwm4sOaoH7xIkL5AbudcDLb4kSFQjOTrhmwS3drqKzNStFBJwzwESJBL2rD80PjR0/wCBN7D+Edz0PWbJtUtnkzAj1lvVHpcmC6a4YAG6eiJEja+nRxjnaV0JNlT5iLKdlV2CsqMQVrwSCBjgRCY0bP8AgTew/hFxINlxivs6f8Cb2H8IydGT/gTew/hFRIBxiHRk/wCBN7D+EX9lz/gTew/hFRIC4xDoqf8AAm9h/CJ9k2j4E3sP4RIkA4wayWS1SnV5cqcrqahgj4Hqx5o7eltDNaZZtMqQ8uYD/Gk3GFWP+pKBGKnWoxBiRIKfGPO/Zc/4E3sP4RPsuf8AAm9h/CJEg2njEOi5/wACb2H8In2ZP+BN7D+ESJAOMf/Z",
+      "level": "1",
+      "proficiencyBonus": 3,
+      "baseStats": [
+        {
+          "type": "Strength",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Dexterity",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Constitution",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Intelligence",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Wisdom",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Charisma",
+          "value": 1,
+          "modifier": 1
+        }
+      ],
+      "characterClass": {
+        "id": 4,
+        "name": "Druid",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "primaryAbility": [
+          "Wisdom"
+        ],
+        "skillProficiencies": [
+          "Arcana",
+          "Animal Handling",
+          "Insight",
+          "Medicine",
+          "Nature",
+          "Perception",
+          "Religion",
+          "Survival"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Intelligence",
+          "Wisdom"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/druid-png.80075/",
+        "castingPotential": "Full Caster"
+      },
+      "race": {
+        "id": 4,
+        "name": "Elf",
+        "subraces": [
+          {
+            "id": 1,
+            "name": "High Elf",
+            "increasedStats": [
+              {
+                "stat": "Intelligence",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Elf Weapon Training",
+                "description": "Vdvdfvdfvdf"
+              },
+              {
+                "name": "Cantrip",
+                "description": "dkufhvhfkbfgkbfg"
+              },
+              {
+                "name": "Extra language",
+                "description": "kdfvhkfdhvhfd"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Wood Elf",
+            "increasedStats": [
+              {
+                "stat": "Wisdom",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Elf Weapon Training",
+                "description": "dfvkdfjnvdflkjnvd"
+              },
+              {
+                "name": "Fleet of Foot",
+                "description": "dkfvkfdbnkgbng"
+              },
+              {
+                "name": "Mask of the wild",
+                "description": "dkvnfkvnfkdvnfd"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Dark Elf (Drow)",
+            "increasedStats": [
+              {
+                "stat": "Charisma",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Superior Darkvision",
+                "description": "dkfnbfkbnfgkbngfbf"
+              },
+              {
+                "name": "Sunlight Sensitivity",
+                "description": "dfbfgbngfng"
+              },
+              {
+                "name": "Drow Weapon Training",
+                "description": "fgbfgbgf"
+              }
+            ],
+            "spells": [
+              "Darkness",
+              "Dancing Lights",
+              "Faerie Fire"
+            ]
+          }
+        ],
+        "increasedStats": [
           {
             "stat": "Dexterity",
-            "value": 1
-          },
-          {
-            "stat": "Constitution",
-            "value": 1
-          },
-          {
-            "stat": "Intelligence",
-            "value": 1
-          },
-          {
-            "stat": "Wisdom",
-            "value": 1
-          },
-          {
-            "stat": "Charisma",
-            "value": 1
+            "value": 2
           }
         ],
         "size": "Medium",
         "speed": 30,
-        "darkvision": 0,
+        "darkvision": 60,
+        "extraFeats": [
+          {
+            "name": "Fey Ancestry",
+            "description": "vdfvdfvdfvndfknvdf"
+          },
+          {
+            "name": "Trance",
+            "description": "vdfvdfvfdvdfvscsd"
+          }
+        ],
+        "skillProficiencies": [
+          "Perception"
+        ],
         "languages": [
-          "Common"
+          "Common",
+          "Elvish"
+        ]
+      },
+      "background": {
+        "name": "Noble",
+        "skillProficiencies": [
+          "History",
+          "Persuasion"
+        ],
+        "languages": 1,
+        "items": [
+          {
+            "name": "A secret ring"
+          },
+          {
+            "name": "A scroll of pedigree"
+          },
+          {
+            "name": "A set of fine clothes"
+          }
+        ],
+        "gamingProficiencies": 1,
+        "money": {
+          "gold": 25
+        },
+        "feat": {
+          "name": "Position of privilege",
+          "description": "Lorem ipsum"
+        }
+      },
+      "savingThrows": [
+        {
+          "type": "Charisma",
+          "value": 1
+        }
+      ],
+      "skillProficiencies": [
+        "Arcana",
+        "Animal Handling",
+        "Insight",
+        "Medicine",
+        "Nature",
+        "History",
+        "Persuasion"
+      ],
+      "ac": 10,
+      "initiative": 1,
+      "speed": 30,
+      "hp": 8,
+      "hitDie": {
+        "minValue": 1,
+        "maxValue": 8
+      },
+      "passiveWisdom": 10,
+      "jackOfAllTrades": false,
+      "id": 53
+    },
+    {
+      "userID": "A5u56KGNqle266AaxXe1iimD9Lt2",
+      "name": "are staturi",
+      "image": "data:image/jpeg;base64,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",
+      "level": "1",
+      "proficiencyBonus": 3,
+      "baseStats": [
+        {
+          "type": "Strength",
+          "value": "20",
+          "modifier": 1
+        },
+        {
+          "type": "Dexterity",
+          "value": "20",
+          "modifier": 1
+        },
+        {
+          "type": "Constitution",
+          "value": "20",
+          "modifier": 1
+        },
+        {
+          "type": "Intelligence",
+          "value": "20",
+          "modifier": 1
+        },
+        {
+          "type": "Wisdom",
+          "value": "20",
+          "modifier": 1
+        },
+        {
+          "type": "Charisma",
+          "value": "20",
+          "modifier": 1
+        }
+      ],
+      "characterClass": {
+        "id": 1,
+        "name": "Barbarian",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 12
+        },
+        "primaryAbility": [
+          "Strength"
+        ],
+        "skillProficiencies": [
+          "Animal Handling",
+          "Athletics",
+          "Intimidation",
+          "Nature",
+          "Perception",
+          "Survival"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Strength",
+          "Constitution"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/barbarian-png.80072/",
+        "castingPotential": "No"
+      },
+      "race": {
+        "id": 1,
+        "name": "Dwarf",
+        "subraces": [
+          {
+            "id": 1,
+            "name": "Hill Dwarf",
+            "increasedStats": [
+              {
+                "stat": "Wisdom",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Dwarven Toughness",
+                "description": "Vdvdfvdfvdf"
+              }
+            ],
+            "hpBonus": 1
+          },
+          {
+            "id": 2,
+            "name": "Mountain Dwarf",
+            "increasedStats": [
+              {
+                "stat": "Strength",
+                "value": 2
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Dwarven Armor Training",
+                "description": "dfvkdfjnvdflkjnvd"
+              }
+            ],
+            "armorProficienies": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          }
+        ],
+        "increasedStats": [
+          {
+            "stat": "Constitution",
+            "value": 2
+          }
+        ],
+        "size": "Medium",
+        "speed": 25,
+        "darkvision": 60,
+        "extraFeats": [
+          {
+            "name": "Dwarven Resillience",
+            "description": "skdjnvdkfjvndf"
+          },
+          {
+            "name": "Dwarven Combat Training",
+            "description": "vdfvdfvdfvndfknvdf"
+          },
+          {
+            "name": "Stonecunning",
+            "description": "vdfvdfvfdvdfvscsd"
+          },
+          {
+            "name": "Dwarven Stronkness",
+            "description": "Your speed is not reduced by wearing heavy armor"
+          }
+        ],
+        "weaponProficiencies": [
+          4,
+          6,
+          15,
+          31
+        ],
+        "toolProficiencies": [
+          "Smith's Tools",
+          "Brewer's Supplies",
+          "Mason's Tools"
+        ],
+        "languages": [
+          "Common",
+          "Dwarvish"
+        ],
+        "damageReistance": [
+          "Poison"
+        ]
+      },
+      "background": {
+        "name": "Folk Hero",
+        "skillProficiencies": [
+          "Animal Handling",
+          "Survival"
+        ],
+        "languages": 0,
+        "toolProficiencies": [
+          "Land Vehicles",
+          "Artisan's Tools"
+        ],
+        "items": [
+          {
+            "name": "A set of Artisan's Tools"
+          },
+          {
+            "name": "A shovel"
+          },
+          {
+            "name": "An iron pot"
+          },
+          {
+            "name": "A set of common clothes"
+          }
+        ],
+        "money": {
+          "gold": 10
+        },
+        "feat": {
+          "name": "Rustic Hospitality",
+          "description": "Lorem ipsum"
+        }
+      },
+      "savingThrows": [
+        {
+          "type": "Charisma",
+          "value": 1
+        }
+      ],
+      "skillProficiencies": [
+        "Athletics",
+        "Intimidation",
+        "Nature",
+        "Perception",
+        "Animal Handling",
+        "Survival"
+      ],
+      "ac": 10,
+      "initiative": 1,
+      "speed": 25,
+      "hp": 12,
+      "hitDie": {
+        "minValue": 1,
+        "maxValue": 12
+      },
+      "passiveWisdom": 10,
+      "jackOfAllTrades": false,
+      "id": 54
+    },
+    {
+      "userID": "A5u56KGNqle266AaxXe1iimD9Lt2",
+      "name": "ce penis",
+      "level": "1",
+      "proficiencyBonus": 3,
+      "baseStats": [
+        {
+          "type": "Strength",
+          "value": "20",
+          "modifier": 1
+        },
+        {
+          "type": "Dexterity",
+          "value": "20",
+          "modifier": 1
+        },
+        {
+          "type": "Constitution",
+          "value": "20",
+          "modifier": 1
+        },
+        {
+          "type": "Intelligence",
+          "value": "20",
+          "modifier": 1
+        },
+        {
+          "type": "Wisdom",
+          "value": "20",
+          "modifier": 1
+        },
+        {
+          "type": "Charisma",
+          "value": "20",
+          "modifier": 1
+        }
+      ],
+      "characterClass": {
+        "id": 1,
+        "name": "Barbarian",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 12
+        },
+        "primaryAbility": [
+          "Strength"
+        ],
+        "skillProficiencies": [
+          "Animal Handling",
+          "Athletics",
+          "Intimidation",
+          "Nature",
+          "Perception",
+          "Survival"
+        ],
+        "skillNumber": 2,
+        "savingThrows": [
+          "Strength",
+          "Constitution"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/barbarian-png.80072/",
+        "castingPotential": "No"
+      },
+      "race": {
+        "id": 1,
+        "name": "Dwarf",
+        "subraces": [
+          {
+            "id": 1,
+            "name": "Hill Dwarf",
+            "increasedStats": [
+              {
+                "stat": "Wisdom",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Dwarven Toughness",
+                "description": "Vdvdfvdfvdf"
+              }
+            ],
+            "hpBonus": 1
+          },
+          {
+            "id": 2,
+            "name": "Mountain Dwarf",
+            "increasedStats": [
+              {
+                "stat": "Strength",
+                "value": 2
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Dwarven Armor Training",
+                "description": "dfvkdfjnvdflkjnvd"
+              }
+            ],
+            "armorProficienies": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          }
+        ],
+        "increasedStats": [
+          {
+            "stat": "Constitution",
+            "value": 2
+          }
+        ],
+        "size": "Medium",
+        "speed": 25,
+        "darkvision": 60,
+        "extraFeats": [
+          {
+            "name": "Dwarven Resillience",
+            "description": "skdjnvdkfjvndf"
+          },
+          {
+            "name": "Dwarven Combat Training",
+            "description": "vdfvdfvdfvndfknvdf"
+          },
+          {
+            "name": "Stonecunning",
+            "description": "vdfvdfvfdvdfvscsd"
+          },
+          {
+            "name": "Dwarven Stronkness",
+            "description": "Your speed is not reduced by wearing heavy armor"
+          }
+        ],
+        "weaponProficiencies": [
+          4,
+          6,
+          15,
+          31
+        ],
+        "toolProficiencies": [
+          "Smith's Tools",
+          "Brewer's Supplies",
+          "Mason's Tools"
+        ],
+        "languages": [
+          "Common",
+          "Dwarvish"
+        ],
+        "damageReistance": [
+          "Poison"
         ]
       },
       "background": {
@@ -8998,43 +7255,260 @@
       },
       "savingThrows": [
         {
-          "type": "Strength",
-          "value": 2
-        },
-        {
-          "type": "Dexterity",
-          "value": 0
-        },
-        {
-          "type": "Constitution",
-          "value": 2
-        },
-        {
-          "type": "Intelligence",
-          "value": 0
-        },
-        {
-          "type": "Wisdom",
-          "value": 0
-        },
-        {
           "type": "Charisma",
-          "value": 0
+          "value": 1
         }
       ],
       "skillProficiencies": [
-        "Perception",
+        "Intimidation",
         "Nature",
+        "Perception",
         "Deception",
         "Stealth"
       ],
       "ac": 10,
-      "initiative": 0,
-      "speed": 30,
+      "initiative": 1,
+      "speed": 25,
       "hp": 12,
       "hitDie": {
         "minValue": 1,
         "maxValue": 12
+      },
+      "passiveWisdom": 10,
+      "jackOfAllTrades": false,
+      "id": 55
+    },
+    {
+      "userID": "A5u56KGNqle266AaxXe1iimD9Lt2",
+      "name": "Test",
+      "image": "https://img.favpng.com/5/8/21/dungeons-dragons-pathfinder-roleplaying-game-wood-elves-elf-ranger-png-favpng-FgwZAqYayJBBXcLaUcLdK4kEe.jpg",
+      "level": "1",
+      "proficiencyBonus": 3,
+      "baseStats": [
+        {
+          "type": "Strength",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Dexterity",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Constitution",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Intelligence",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Wisdom",
+          "value": 1,
+          "modifier": 1
+        },
+        {
+          "type": "Charisma",
+          "value": 1,
+          "modifier": 1
+        }
+      ],
+      "characterClass": {
+        "id": 8,
+        "name": "Ranger",
+        "hitDie": {
+          "minValue": 1,
+          "maxValue": 8
+        },
+        "primaryAbility": [
+          "Dexterity",
+          "Wisdom"
+        ],
+        "skillProficiencies": [
+          "Animal Handling",
+          "Athletics",
+          "Insight",
+          "Investigation",
+          "Nature",
+          "Perception",
+          "Stealth",
+          "Survival"
+        ],
+        "skillNumber": 3,
+        "savingThrows": [
+          "Strength",
+          "Dexterity"
+        ],
+        "armorProficiencies": [],
+        "weaponProficiencies": [],
+        "toolProficiencies": [],
+        "classImage": "https://www.enworld.org/attachments/ranger-png.80080/",
+        "castingPotential": "Half Caster"
+      },
+      "race": {
+        "id": 4,
+        "name": "Elf",
+        "subraces": [
+          {
+            "id": 1,
+            "name": "High Elf",
+            "increasedStats": [
+              {
+                "stat": "Intelligence",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Elf Weapon Training",
+                "description": "Vdvdfvdfvdf"
+              },
+              {
+                "name": "Cantrip",
+                "description": "dkufhvhfkbfgkbfg"
+              },
+              {
+                "name": "Extra language",
+                "description": "kdfvhkfdhvhfd"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Wood Elf",
+            "increasedStats": [
+              {
+                "stat": "Wisdom",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Elf Weapon Training",
+                "description": "dfvkdfjnvdflkjnvd"
+              },
+              {
+                "name": "Fleet of Foot",
+                "description": "dkfvkfdbnkgbng"
+              },
+              {
+                "name": "Mask of the wild",
+                "description": "dkvnfkvnfkdvnfd"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Dark Elf (Drow)",
+            "increasedStats": [
+              {
+                "stat": "Charisma",
+                "value": 1
+              }
+            ],
+            "extraFeats": [
+              {
+                "name": "Superior Darkvision",
+                "description": "dkfnbfkbnfgkbngfbf"
+              },
+              {
+                "name": "Sunlight Sensitivity",
+                "description": "dfbfgbngfng"
+              },
+              {
+                "name": "Drow Weapon Training",
+                "description": "fgbfgbgf"
+              }
+            ],
+            "spells": [
+              "Darkness",
+              "Dancing Lights",
+              "Faerie Fire"
+            ]
+          }
+        ],
+        "increasedStats": [
+          {
+            "stat": "Dexterity",
+            "value": 2
+          }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "darkvision": 60,
+        "extraFeats": [
+          {
+            "name": "Fey Ancestry",
+            "description": "vdfvdfvdfvndfknvdf"
+          },
+          {
+            "name": "Trance",
+            "description": "vdfvdfvfdvdfvscsd"
+          }
+        ],
+        "skillProficiencies": [
+          "Perception"
+        ],
+        "languages": [
+          "Common",
+          "Elvish"
+        ]
+      },
+      "background": {
+        "name": "Soldier",
+        "skillProficiencies": [
+          "Athletics",
+          "Intimidation"
+        ],
+        "toolProficiencies": [
+          "Land Vehicles"
+        ],
+        "languages": 0,
+        "items": [
+          {
+            "name": "Insignia of rank"
+          },
+          {
+            "name": "Trophy taken from a fallen enemy"
+          },
+          {
+            "name": "A set of bone dice"
+          },
+          {
+            "name": "A set of common clothes"
+          }
+        ],
+        "money": {
+          "gold": 10
+        },
+        "feat": {
+          "name": "Military rank",
+          "description": "Lorem ipsumm"
+        },
+        "gamingProficiencies": 1
+      },
+      "savingThrows": [
+        {
+          "type": "Charisma",
+          "value": 1
+        }
+      ],
+      "skillProficiencies": [
+        "Survival",
+        "Stealth",
+        "Athletics",
+        "Intimidation"
+      ],
+      "ac": 10,
+      "initiative": 1,
+      "speed": 30,
+      "hp": 8,
+      "hitDie": {
+        "minValue": 1,
+        "maxValue": 8
       },
       "passiveWisdom": 10,
       "jackOfAllTrades": false,

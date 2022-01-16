@@ -13,12 +13,27 @@ import {
   CardActionArea,
 } from "@material-ui/core";
 import { DeleteOutlined } from "@mui/icons-material";
-import { useStyles } from "./styles";
+import { useState } from "react";
+import CharacterOverview2 from "../CharacterOverview/CharacterOverview2";
 
 const CharacterPreviewCard = ({ charchar, handleDelete }) => {
+
+  const [openDialog, setOpenDialog] = useState(false);
+
+  const onOpenDialog = () => {
+    setOpenDialog(true);
+  }
+  const onCloseDialog = () => {
+    setOpenDialog(false);
+  }
+
   return (
     <div>
-      <div>
+      <div
+        onClick={() => {
+          onOpenDialog();
+        }}
+      >
         <Card>
           <CardActionArea>
             <div>
@@ -48,6 +63,7 @@ const CharacterPreviewCard = ({ charchar, handleDelete }) => {
           </CardActionArea>
         </Card>
       </div>
+      <CharacterOverview2 openDialog={openDialog} character={charchar} onCloseDialog={onCloseDialog} />
     </div>
   );
 };
