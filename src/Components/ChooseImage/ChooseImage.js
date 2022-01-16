@@ -10,20 +10,21 @@ const ChooseImage = ({ changeableImage, action, step, setStep }) => {
 
   return (
     <Container>
-        <img src={thing} width="225" />
-        <TextField
-            id="outlines-basic"
-            label="Paste image url"
-            variant="outlined"
-            type="text"
-            fullWidth
-            margin="normal"
-            autoFocus
-            required
-            onChange={(e) => {
-              setThing(e.target.value);
-            }}
-          />
+      <img src={thing} width="225" />
+      <TextField
+        id="outlines-basic"
+        label="Paste image url"
+        variant="outlined"
+        type="text"
+        fullWidth
+        margin="normal"
+        autoFocus
+        required
+        onChange={(e) => {
+          setThing(e.target.value);
+        }}
+      />
+
       <Button
         onClick={(e) => {
           action(thing);
@@ -31,7 +32,7 @@ const ChooseImage = ({ changeableImage, action, step, setStep }) => {
           setStep(step + 1);
         }}
       >
-        Choose this image
+        Next
       </Button>
     </Container>
   );

@@ -25,12 +25,14 @@ import BackgroundSelection from "../BackgroundSelection/BackgroundSelection";
 import MyCharacters from "../MyCharacters/MyCharacters";
 import ChooseName from "../../Components/ChooseAName/ChooseName";
 import ChooseImage from "../../Components/ChooseImage/ChooseImage";
+import ChooseProficiencies from "../../Components/ChooseProficiencies/ChooseProficiencies";
 
 const DemoMultistepTest = () => {
   const history = useHistory();
   const [classes, setClasses] = useState([]);
   const [races, setRaces] = useState([]);
   const [backgrounds, setBackgrounds] = useState([]);
+  const [skills, setSkills] = useState([]);
   const [level, setLevel] = useState("1");
   const [name, setName] = useState("");
   const [characterClass, setCharacterClass] = useState();
@@ -38,6 +40,7 @@ const DemoMultistepTest = () => {
   const [background, setBackground] = useState();
   const [image, setImage] = useState();
   const [isPending, setIsPending] = useState(false);
+  const [skillProficiencies, setSkillProficiencies] = useState([]);
   const [text1, setText1] = useState("Roll");
   const [text2, setText2] = useState("Roll");
   const [text3, setText3] = useState("Roll");
@@ -88,6 +91,18 @@ const DemoMultistepTest = () => {
           .then((myJson) => {
             setBackgrounds(myJson);
           })
+      )
+      .then(
+        fetch("http://localhost:8000/skills", {
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+        })
+          .then((res) => res.json())
+          .then((myJson) => {
+            setSkills(myJson);
+          })
       );
   }, []);
 
@@ -111,7 +126,6 @@ const DemoMultistepTest = () => {
       { type: "Charisma", value: 1 }),
     ];
 
-    const skills = [];
     const ac = 10;
     const initiative = baseStats[1].modifier;
     const speed = race.speed;
@@ -132,7 +146,7 @@ const DemoMultistepTest = () => {
       race,
       background,
       savingThrows,
-      skills,
+      skillProficiencies,
       ac,
       initiative,
       speed,
@@ -359,6 +373,9 @@ const DemoMultistepTest = () => {
         <ChooseImage changeableName={image} action={setImage} step={step} setStep={setStep} />
       )}
       {step === 7 && (
+        <ChooseProficiencies changeableSkills={characterClass.skillProficiencies} backgroundSkills={background.skillProficiencies} skillNumber={characterClass.skillNumber} action={setSkillProficiencies} step={step} setStep={setStep} />
+      )}
+      {step === 8 && (
         <Button
         onClick={(e) => {
             handleCreate(e);
