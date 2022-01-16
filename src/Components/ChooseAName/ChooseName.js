@@ -10,19 +10,19 @@ const ChooseName = ({ changeableName, action, step, setStep }) => {
 
   return (
     <Container>
-        <TextField
-            id="outlines-basic"
-            label="name"
-            variant="outlined"
-            type="text"
-            fullWidth
-            margin="normal"
-            autoFocus
-            required
-            onChange={(e) => {
-              setThing(e.target.value);
-            }}
-          />
+      <TextField
+        id="outlines-basic"
+        label="name"
+        variant="outlined"
+        type="text"
+        fullWidth
+        margin="normal"
+        autoFocus
+        required
+        onChange={(e) => {
+          setThing(e.target.value);
+        }}
+      />
       <Button
         onClick={(e) => {
           action(thing);
@@ -30,7 +30,7 @@ const ChooseName = ({ changeableName, action, step, setStep }) => {
           setStep(step + 1);
         }}
       >
-        Create Character!
+        Next
       </Button>
     </Container>
   );

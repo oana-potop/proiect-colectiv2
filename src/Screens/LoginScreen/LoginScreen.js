@@ -11,11 +11,31 @@ import { DnDLogo } from "../../Assets/assets";
 import Header from "../../Components/Header/Header";
 import { signInWithEmailAndPassword } from "@firebase/auth";
 import { auth } from "../../firebasestuff/firebase-config";
+import ChooseProficiencies from "../../Components/ChooseProficiencies/ChooseProficiencies";
+import lalala from "../../Components/ChooseProficiencies/ChooseProficiencies";
 
 const LoginScreen = () => {
   const history = useHistory();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const skills = [ "Acrobatics",
+  "Animal Handling",
+  "Arcana",
+  "Athletics",
+  "Deception",
+  "History",
+  "Insight",
+  "Intimidation",
+  "Investigation",
+  "Medicine",
+  "Nature",
+  "Perception",
+  "Performance",
+  "Persuasion",
+  "Religion",
+  "Sleight of Hand",
+  "Stealth",
+  "Survival"]
 
   return (
     <Container component="main" maxWidth="xs">

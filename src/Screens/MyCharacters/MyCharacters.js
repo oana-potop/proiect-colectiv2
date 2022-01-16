@@ -36,7 +36,6 @@ const MyCharacters = () => {
     }
   }, [characters]);
 
-
   const handleDelete = async (id) => {
     await fetch(`http://localhost:8000/characters/${id}`, {
       method: "DELETE",

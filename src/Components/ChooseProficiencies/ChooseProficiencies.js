@@ -1,47 +1,82 @@
-import React from "react";
-import { Container, TextField, Button } from "@mui/material";
+import React, { useState } from "react";
+import {
+  Container,
+  TextField,
+  Button,
+  Box,
+  FormControl,
+  FormLabel,
+} from "@mui/material";
+import { Checkbox, FormControlLabel } from "@mui/material";
+import { FormGroup } from "@material-ui/core";
+import StarIcon from '@mui/icons-material/Star';
+import StarBorderIcon from '@mui/icons-material/StarBorder';
 
-const ChooseProficiencies = ({ changeableImage, action, step, setStep }) => {
+const ChooseProficiencies = ({
+  changeableSkills,
+  skillNumber,
+  backgroundSkills,
+  action,
+  step,
+  setStep,
+}) => {
   const [proficienciesList, setProficienciesList] = useState([]);
-  const [prof1, setProf1] = useState(false);
-  const [prof2, setProf2] = useState(false);
-  const [prof3, setProf3] = useState(false);
 
-  const handleChange = (event) => {
-    setThing(event.target.value);
+  const skillsToDisplay = changeableSkills.filter(element => backgroundSkills.includes(element) == false);
+
+  const addToList = (e) => {
+    let data = proficienciesList;
+    data.push(e.target.value);
+    setProficienciesList(data);
+    console.log(proficienciesList);
   };
 
-  return (
-    <Container>
-      <Button
-        variant="outlined"
-        style={{ marginLeft: "20px", marginRight: "20px" }}
-        onClick={(e) => {
-          setProf1(!prof1);
-        }}
-      >
-        Prof1
-      </Button>
-      <Button
-        variant="outlined"
-        style={{ marginLeft: "20px", marginRight: "20px" }}
-        onClick={(e) => {
-            setProf2(!prof2);
-        }}
-      >
-        Prof2
-      </Button>
-      <Button
-        variant="outlined"
-        style={{ marginLeft: "20px", marginRight: "20px" }}
-        onClick={(e) => {
-            setProf3(!prof3);
-        }}
-      >
-        Prof3
-      </Button>
-    </Container>
-  );
+  const removeFromList = (e) => {
+    let data = proficienciesList;
+    data = data.filter((element) => element !== e.target.value);
+    setProficienciesList(data);
+    console.log(proficienciesList);
+  };
+
+  const renderSkills = () => {
+    return (
+      <Container>
+        <Box
+          sx={{
+            marginTop: 8,
+            display: "flex",
+            flexDirection: "column",
+          }}
+        >
+          <FormControl>
+            <FormLabel component="legend">Pick {skillNumber}</FormLabel>
+            <FormGroup>
+              {skillsToDisplay.map((element) => (
+                <FormControlLabel
+                  control={<Checkbox icon={<StarBorderIcon color="secondary" />} checkedIcon={<StarIcon color="secondary" />}  />}
+                  label={element}
+                  value={element}
+                  onChange={(e) => {
+                    e.target.checked ? addToList(e) : removeFromList(e);
+                  }}
+                />
+              ))}
+            </FormGroup>
+          </FormControl>
+        </Box>{" "}
+        <Button
+          onClick={(e) => {
+            action(proficienciesList.concat(backgroundSkills));
+            setStep(step + 1);
+          }}
+        >
+          Next
+        </Button>
+      </Container>
+    );
+  };
+
+  return <Container>{renderSkills()}</Container>;
 };
 
 export default ChooseProficiencies;
