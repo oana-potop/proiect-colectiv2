@@ -15,10 +15,45 @@ import {
 import { useStyles } from "./styles";
 import { CardActionArea } from "@mui/material";
 
-const ClassPreviewCard = ({ characterClass, changeableClass, action, step, setStep }) => {
+const ClassPreviewCard = ({
+  characterClass,
+  changeableClass,
+  action,
+  step,
+  setStep,
+  classSavingThrows,
+  setClassSavingThrows,
+}) => {
   const styles = useStyles();
+  let bonuses = [0,0,0,0,0,0]
+  const addSavingThrows = () => {
+    for(let i = 0; i < 2; i++){
+      if(characterClass.savingThrows[i] === "Strength")
+        bonuses[0] = 1;
+      else if(characterClass.savingThrows[i] === "Dexterity")
+      bonuses[1] = 1;
+      else if(characterClass.savingThrows[i] === "Constitution")
+        bonuses[2] = 1;
+      else if(characterClass.savingThrows[i] === "Intelligence")
+        bonuses[3] = 1;
+      else if(characterClass.savingThrows[i] === "Wisdom")
+        bonuses[4] = 1;
+      else if(characterClass.savingThrows[i] === "Charisma")
+        bonuses[5] = 1;
+    }
+    setClassSavingThrows(bonuses);
+  }
+
   return (
-    <div onClick={event => {action(characterClass); console.log(changeableClass); setStep(step+1)}}>
+    <div
+      onClick={(event) => {
+        action(characterClass);
+        addSavingThrows();
+        console.log(changeableClass);
+        setStep(step + 1);
+
+      }}
+    >
       <div>
         <Card>
           <CardActionArea>

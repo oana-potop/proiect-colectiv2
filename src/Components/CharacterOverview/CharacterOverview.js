@@ -123,7 +123,7 @@ const CharacterOverview = () => {
     passiveWisdom,
     jackOfAllTrades,
   };
-
+  
   return (
     <div>
       <div>
