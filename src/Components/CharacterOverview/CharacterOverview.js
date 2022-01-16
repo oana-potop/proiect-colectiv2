@@ -127,7 +127,7 @@ const CharacterOverview = ({character, openDialog, onCloseDialog}) => {
     passiveWisdom,
     jackOfAllTrades,
   };
-
+  
   return (
     <div>
       <div>

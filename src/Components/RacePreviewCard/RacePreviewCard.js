@@ -20,14 +20,39 @@ const RacePreviewCard = ({
   action,
   step,
   setStep,
+  raceBonuses,
+  setRaceBonuses
 }) => {
   const styles = useStyles();
+  let bonuses = [0,0,0,0,0,0]
+  const addRaceStats = () => {
+    for(let i = 0; i < 6; i++)
+      if(characterRace.increasedStats[i]?.value !== undefined){
+        if(characterRace.increasedStats[i].stat === "Strength")
+          bonuses[0] += characterRace.increasedStats[i].value
+        else if(characterRace.increasedStats[i].stat === "Dexterity")
+          bonuses[1] += characterRace.increasedStats[i].value
+        else if(characterRace.increasedStats[i].stat === "Constitution")
+          bonuses[2] += characterRace.increasedStats[i].value
+        else if(characterRace.increasedStats[i].stat === "Intelligence")
+          bonuses[3] += characterRace.increasedStats[i].value
+        else if(characterRace.increasedStats[i].stat === "Wisdom")
+          bonuses[4] += characterRace.increasedStats[i].value
+        else if(characterRace.increasedStats[i].stat === "Charisma")
+          bonuses[5] += characterRace.increasedStats[i].value
+      }
+    console.log("BONUSES: " + bonuses);
+    setRaceBonuses(bonuses);
+  }
+
   return (
     <div
       onClick={(event) => {
         action(characterRace);
+        addRaceStats()
         console.log(changeableRace);
         setStep(step + 1);
+
       }}
     >
       <div>
