@@ -55,6 +55,9 @@ const DemoMultistepTest = () => {
   const [cha, setCha] = useState(1);
   const [step, setStep] = useState(1);
 
+  const [raceStats, setRaceStats] = useState([0,0,0,0,0,0]);
+  const [classSavingThrows, setClassSavingThrows] = useState([0,0,0,0,0,0]);
+
   const user = auth.currentUser;
 
   useEffect(() => {
@@ -108,29 +111,31 @@ const DemoMultistepTest = () => {
 
   const handleCreate = (e) => {
     e.preventDefault();
-    const proficiencyBonus = 3;
+    const proficiencyBonus = 1 + Math.ceil(level/4);
     const baseStats = [
-      { type: "Strength", value: str, modifier: 1 },
-      { type: "Dexterity", value: dex, modifier: 1 },
-      { type: "Constitution", value: con, modifier: 1 },
-      { type: "Intelligence", value: int, modifier: 1 },
-      { type: "Wisdom", value: wis, modifier: 1 },
-      { type: "Charisma", value: cha, modifier: 1 },
+      { type: "Strength", value: str + raceStats[0], modifier: Math.floor((str + raceStats[0] - 10)/2) },
+      { type: "Dexterity", value: dex + raceStats[1], modifier: Math.floor((dex + raceStats[1] - 10)/2) },
+      { type: "Constitution", value: con + raceStats[2], modifier: Math.floor((con + raceStats[2] - 10)/2) },
+      { type: "Intelligence", value: int + raceStats[3], modifier: Math.floor((int + raceStats[3] - 10)/2) },
+      { type: "Wisdom", value: wis + raceStats[4], modifier: Math.floor((wis + raceStats[4] - 10)/2) },
+      { type: "Charisma", value: cha + raceStats[5], modifier: Math.floor((cha + raceStats[5] - 10)/2) },
     ];
     const savingThrows = [
-      ({ type: "Strength", value: 1 },
-      { type: "Dexterity", value: 1 },
-      { type: "Constitution", value: 1 },
-      { type: "Intelligence", value: 1 },
-      { type: "Wisdom", value: 1 },
-      { type: "Charisma", value: 1 }),
+      { type: "Strength", value: baseStats[0].modifier + classSavingThrows[0] * proficiencyBonus },
+      { type: "Dexterity", value: baseStats[1].modifier + classSavingThrows[1] * proficiencyBonus },
+      { type: "Constitution", value: baseStats[2].modifier + classSavingThrows[2] * proficiencyBonus },
+      { type: "Intelligence", value: baseStats[3].modifier + classSavingThrows[3] * proficiencyBonus },
+      { type: "Wisdom", value: baseStats[4].modifier + classSavingThrows[4] * proficiencyBonus },
+      { type: "Charisma", value: baseStats[5].modifier + classSavingThrows[5] * proficiencyBonus }
     ];
+
+    console.log("SAVING THROWS:" + savingThrows);
 
     const ac = 10;
     const initiative = baseStats[1].modifier;
     const speed = race.speed;
     const hitDie = characterClass.hitDie;
-    const hp = hitDie.maxValue;
+    const hp = hitDie.maxValue + (level - 1)*Math.ceil(hitDie.maxValue/2) + level*baseStats[2].modifier;
     const passiveWisdom = 10;
     const jackOfAllTrades = false;
     const userID = user.uid;
@@ -272,7 +277,7 @@ const DemoMultistepTest = () => {
                   style={{ marginBottom: "10px" }}
                   required
                   onChange={(e) => {
-                    setStr(e.target.value);
+                    setStr(parseInt(e.target.value));
                   }}
                 />
                 <Typography style={{ marginTop: "20px" }}>
@@ -287,7 +292,7 @@ const DemoMultistepTest = () => {
                   style={{ marginBottom: "10px" }}
                   required
                   onChange={(e) => {
-                    setDex(e.target.value);
+                    setDex(parseInt(e.target.value));
                   }}
                 />
                 <Typography style={{ marginTop: "20px" }}>
@@ -302,7 +307,7 @@ const DemoMultistepTest = () => {
                   style={{ marginBottom: "10px" }}
                   required
                   onChange={(e) => {
-                    setCon(e.target.value);
+                    setCon(parseInt(e.target.value));
                   }}
                 />
                 <Typography style={{ marginTop: "20px" }}>
@@ -317,7 +322,7 @@ const DemoMultistepTest = () => {
                   style={{ marginBottom: "10px" }}
                   required
                   onChange={(e) => {
-                    setInt(e.target.value);
+                    setInt(parseInt(e.target.value));
                   }}
                 />
                 <Typography style={{ marginTop: "20px" }}>
@@ -332,7 +337,7 @@ const DemoMultistepTest = () => {
                   style={{ marginBottom: "10px" }}
                   required
                   onChange={(e) => {
-                    setWis(e.target.value);
+                    setWis(parseInt(e.target.value));
                   }}
                 />
                 <Typography style={{ marginTop: "20px" }}>
@@ -347,7 +352,7 @@ const DemoMultistepTest = () => {
                   style={{ marginBottom: "50px" }}
                   required
                   onChange={(e) => {
-                    setCha(e.target.value);
+                    setCha(parseInt(e.target.value));
                   }}
                 />
               </Box>
@@ -357,14 +362,14 @@ const DemoMultistepTest = () => {
       )}
 
       {step === 2 && (
-        <ClassSelection changeableClass={characterClass} action={setCharacterClass} step={step} setStep={setStep}/>
+        <ClassSelection changeableClass={characterClass} action={setCharacterClass} step={step} setStep={setStep} classSavingThrows={classSavingThrows} setClassSavingThrows={setClassSavingThrows}/>
       )}
       {step === 3 && (
-        <RaceSelection changeableRace={race} action={setRace} step={step} setStep={setStep}/>
+        <RaceSelection changeableRace={race} action={setRace} step={step} setStep={setStep} raceBonuses={raceStats} setRaceBonuses={setRaceStats}/>
         
       )}
       {step === 4 && (
-        <BackgroundSelection changeableBackground={background} action={setBackground} step={step} setStep={setStep} />
+        <BackgroundSelection changeableBackground={background} action={setBackground} step={step} setStep={setStep}  />
       )}
       {step === 5 && (
         <ChooseName changeableName={name} action={setName} step={step} setStep={setStep} />
@@ -394,7 +399,7 @@ const DemoMultistepTest = () => {
           Previous
         </Button>
       )}
-      {step < 4 && (
+      {step < 8 && (
         <Button
           onClick={(e) => {
             setStep(step + 1);
