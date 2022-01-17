@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, TextField, Button } from "@mui/material";
 
-const ChooseImage = ({ changeableImage, action, step, setStep }) => {
+const ChooseImage = ({ changeableImage, action, step, setStep, fakeCreate }) => {
   const [thing, setThing] = React.useState(changeableImage);
 
   const handleChange = (event) => {
@@ -30,6 +30,7 @@ const ChooseImage = ({ changeableImage, action, step, setStep }) => {
           action(thing);
           console.log("thing: ", thing);
           setStep(step + 1);
+          fakeCreate(e);
         }}
       >
         Next

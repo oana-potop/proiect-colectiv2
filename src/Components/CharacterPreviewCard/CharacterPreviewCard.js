@@ -29,11 +29,7 @@ const CharacterPreviewCard = ({ charchar, handleDelete }) => {
 
   return (
     <div>
-      <div
-        onClick={() => {
-          onOpenDialog();
-        }}
-      >
+      <div>
         <Card>
           <CardActionArea>
             <div>
@@ -49,7 +45,7 @@ const CharacterPreviewCard = ({ charchar, handleDelete }) => {
                 title={charchar.name}
               />
             </div>
-            <CardContent>
+            <CardContent onClick={() => {onOpenDialog();}}>
               <Typography>
                 <b>Level: </b> {charchar.level}
               </Typography>
