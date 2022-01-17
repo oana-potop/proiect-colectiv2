@@ -69,6 +69,7 @@ const MyCharacters = () => {
       <br />
       <Container style={{ display: "space-between" }}>
         <Button
+        style={{marginRight: "10px"}}
           onClick={() => {
             history.push("/char-creation");
           }}

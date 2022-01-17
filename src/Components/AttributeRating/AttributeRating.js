@@ -23,9 +23,9 @@ import { styled } from '@mui/material/styles';
 
 const AtributeRating = ( {character} ) => {
 
-  let combatValue = 0;
-  let socialValue = 0;
-  let utilityValue = 0;
+  let combatValue = 0.5;
+  let socialValue = 0.5;
+  let utilityValue = 0.5;
 
   const computeCombatValue = () => {
     if(character.characterClass?.name === "Fighter")

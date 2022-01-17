@@ -97,7 +97,7 @@ const RegisterScreen = () => {
           type="submit"
           fullWidth
           variant="contained"
-          style = {{backgroundColor: "#212121", color: "white", marginTop: "40px" }}
+          style = {{backgroundColor: "#212121", color: "white", marginTop: "40px", marginBottom: "20px" }}
           onClick={() => {
             history.push("/");
           }}

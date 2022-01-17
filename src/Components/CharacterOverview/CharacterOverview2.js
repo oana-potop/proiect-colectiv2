@@ -36,6 +36,15 @@ const CharacterOverview2 = ({character, openDialog, onCloseDialog}) => {
   const firstSavingThrows = character?.savingThrows?.filter(element => element.type === "Strength" || element.type === "Dexterity" || element.type === "Constitution");
   const secondSavingThrows = character?.savingThrows?.filter(element => element.type === "Intelligence" || element.type === "Wisdom" || element.type === "Charisma");
   
+  const [openImage, setOpenImage] = useState(false);
+
+  const handleClickOpenImage = () => {
+    setOpenImage(true);
+  };
+
+  const handleCloseImage = () => {
+    setOpenImage(false);
+  };
 
   return (
     <div>
@@ -72,15 +81,6 @@ const CharacterOverview2 = ({character, openDialog, onCloseDialog}) => {
         </Grid>
 
         <Divider variant="middle" />
-
-
-
-
-        {/* <Grid container spacing={10} justifyContent="space-evenly" alignItems="center" style={{marginBottom: "20px", marginTop: "-23px", marginRight:"10px"}}>
-          {character?.baseStats?.map((stat) => (
-            <Grid item xs={2}> <StatBox statName={stat.type} statValue={stat.value} /> </Grid>
-          ))}
-        </Grid> */}
 
 
         <Container style={{display: 'flex', marginTop: "10px"}}>
@@ -129,22 +129,22 @@ const CharacterOverview2 = ({character, openDialog, onCloseDialog}) => {
             
           </Container>
           <Container>
-            <Container>
-              <Typography>
+          <Container>
+              <Typography variant="h6">
                 <b>Saving Throws</b>
               </Typography>
               <Container style={{display: "flex", marginLeft: "-35px"}}>
-                <Container style={{flexGrow: 1}}>
+                <Container style={{flexGrow: 1, marginleft: "-20px"}}>
                   {firstSavingThrows.map((element) => (
                     <Typography>
-                      {element.type}: {element.value}
+                      <b>{element.type.substring(0,3)}:</b> {element.value}
                     </Typography>
                   ))}
                 </Container>
-                <Container style={{flexGrow: 1}}>
+                <Container style={{flexGrow: 1, marginLeft: "-10px"}}>
                   {secondSavingThrows.map((element) => (
                     <Typography>
-                      {element.type}: {element.value}
+                      <b>{element.type.substring(0,3)}:</b> {element.value}
                     </Typography>
                   ))}
                 </Container>
@@ -153,38 +153,14 @@ const CharacterOverview2 = ({character, openDialog, onCloseDialog}) => {
             <Container style={{marginTop: "30px"}}>
                 <AttributeRating character={character} />
             </Container>
+            <Button onClick={handleClickOpenImage} style={{marginTop: "10px"}}>
+              See image
+            </Button>
+            <Dialog  open={openImage} onClose={handleCloseImage}>
+              <img src={character?.image} />
+            </Dialog>
           </Container>
         </Container>
-
-      
-        {/* <Grid container>
-            <Grid container item xs={6} direction="column" justifyContent="flex-end">
-              <Grid item xs={5}>
-                  <Typography variant="h6">
-                      <b>Race: </b> {character?.race?.name}
-                  </Typography>
-                  <Typography variant="h6">
-                      <b>Class: </b> {character?.characterClass?.name}
-                  </Typography>
-                  <Typography variant="h6">
-                      <b>Background: </b> {character?.background?.name}
-                  </Typography>
-              </Grid>
-              <Grid item xs={3}>
-                <Typography variant="subtitle1"><b>Skill Proficiencies</b></Typography>
-                  {character?.skillProficiencies?.map((skill) => (
-                      <Typography> {skill} </Typography>
-                  ))}
-              </Grid>
-              <Grid item xs={4}>       
-                  <AttributeRating character={character}/>
-              </Grid>
-            </Grid>
-            <Grid item xs={6}>
-                <img src={character?.image} width='300px' />
-            </Grid>
-        </Grid> */}
-
         
       </Container>
       </Dialog>

@@ -18,7 +18,7 @@ const ChooseProficiencies = ({
   backgroundSkills,
   action,
   step,
-  setStep,
+  setStep
 }) => {
   const [proficienciesList, setProficienciesList] = useState([]);
 

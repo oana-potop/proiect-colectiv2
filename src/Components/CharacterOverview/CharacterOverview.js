@@ -18,199 +18,149 @@ import {
   IconButton,
   CardActionArea,
   Grid,
+  FormControlLabel,
+  Checkbox,
+  ListItem,
+  List,
+  ListItemIcon,
+  ListItemText
 } from "@material-ui/core";
 import { DeleteOutlined } from "@mui/icons-material";
 import { useStyles } from "./styles";
 import { Divider } from "@mui/material";
 import Dialog from '@mui/material/Dialog';
+import CircleIcon from '@mui/icons-material/Circle';
+import StarIcon from '@mui/icons-material/Star';
+const CharacterOverview = ({character}) => {
 
-const CharacterOverview = ({character, openDialog, onCloseDialog}) => {
-  //-------------------------------------------MAKING CHARACTER----------------------------------------------------------
-
-  const [classes, setClasses] = useState([]);
-  const [races, setRaces] = useState([]);
-  const [backgrounds, setBackgrounds] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:8000/classes", {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    })
-      .then((res) => res.json())
-      .then((myJson) => {
-        setClasses(myJson);
-      })
-      .then(
-        fetch("http://localhost:8000/races", {
-          headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json",
-          },
-        })
-          .then((res) => res.json())
-          .then((myJson) => {
-            setRaces(myJson);
-          })
-      )
-      .then(
-        fetch("http://localhost:8000/backgrounds", {
-          headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json",
-          },
-        })
-          .then((res) => res.json())
-          .then((myJson) => {
-            setBackgrounds(myJson);
-          })
-      );
-  }, []);
-
-  const savingThrows = [
-    ({ type: "Strength", value: 1 },
-    { type: "Dexterity", value: 2 },
-    { type: "Constitution", value: 3 },
-    { type: "Intelligence", value: 4 },
-    { type: "Wisdom", value: 5 },
-    { type: "Charisma", value: 0 }),
-  ];
-
-  console.log("CLASSES: " + classes);
-
-  const userID = 69420;
-  const name = "Petrica";
-  const image = "https://i.imgur.com/wMPJ9QO.jpeg";
-  const level = 69;
-  const proficiencyBonus = 3;
-  const baseStats = [
-    { type: "Strength", value: 18, modifier: 4 },
-    { type: "Dexterity", value: 13, modifier: 1 },
-    { type: "Constitution", value: 14, modifier: 2 },
-    { type: "Intelligence", value: 12, modifier: 1 },
-    { type: "Wisdom", value: 13, modifier: 1 },
-    { type: "Charisma", value: 8, modifier: -1 },
-  ];
-  const characterClass = classes[0];
-  const race = races[0];
-  const background = backgrounds[0];
-  const skills = ["Animal Handling", "Perception"];
-  const ac = 13;
-  const initiative = 2;
-  const speed = 35;
-  const hitDie = {
-    minValue: 1,
-    maxValue: 12,
-  };
-  const hp = 12;
-  const passiveWisdom = 13;
-  const jackOfAllTrades = false;
-
-  const charchar = {
-    userID,
-    name,
-    image,
-    level,
-    proficiencyBonus,
-    baseStats,
-    characterClass,
-    race,
-    background,
-    savingThrows,
-    skills,
-    ac,
-    initiative,
-    speed,
-    hp,
-    hitDie,
-    passiveWisdom,
-    jackOfAllTrades,
-  };
+  const firstSavingThrows = character?.savingThrows?.filter(element => element.type === "Strength" || element.type === "Dexterity" || element.type === "Constitution");
+  const secondSavingThrows = character?.savingThrows?.filter(element => element.type === "Intelligence" || element.type === "Wisdom" || element.type === "Charisma");
   
+  const [openImage, setOpenImage] = useState(false);
+
+  const handleClickOpenImage = () => {
+    setOpenImage(true);
+  };
+
+  const handleCloseImage = () => {
+    setOpenImage(false);
+  };
+
   return (
     <div>
-      <div>
-        <Dialog open={openDialog} onClose={onCloseDialog} fullWidth>
-        <Container>
-          
-          <Grid container spacing={12} justifyContent="space-between" alignItems="center" style={{marginBottom: "20px"}}>
-            <Grid item>
-              <Typography variant="h4">
-                {character?.name} 
-              </Typography>
-            </Grid>
-            <Grid item>
-              <Typography variant="h5">
-                <b>Level: </b> {character?.level}
-              </Typography>
-            </Grid>
-          </Grid>
-
-          <Grid container spacing={10} justifyContent="space-evenly" alignItems="center" style={{marginBottom: '15px', marginTop: '10px'}} >
-            {/* <Grid item> <StatBox statName={"HP"} statValue={hp}> </StatBox> </Grid>
-            <Grid item> <StatBox statName={"Initiative"} statValue={initiative}> </StatBox> </Grid>
-            <Grid item> <StatBox statName={"AC"} statValue={ac}> </StatBox> </Grid> */}
-            <Paper variant="outlined" style={{backgroundColor: "#ffcdd2"}}>
-              <Typography style={{textAlign: 'center', color: "secondary", lineHeight: '50px', width: '100px',}}><b>HP</b></Typography>
-              <Typography style={{textAlign: 'center', color: "secondary", lineHeight: '50px', width: '100px'}}>50</Typography>
-            </Paper>
-            <Paper variant="outlined" style={{backgroundColor: "#ffcdd2"}}>
-              <Typography style={{textAlign: 'center', color: "secondary", lineHeight: '50px', width: '100px'}}><b>Initiative</b></Typography>
-              <Typography style={{textAlign: 'center', color: "secondary", lineHeight: '50px', width: '100px'}}>4</Typography>
-            </Paper>
-            <Paper variant="outlined" style={{backgroundColor: "#ffcdd2"}}>
-              <Typography style={{textAlign: 'center', color: "secondary", lineHeight: '50px', width: '100px'}}><b>AC</b></Typography>
-              <Typography style={{textAlign: 'center', color: "secondary", lineHeight: '50px', width: '100px'}}>20</Typography>
-            </Paper>
-          </Grid>
-
-          <Divider variant="middle" />
-
-
-
-
-          <Grid container spacing={10} justifyContent="space-evenly" alignItems="center" style={{marginBottom: "20px"}}>
-            {character?.baseStats?.map((stat) => (
-              <Grid item xs={2}> <StatBox statName={stat.type} statValue={stat.value} /> </Grid>
-            ))}
-          </Grid>
-
+    <div>
+      <Container>
         
-          <Grid container>
-              <Grid container item xs={6} direction="column" justifyContent="flex-end">
-                <Grid item xs={5}>
-                    <Typography variant="h6">
-                        <b>Race: </b> {character?.race?.name}
-                    </Typography>
-                    <Typography variant="h6">
-                        <b>Class: </b> {character?.characterClass?.name}
-                    </Typography>
-                    <Typography variant="h6">
-                        <b>Background: </b> {character?.background?.name}
-                    </Typography>
-                </Grid>
-                <Grid item xs={3}>
-                  <Typography variant="subtitle1"><b>Skill Proficiencies</b></Typography>
-                    {skills.map((skill) => (
-                        <Typography> {skill} </Typography>
-                    ))}
-                </Grid>
-                <Grid item xs={4}>       
-                    <AttributeRating character={character}/>
-                </Grid>
-              </Grid>
-              <Grid item xs={6}>
-                  <img src={character?.image}/>
-              </Grid>
+        <Grid container spacing={12} justifyContent="space-between" alignItems="center" style={{marginBottom: "20px", marginTop: "20px", marginLeft: "20px"}}>
+          <Grid item>
+            <Typography variant="h4">
+              {character?.name} 
+            </Typography>
           </Grid>
+          <Grid item style={{marginRight: "40px"}}>
+            <Typography variant="h5">
+              <b>Level: </b> {character?.level}
+            </Typography>
+          </Grid>
+        </Grid>
 
-          
+        <Grid container spacing={10} justifyContent="space-evenly" alignItems="center" style={{marginBottom: '15px', marginTop: '10px'}} >
+          <Paper variant="outlined" style={{backgroundColor: "#ffcdd2"}}>
+            <Typography style={{textAlign: 'center', color: "secondary", lineHeight: '40px', width: '100px',}}><b>HP</b></Typography>
+            <Typography style={{textAlign: 'center', color: "secondary", lineHeight: '40px', width: '100px'}}>{character.hp}</Typography>
+          </Paper>
+          <Paper variant="outlined" style={{backgroundColor: "#ffcdd2"}}>
+            <Typography style={{textAlign: 'center', color: "secondary", lineHeight: '40px', width: '100px'}}><b>Initiative</b></Typography>
+            <Typography style={{textAlign: 'center', color: "secondary", lineHeight: '40px', width: '100px'}}>{character.initiative}</Typography>
+          </Paper>
+          <Paper variant="outlined" style={{backgroundColor: "#ffcdd2"}}>
+            <Typography style={{textAlign: 'center', color: "secondary", lineHeight: '40px', width: '100px'}}><b>AC</b></Typography>
+            <Typography style={{textAlign: 'center', color: "secondary", lineHeight: '40px', width: '100px'}}>{character.ac}</Typography>
+          </Paper>
+        </Grid>
+
+        <Divider variant="middle" />
+
+
+        <Container style={{display: 'flex', marginTop: "10px"}}>
+          <Container style={{flexGrow: 1, marginBottom: "10px"}}>
+          <Box
+            sx={{
+            display: "flex",
+            flexDirection: "column",
+            }}
+          >
+          {character?.baseStats?.map((stat) => (
+            <StatBox statName={stat.type} statValue={stat.value} flexItem />
+          ))}
+          </Box>
+          </Container>
+          <Divider orientation="vertical" flexItem style={{marginRight: "70px", marginLeft: "-170px"}}>
+          </Divider>
+          <Container style={{flexGrow: 1, marginLeft: "-100px"}}>
+            <Container>
+              <Typography variant="h6">
+                <b>Race: </b> {character?.race?.name}
+              </Typography>
+              <Typography variant="h6">
+                <b>Class: </b> {character?.characterClass?.name}
+              </Typography>
+              <Typography variant="h6">
+                <b>Background: </b> {character?.background?.name}
+              </Typography>
+            </Container>
+            <Container style={{marginTop: "10px"}}>
+              <Typography variant="subtitle1"><b>Skill Proficiencies</b></Typography>
+              <Container style={{marginLeft: "-25px"}}>
+                <List dense="true">
+                  {character?.skillProficiencies?.map((skill) => (
+                    <ListItem>
+                      <ListItemIcon>
+                        <StarIcon color="primary" />
+                      </ListItemIcon>
+                       <ListItemText primary={skill} />
+                    </ListItem>
+                  ))}
+                </List>
+              </Container>
+            </Container>
+            
+            
+          </Container>
+          <Container>
+          <Container>
+              <Typography variant="h6">
+                <b>Saving Throws</b>
+              </Typography>
+              <Container style={{display: "flex", marginLeft: "-35px"}}>
+                <Container style={{flexGrow: 1, marginleft: "-20px"}}>
+                  {firstSavingThrows.map((element) => (
+                    <Typography>
+                      <b>{element.type.substring(0,3)}:</b> {element.value}
+                    </Typography>
+                  ))}
+                </Container>
+                <Container style={{flexGrow: 1, marginLeft: "-10px"}}>
+                  {secondSavingThrows.map((element) => (
+                    <Typography>
+                      <b>{element.type.substring(0,3)}:</b> {element.value}
+                    </Typography>
+                  ))}
+                </Container>
+              </Container>
+            </Container>
+            <Container style={{marginTop: "30px"}}>
+                <AttributeRating character={character} />
+            </Container>
+          </Container>
         </Container>
-        </Dialog>
-      </div>
+        
+      </Container>
+
     </div>
-  );
-};
+  </div>
+  )
+
+}
 
 export default CharacterOverview;

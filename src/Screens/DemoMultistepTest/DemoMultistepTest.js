@@ -26,6 +26,7 @@ import MyCharacters from "../MyCharacters/MyCharacters";
 import ChooseName from "../../Components/ChooseAName/ChooseName";
 import ChooseImage from "../../Components/ChooseImage/ChooseImage";
 import ChooseProficiencies from "../../Components/ChooseProficiencies/ChooseProficiencies";
+import CharacterOverview from "../../Components/CharacterOverview/CharacterOverview";
 
 const DemoMultistepTest = () => {
   const history = useHistory();
@@ -54,9 +55,12 @@ const DemoMultistepTest = () => {
   const [wis, setWis] = useState(1);
   const [cha, setCha] = useState(1);
   const [step, setStep] = useState(1);
+  const [charchar, setCharchar] = useState();
 
-  const [raceStats, setRaceStats] = useState([0,0,0,0,0,0]);
-  const [classSavingThrows, setClassSavingThrows] = useState([0,0,0,0,0,0]);
+  const [raceStats, setRaceStats] = useState([0, 0, 0, 0, 0, 0]);
+  const [classSavingThrows, setClassSavingThrows] = useState([
+    0, 0, 0, 0, 0, 0,
+  ]);
 
   const user = auth.currentUser;
 
@@ -109,33 +113,178 @@ const DemoMultistepTest = () => {
       );
   }, []);
 
-  const handleCreate = (e) => {
+  const fakeCreate = (e) => {
     e.preventDefault();
-    const proficiencyBonus = 1 + Math.ceil(level/4);
+    const proficiencyBonus = 1 + Math.ceil(level / 4);
     const baseStats = [
-      { type: "Strength", value: str + raceStats[0], modifier: Math.floor((str + raceStats[0] - 10)/2) },
-      { type: "Dexterity", value: dex + raceStats[1], modifier: Math.floor((dex + raceStats[1] - 10)/2) },
-      { type: "Constitution", value: con + raceStats[2], modifier: Math.floor((con + raceStats[2] - 10)/2) },
-      { type: "Intelligence", value: int + raceStats[3], modifier: Math.floor((int + raceStats[3] - 10)/2) },
-      { type: "Wisdom", value: wis + raceStats[4], modifier: Math.floor((wis + raceStats[4] - 10)/2) },
-      { type: "Charisma", value: cha + raceStats[5], modifier: Math.floor((cha + raceStats[5] - 10)/2) },
+      {
+        type: "Strength",
+        value: str + raceStats[0],
+        modifier: Math.floor((str + raceStats[0] - 10) / 2),
+      },
+      {
+        type: "Dexterity",
+        value: dex + raceStats[1],
+        modifier: Math.floor((dex + raceStats[1] - 10) / 2),
+      },
+      {
+        type: "Constitution",
+        value: con + raceStats[2],
+        modifier: Math.floor((con + raceStats[2] - 10) / 2),
+      },
+      {
+        type: "Intelligence",
+        value: int + raceStats[3],
+        modifier: Math.floor((int + raceStats[3] - 10) / 2),
+      },
+      {
+        type: "Wisdom",
+        value: wis + raceStats[4],
+        modifier: Math.floor((wis + raceStats[4] - 10) / 2),
+      },
+      {
+        type: "Charisma",
+        value: cha + raceStats[5],
+        modifier: Math.floor((cha + raceStats[5] - 10) / 2),
+      },
     ];
     const savingThrows = [
-      { type: "Strength", value: baseStats[0].modifier + classSavingThrows[0] * proficiencyBonus },
-      { type: "Dexterity", value: baseStats[1].modifier + classSavingThrows[1] * proficiencyBonus },
-      { type: "Constitution", value: baseStats[2].modifier + classSavingThrows[2] * proficiencyBonus },
-      { type: "Intelligence", value: baseStats[3].modifier + classSavingThrows[3] * proficiencyBonus },
-      { type: "Wisdom", value: baseStats[4].modifier + classSavingThrows[4] * proficiencyBonus },
-      { type: "Charisma", value: baseStats[5].modifier + classSavingThrows[5] * proficiencyBonus }
+      {
+        type: "Strength",
+        value: baseStats[0].modifier + classSavingThrows[0] * proficiencyBonus,
+      },
+      {
+        type: "Dexterity",
+        value: baseStats[1].modifier + classSavingThrows[1] * proficiencyBonus,
+      },
+      {
+        type: "Constitution",
+        value: baseStats[2].modifier + classSavingThrows[2] * proficiencyBonus,
+      },
+      {
+        type: "Intelligence",
+        value: baseStats[3].modifier + classSavingThrows[3] * proficiencyBonus,
+      },
+      {
+        type: "Wisdom",
+        value: baseStats[4].modifier + classSavingThrows[4] * proficiencyBonus,
+      },
+      {
+        type: "Charisma",
+        value: baseStats[5].modifier + classSavingThrows[5] * proficiencyBonus,
+      },
     ];
 
     console.log("SAVING THROWS:" + savingThrows);
 
-    const ac = 10;
+    const ac = 10 + baseStats[1].modifier;
     const initiative = baseStats[1].modifier;
     const speed = race.speed;
     const hitDie = characterClass.hitDie;
-    const hp = hitDie.maxValue + (level - 1)*Math.ceil(hitDie.maxValue/2) + level*baseStats[2].modifier;
+    const hp =
+      hitDie.maxValue +
+      (level - 1) * Math.ceil(hitDie.maxValue / 2) +
+      level * baseStats[2].modifier;
+    const passiveWisdom = 10;
+    const jackOfAllTrades = false;
+    const userID = user.uid;
+
+    const character = {
+      userID,
+      name,
+      image,
+      level,
+      proficiencyBonus,
+      baseStats,
+      characterClass,
+      race,
+      background,
+      savingThrows,
+      skillProficiencies,
+      ac,
+      initiative,
+      speed,
+      hp,
+      hitDie,
+      passiveWisdom,
+      jackOfAllTrades,
+    };
+
+    setCharchar(character);
+  }
+
+  const handleCreate = (e) => {
+    e.preventDefault();
+    const proficiencyBonus = 1 + Math.ceil(level / 4);
+    const baseStats = [
+      {
+        type: "Strength",
+        value: str + raceStats[0],
+        modifier: Math.floor((str + raceStats[0] - 10) / 2),
+      },
+      {
+        type: "Dexterity",
+        value: dex + raceStats[1],
+        modifier: Math.floor((dex + raceStats[1] - 10) / 2),
+      },
+      {
+        type: "Constitution",
+        value: con + raceStats[2],
+        modifier: Math.floor((con + raceStats[2] - 10) / 2),
+      },
+      {
+        type: "Intelligence",
+        value: int + raceStats[3],
+        modifier: Math.floor((int + raceStats[3] - 10) / 2),
+      },
+      {
+        type: "Wisdom",
+        value: wis + raceStats[4],
+        modifier: Math.floor((wis + raceStats[4] - 10) / 2),
+      },
+      {
+        type: "Charisma",
+        value: cha + raceStats[5],
+        modifier: Math.floor((cha + raceStats[5] - 10) / 2),
+      },
+    ];
+    const savingThrows = [
+      {
+        type: "Strength",
+        value: baseStats[0].modifier + classSavingThrows[0] * proficiencyBonus,
+      },
+      {
+        type: "Dexterity",
+        value: baseStats[1].modifier + classSavingThrows[1] * proficiencyBonus,
+      },
+      {
+        type: "Constitution",
+        value: baseStats[2].modifier + classSavingThrows[2] * proficiencyBonus,
+      },
+      {
+        type: "Intelligence",
+        value: baseStats[3].modifier + classSavingThrows[3] * proficiencyBonus,
+      },
+      {
+        type: "Wisdom",
+        value: baseStats[4].modifier + classSavingThrows[4] * proficiencyBonus,
+      },
+      {
+        type: "Charisma",
+        value: baseStats[5].modifier + classSavingThrows[5] * proficiencyBonus,
+      },
+    ];
+
+    console.log("SAVING THROWS:" + savingThrows);
+
+    const ac = 10 + baseStats[1].modifier;
+    const initiative = baseStats[1].modifier;
+    const speed = race.speed;
+    const hitDie = characterClass.hitDie;
+    const hp =
+      hitDie.maxValue +
+      (level - 1) * Math.ceil(hitDie.maxValue / 2) +
+      level * baseStats[2].modifier;
     const passiveWisdom = 10;
     const jackOfAllTrades = false;
     const userID = user.uid;
@@ -184,16 +333,14 @@ const DemoMultistepTest = () => {
     return val1 + val2 + val3 + val4 - Math.min(val1, val2, val3, val4);
   };
 
-
   return (
     <Container>
-
       {step === 1 && (
         <div>
           <Typography style={{ textAlign: "center" }} variant="h4">
             Roll your stats!
           </Typography>
-          <div style={{ marginLeft: "250px", marginTop: "30px" }}>
+          <div style={{ marginLeft: "300px", marginTop: "30px" }}>
             <Button
               variant="outlined"
               color="secondary"
@@ -355,6 +502,17 @@ const DemoMultistepTest = () => {
                     setCha(parseInt(e.target.value));
                   }}
                 />
+                 <Button
+                  variant="contained"
+                  color="secondary"
+                  fullWidth
+                  style={{ marginRight: "20px", marginBottom: "50px"}}
+                  onClick={() => {
+                    setStep(step + 1);
+                  }}
+                >
+                  Next
+                </Button>
               </Box>
             </Box>
           </div>
@@ -362,50 +520,84 @@ const DemoMultistepTest = () => {
       )}
 
       {step === 2 && (
-        <ClassSelection changeableClass={characterClass} action={setCharacterClass} step={step} setStep={setStep} classSavingThrows={classSavingThrows} setClassSavingThrows={setClassSavingThrows}/>
+        <ClassSelection
+          changeableClass={characterClass}
+          action={setCharacterClass}
+          step={step}
+          setStep={setStep}
+          classSavingThrows={classSavingThrows}
+          setClassSavingThrows={setClassSavingThrows}
+        />
       )}
       {step === 3 && (
-        <RaceSelection changeableRace={race} action={setRace} step={step} setStep={setStep} raceBonuses={raceStats} setRaceBonuses={setRaceStats}/>
-        
+        <RaceSelection
+          changeableRace={race}
+          action={setRace}
+          step={step}
+          setStep={setStep}
+          raceBonuses={raceStats}
+          setRaceBonuses={setRaceStats}
+        />
       )}
       {step === 4 && (
-        <BackgroundSelection changeableBackground={background} action={setBackground} step={step} setStep={setStep}  />
-      )}
-      {step === 5 && (
-        <ChooseName changeableName={name} action={setName} step={step} setStep={setStep} />
+        <BackgroundSelection
+          changeableBackground={background}
+          action={setBackground}
+          step={step}
+          setStep={setStep}
+        />
       )}
       {step === 6 && (
-        <ChooseImage changeableName={image} action={setImage} step={step} setStep={setStep} />
+        <ChooseName
+          changeableName={name}
+          action={setName}
+          step={step}
+          setStep={setStep}
+        />
       )}
       {step === 7 && (
-        <ChooseProficiencies changeableSkills={characterClass.skillProficiencies} backgroundSkills={background.skillProficiencies} skillNumber={characterClass.skillNumber} action={setSkillProficiencies} step={step} setStep={setStep} />
+        <ChooseImage
+          changeableName={image}
+          action={setImage}
+          step={step}
+          setStep={setStep}
+          fakeCreate={(e) => {fakeCreate(e)}}
+        />
+      )}
+      {step === 5 && (
+        <ChooseProficiencies
+          changeableSkills={characterClass.skillProficiencies}
+          backgroundSkills={background.skillProficiencies}
+          skillNumber={characterClass.skillNumber}
+          action={setSkillProficiencies}
+          step={step}
+          setStep={setStep}
+        />
       )}
       {step === 8 && (
-        <Button
-        onClick={(e) => {
-            handleCreate(e);
-        }}
-      >
-        Create Character!
-      </Button>
+        <Container >
+          <CharacterOverview character={charchar} />
+          <Button
+            variant="contained"
+            color="secondary"
+            style={{marginTop: "20px", marginLeft: "1000px"}}
+            onClick={(e) => {
+              handleCreate(e);
+            }}
+          >
+            Create Character!
+          </Button>
+        </Container>
       )}
 
       {step !== 1 && (
         <Button
+          style={{marginTop: "20px", marginBottom: "20px", marginLeft: "-30px"}}
           onClick={(e) => {
             setStep(step - 1);
           }}
         >
           Previous
-        </Button>
-      )}
-      {step < 8 && (
-        <Button
-          onClick={(e) => {
-            setStep(step + 1);
-          }}
-        >
-          Next
         </Button>
       )}
     </Container>

@@ -18,13 +18,13 @@ const BackgroundPreviewCard = ({ characterBackground, changeableBackground, acti
   return (
     <div onClick={event => {action(characterBackground); console.log(changeableBackground); setStep(step+1)}}>
         <Paper gutterBottom>
-            <Grid container spacing={2}>
+            <Grid container spacing={2} style={{marginLeft: "2px"}}>
                 <Grid item xs={4}>
                     <Typography>
                         {characterBackground.name}
                     </Typography>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={4} style={{marginLeft: "-3px"}}>
                     <Typography>
                         {characterBackground.feat.name}
                     </Typography>
