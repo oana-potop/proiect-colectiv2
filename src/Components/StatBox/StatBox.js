@@ -17,7 +17,7 @@ const StatBox = ({ statName, statValue }) => {
   return (
     <div>
       <div>
-        <Paper style={{borderWidth: "100px", backgroundColor: '#e57373', width:"100px"}}>
+        <Paper style={{borderWidth: "100px", backgroundColor: '#e57373', width:"100px", marginTop: "10px"}}>
             <Typography align="center"><b>{statName}</b></Typography>
             <Typography align="center">{statValue}</Typography>
         </Paper>
