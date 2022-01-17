@@ -5601,6 +5601,11 @@
                 "name": "Mask of the wild",
                 "description": "dkvnfkvnfkdvnfd"
               }
+            ],
+            "spells": [
+              "Darkness",
+              "Dancing Lights",
+              "Faerie Fire"
             ]
           },
           {
@@ -6178,32 +6183,32 @@
       "baseStats": [
         {
           "type": "Strength",
-          "value": 1,
+          "value": "20",
           "modifier": 1
         },
         {
           "type": "Dexterity",
-          "value": 1,
+          "value": "20",
           "modifier": 1
         },
         {
           "type": "Constitution",
-          "value": 1,
+          "value": "20",
           "modifier": 1
         },
         {
           "type": "Intelligence",
-          "value": 1,
+          "value": "20",
           "modifier": 1
         },
         {
           "type": "Wisdom",
-          "value": 1,
+          "value": "20",
           "modifier": 1
         },
         {
           "type": "Charisma",
-          "value": 1,
+          "value": "20",
           "modifier": 1
         }
       ],
@@ -6212,7 +6217,7 @@
         "name": "Druid",
         "hitDie": {
           "minValue": 1,
-          "maxValue": 8
+          "maxValue": 12
         },
         "primaryAbility": [
           "Wisdom"
@@ -6327,7 +6332,7 @@
           }
         ],
         "size": "Medium",
-        "speed": 30,
+        "speed": 25,
         "darkvision": 60,
         "extraFeats": [
           {
@@ -6388,11 +6393,11 @@
       ],
       "ac": 10,
       "initiative": 1,
-      "speed": 30,
-      "hp": 8,
+      "speed": 25,
+      "hp": 12,
       "hitDie": {
         "minValue": 1,
-        "maxValue": 8
+        "maxValue": 12
       },
       "passiveWisdom": 10,
       "jackOfAllTrades": false,

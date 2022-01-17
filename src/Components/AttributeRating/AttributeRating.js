@@ -20,8 +20,6 @@ import { DeleteOutlined } from "@mui/icons-material";
 import { useStyles } from "./styles";
 import { Rating } from "@mui/material";
 import { styled } from '@mui/material/styles';
-import SquareOutlinedIcon from '@mui/icons-material/SquareOutlined';
-import SquareIcon from '@mui/icons-material/Square';
 
 const AtributeRating = ( {character} ) => {
 
