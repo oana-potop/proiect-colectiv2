@@ -44,9 +44,9 @@ const AtributeRating = ( {character} ) => {
     combatValue =(combatValue + 0.5);
     if(character.hp > 8)
     combatValue =(combatValue + 0.5);
-    if(character.skills.includes("Athletics"))
+    if(character.skillProficiencies.includes("Athletics"))
     combatValue =(combatValue + 1);
-    if(character.skills.includes("Acrobatics"))
+    if(character.skillProficiencies.includes("Acrobatics"))
     combatValue =(combatValue + 0.5);
     if(character.initiative > 2)
     combatValue =(combatValue + 0.5);
@@ -80,15 +80,15 @@ const AtributeRating = ( {character} ) => {
       socialValue =(socialValue + 0.5);
     if(character.baseStats[5].value > 17)
       socialValue =(socialValue + 0.5);
-    if(character.skills.includes("Performance"))
+    if(character.skillProficiencies.includes("Performance"))
       socialValue =(socialValue + 0.5);
-    if(character.skills.includes("Persuasion"))
+    if(character.skillProficiencies.includes("Persuasion"))
       socialValue =(socialValue + 1);
-    if(character.skills.includes("Deception"))
+    if(character.skillProficiencies.includes("Deception"))
       socialValue =(socialValue + 1);
-    if(character.skills.includes("Intimidation"))
+    if(character.skillProficiencies.includes("Intimidation"))
       socialValue =(socialValue + 0.5);
-    if(character.skills.includes("Insight"))
+    if(character.skillProficiencies.includes("Insight"))
       socialValue =(socialValue + 1);
     if(socialValue > 5)
       socialValue = 5;
@@ -114,17 +114,17 @@ const AtributeRating = ( {character} ) => {
       utilityValue =(utilityValue + 0.5);
     if(character.baseStats[4].value > 15)
       utilityValue =(utilityValue + 0.5);
-    if(character.skills.includes("History"))
+    if(character.skillProficiencies.includes("History"))
       utilityValue =(utilityValue + 0.5);
-    if(character.skills.includes("Perception"))
+    if(character.skillProficiencies.includes("Perception"))
       utilityValue =(utilityValue + 0.5);
-    if(character.skills.includes("Survival"))
+    if(character.skillProficiencies.includes("Survival"))
       utilityValue =(utilityValue + 0.5);
-    if(character.skills.includes("Nature"))
+    if(character.skillProficiencies.includes("Nature"))
       utilityValue =(utilityValue + 0.5);
-    if(character.skills.includes("Arcana"))
+    if(character.skillProficiencies.includes("Arcana"))
       utilityValue =(utilityValue + 0.5);
-    if(character.skills.includes("Medicine"))
+    if(character.skillProficiencies.includes("Medicine"))
       utilityValue =(utilityValue + 0.5);
     if(utilityValue > 5)
       utilityValue =  5;

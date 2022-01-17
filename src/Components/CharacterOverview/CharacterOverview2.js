@@ -19,19 +19,28 @@ import {
   CardActionArea,
   Grid,
   FormControlLabel,
-  Checkbox
+  Checkbox,
+  ListItem,
+  List,
+  ListItemIcon,
+  ListItemText
 } from "@material-ui/core";
 import { DeleteOutlined } from "@mui/icons-material";
 import { useStyles } from "./styles";
 import { Divider } from "@mui/material";
 import Dialog from '@mui/material/Dialog';
 import CircleIcon from '@mui/icons-material/Circle';
+import StarIcon from '@mui/icons-material/Star';
 const CharacterOverview2 = ({character, openDialog, onCloseDialog}) => {
+
+  const firstSavingThrows = character?.savingThrows?.filter(element => element.type === "Strength" || element.type === "Dexterity" || element.type === "Constitution");
+  const secondSavingThrows = character?.savingThrows?.filter(element => element.type === "Intelligence" || element.type === "Wisdom" || element.type === "Charisma");
+  
 
   return (
     <div>
     <div>
-      <Dialog open={openDialog} onClose={onCloseDialog} fullWidth maxWidth='xl'>
+      <Dialog open={openDialog} onClose={onCloseDialog} fullWidth maxWidth='md'>
       <Container>
         
         <Grid container spacing={12} justifyContent="space-between" alignItems="center" style={{marginBottom: "20px", marginTop: "20px", marginLeft: "20px"}}>
@@ -67,14 +76,29 @@ const CharacterOverview2 = ({character, openDialog, onCloseDialog}) => {
 
 
 
-        <Grid container spacing={10} justifyContent="space-evenly" alignItems="center" style={{marginBottom: "20px", marginTop: "-23px", marginRight:"10px"}}>
+        {/* <Grid container spacing={10} justifyContent="space-evenly" alignItems="center" style={{marginBottom: "20px", marginTop: "-23px", marginRight:"10px"}}>
           {character?.baseStats?.map((stat) => (
             <Grid item xs={2}> <StatBox statName={stat.type} statValue={stat.value} /> </Grid>
           ))}
-        </Grid>
+        </Grid> */}
 
-        <Container style={{display: 'flex'}}>
-          <Container style={{flexGrow: 1, marginLeft: "-50px"}}>
+
+        <Container style={{display: 'flex', marginTop: "10px"}}>
+          <Container style={{flexGrow: 1, marginBottom: "10px"}}>
+          <Box
+            sx={{
+            display: "flex",
+            flexDirection: "column",
+            }}
+          >
+          {character?.baseStats?.map((stat) => (
+            <StatBox statName={stat.type} statValue={stat.value} flexItem />
+          ))}
+          </Box>
+          </Container>
+          <Divider orientation="vertical" flexItem style={{marginRight: "70px", marginLeft: "-170px"}}>
+          </Divider>
+          <Container style={{flexGrow: 1, marginLeft: "-100px"}}>
             <Container>
               <Typography variant="h6">
                 <b>Race: </b> {character?.race?.name}
@@ -88,22 +112,48 @@ const CharacterOverview2 = ({character, openDialog, onCloseDialog}) => {
             </Container>
             <Container style={{marginTop: "10px"}}>
               <Typography variant="subtitle1"><b>Skill Proficiencies</b></Typography>
-              <Container style={{marginLeft: "5px"}}>
-              <Box
-                sx={{
-                display: "flex",
-                flexDirection: "column",
-              }}
-              >
-                {character?.skillProficiencies?.map((skill) => (
-                  <FormControlLabel control={<Checkbox defaultChecked size="small" checkedIcon={<CircleIcon color="primary" />}/>} label={skill} />
-                ))}
-                </Box>
+              <Container style={{marginLeft: "-25px"}}>
+                <List dense="true">
+                  {character?.skillProficiencies?.map((skill) => (
+                    <ListItem>
+                      <ListItemIcon>
+                        <StarIcon color="primary" />
+                      </ListItemIcon>
+                       <ListItemText primary={skill} />
+                    </ListItem>
+                  ))}
+                </List>
               </Container>
             </Container>
             
+            
           </Container>
-          
+          <Container>
+            <Container>
+              <Typography>
+                <b>Saving Throws</b>
+              </Typography>
+              <Container style={{display: "flex", marginLeft: "-35px"}}>
+                <Container style={{flexGrow: 1}}>
+                  {firstSavingThrows.map((element) => (
+                    <Typography>
+                      {element.type}: {element.value}
+                    </Typography>
+                  ))}
+                </Container>
+                <Container style={{flexGrow: 1}}>
+                  {secondSavingThrows.map((element) => (
+                    <Typography>
+                      {element.type}: {element.value}
+                    </Typography>
+                  ))}
+                </Container>
+              </Container>
+            </Container>
+            <Container style={{marginTop: "30px"}}>
+                <AttributeRating character={character} />
+            </Container>
+          </Container>
         </Container>
 
       
